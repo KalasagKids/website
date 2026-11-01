@@ -15,7 +15,7 @@
  */
 
 const PREFIX = "kalasag:";
-const SETTINGS_KEYS = ["lang", "theme", "sound"]; // survive "Reset my progress"
+const SETTINGS_KEYS = ["lang", "theme", "sound", "hotlineArea"]; // survive "Reset my progress"
 
 const memory = { local: new Map(), session: new Map() };
 
@@ -251,6 +251,15 @@ export function setSound(next) {
   const value = { ...getSound(), ...next };
   write("local", "sound", value);
   window.dispatchEvent(new CustomEvent("kalasag:soundchange", { detail: value }));
+}
+
+// ---------- Hotline area (city / municipality for the local BFP number) ----------
+export function getHotlineArea() {
+  return read("local", "hotlineArea", "");
+}
+
+export function setHotlineArea(id) {
+  write("local", "hotlineArea", String(id || ""));
 }
 
 // ---------- Language ----------

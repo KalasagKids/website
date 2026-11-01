@@ -1,11 +1,143 @@
 {
-  "_note": "The only two deployment-specific numbers. Another school or barangay reuses the site by editing this file. Leave a number as null until it is verified; the panel then tells pupils to ask their teacher.",
+  "_note": "BFP (Bureau of Fire Protection) hotlines per city/municipality, picked in the Emergency Hotlines card. A number is a string or {number, note}. An empty list shows 'ask your teacher'. Mabini is served through Bauan's contacts.",
   "bfp": {
-    "label": { "en": "Bureau of Fire Protection (nearest station)", "fil": "Bureau of Fire Protection (pinakamalapit na istasyon)" },
-    "number": null
+    "label": {
+      "en": "Bureau of Fire Protection (BFP)",
+      "fil": "Bureau of Fire Protection (BFP)"
+    }
   },
-  "drrm": {
-    "label": { "en": "Barangay / LGU DRRM Office", "fil": "Tanggapan ng DRRM ng Barangay / LGU" },
-    "number": null
-  }
+  "areas": [
+    {
+      "id": "balayan",
+      "name": "Balayan",
+      "type": "mun",
+      "numbers": [
+        "0917-606-3899",
+        "0918-583-7797"
+      ]
+    },
+    {
+      "id": "balete",
+      "name": "Balete",
+      "type": "mun",
+      "numbers": [
+        "(043) 740-9638"
+      ]
+    },
+    {
+      "id": "batangas-city",
+      "name": "Batangas City",
+      "type": "city",
+      "numbers": [
+        "(043) 425-7163",
+        "(043) 301-7996",
+        {
+          "number": "(043) 702-1973",
+          "note": "Alangilan Substation"
+        }
+      ]
+    },
+    {
+      "id": "bauan",
+      "name": "Bauan",
+      "type": "mun",
+      "numbers": [
+        "0935-297-9888",
+        "0923-748-1012"
+      ]
+    },
+    {
+      "id": "calatagan",
+      "name": "Calatagan",
+      "type": "mun",
+      "numbers": [
+        "3388"
+      ]
+    },
+    {
+      "id": "cuenca",
+      "name": "Cuenca",
+      "type": "mun",
+      "numbers": [
+        "0906-512-0957"
+      ]
+    },
+    {
+      "id": "lian",
+      "name": "Lian",
+      "type": "mun",
+      "numbers": [
+        "0916-476-9800"
+      ]
+    },
+    {
+      "id": "lipa-city",
+      "name": "Lipa City",
+      "type": "city",
+      "numbers": [
+        "(043) 757-4618",
+        "0927-575-8065"
+      ]
+    },
+    {
+      "id": "mabini",
+      "name": "Mabini",
+      "type": "mun",
+      "numbers": [
+        "0935-297-9888",
+        "0923-748-1012"
+      ]
+    },
+    {
+      "id": "nasugbu",
+      "name": "Nasugbu",
+      "type": "mun",
+      "numbers": [
+        "0919-369-6776",
+        "0917-597-2039",
+        "0915-340-5451",
+        "0918-392-7873"
+      ]
+    },
+    {
+      "id": "san-pascual",
+      "name": "San Pascual",
+      "type": "mun",
+      "numbers": [
+        "0947-893-7133",
+        "(043) 487-0548"
+      ]
+    },
+    {
+      "id": "santo-tomas",
+      "name": "Santo Tomas",
+      "type": "city",
+      "numbers": []
+    },
+    {
+      "id": "taal",
+      "name": "Taal",
+      "type": "mun",
+      "numbers": [
+        "0915-277-9919"
+      ]
+    },
+    {
+      "id": "tanauan-city",
+      "name": "Tanauan City",
+      "type": "city",
+      "numbers": [
+        "(043) 778-2018",
+        "0922-344-8887"
+      ]
+    },
+    {
+      "id": "tuy",
+      "name": "Tuy",
+      "type": "mun",
+      "numbers": [
+        "0905-863-1149"
+      ]
+    }
+  ]
 }

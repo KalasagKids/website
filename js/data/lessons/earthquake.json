@@ -31,23 +31,6 @@
       "fil": "Tandaan: Duck, Cover, and Hold — sa bawat pagkakataon!"
     }
   },
-  "infographic": {
-    "signs": [
-      { "en": "Ground shaking", "fil": "Pagyanig ng lupa" },
-      { "en": "Rattling windows", "fil": "Kumakalampag na bintana" },
-      { "en": "Swinging lights", "fil": "Umuugoy na ilaw" }
-    ],
-    "dos": [
-      { "en": "Duck, Cover, and Hold", "fil": "Duck, Cover, and Hold" },
-      { "en": "Stay away from windows and shelves", "fil": "Lumayo sa bintana at estante" },
-      { "en": "Go to an open area after the shaking", "fil": "Pumunta sa bukas na lugar pagkatapos ng pagyanig" }
-    ],
-    "donts": [
-      { "en": "Don't run while the ground is shaking", "fil": "Huwag tumakbo habang yumayanig" },
-      { "en": "Don't use elevators", "fil": "Huwag gumamit ng elevator" },
-      { "en": "Don't go back inside until it's safe", "fil": "Huwag bumalik sa loob hangga't hindi ligtas" }
-    ]
-  },
   "subjectLinks": [
     { "subject": "science", "en": "Plate tectonics, faults, and seismic waves.", "fil": "Plate tectonics, fault, at seismic wave." },
     { "subject": "ap", "en": "The Pacific Ring of Fire and the work of PHIVOLCS.", "fil": "Ang Pacific Ring of Fire at ang gawain ng PHIVOLCS." },

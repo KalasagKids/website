@@ -31,23 +31,6 @@
       "fil": "Tandaan: makinig sa balita at maging handa bago dumating ang bagyo!"
     }
   },
-  "infographic": {
-    "signs": [
-      { "en": "PAGASA Wind Signal raised", "fil": "May Wind Signal mula sa PAGASA" },
-      { "en": "Dark sky and strong wind", "fil": "Madilim na langit at malakas na hangin" },
-      { "en": "Heavy, nonstop rain", "fil": "Malakas at tuloy-tuloy na ulan" }
-    ],
-    "dos": [
-      { "en": "Prepare a Go Bag", "fil": "Maghanda ng Go Bag" },
-      { "en": "Stay indoors, away from windows", "fil": "Manatili sa loob, malayo sa bintana" },
-      { "en": "Evacuate when told", "fil": "Lumikas kapag sinabihan" }
-    ],
-    "donts": [
-      { "en": "Don't go outside to play", "fil": "Huwag lumabas para maglaro" },
-      { "en": "Don't touch fallen wires", "fil": "Huwag hawakan ang nahulog na kable" },
-      { "en": "Don't walk in floodwater", "fil": "Huwag lumusong sa baha" }
-    ]
-  },
   "subjectLinks": [
     { "subject": "science", "en": "How storms form, air pressure, and the water cycle.", "fil": "Paano nabubuo ang bagyo, air pressure, at water cycle." },
     { "subject": "ap", "en": "The Typhoon Belt and the work of PAGASA.", "fil": "Ang Typhoon Belt at ang gawain ng PAGASA." },

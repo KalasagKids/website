@@ -199,63 +199,20 @@
   background: var(--surface-2);
 }
 
-/* Safety poster: light, high-contrast, and printable on a classroom wall. */
+/* Safety poster: one picture per language, framed in the hazard's category colour. */
 .poster {
+  display: block;
+  width: min(100%, 560px);
   margin-top: var(--sp-4);
   overflow: hidden;
-  background: #fffdf5;
-  color: var(--text-on-light);
   border: 4px solid var(--cat);
   border-radius: var(--radius);
   box-shadow: var(--shadow-step) var(--cat);
 }
-.poster__head {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-4);
-  padding: var(--sp-4) var(--sp-5);
-  background: var(--cat);
-  color: #fff;
-}
-.poster__title {
-  font-size: var(--fs-2xl);
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
-}
-.poster__cols {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--sp-4);
-  padding: var(--sp-5);
-}
-.poster__col h4 {
-  margin-bottom: var(--sp-2);
-  font-size: var(--fs-lg);
-}
-.poster__col ul {
-  display: grid;
-  gap: var(--sp-2);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-weight: 700;
-}
-.poster__col li {
-  padding: var(--sp-2) var(--sp-3);
-  border-radius: var(--radius);
-  background: #f1eee2;
-}
-.poster__col--dos li {
-  background: #dff5e1;
-}
-.poster__col--donts li {
-  background: #fde2e2;
-}
-.poster__foot {
-  padding: var(--sp-3) var(--sp-5);
-  background: #fde2e2;
-  color: var(--danger-dark);
-  font-weight: 800;
-  text-align: center;
+.poster__img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .poster-placeholder {
   width: 100%;
@@ -320,6 +277,8 @@
   .poster {
     position: absolute;
     inset: 0 0 auto 0;
+    width: 100%;
+    border: 0;
     box-shadow: none;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;

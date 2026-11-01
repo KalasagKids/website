@@ -82,7 +82,7 @@ async function download(url, signal, onProgress) {
   emit("kalasag:offlinechange");
 }
 
-/** Everything "Save everything" covers: every video, hazard page picture and slideshow scene,
+/** Everything "Save everything" covers: every video, hazard page picture, safety poster (both languages) and slideshow scene,
  *  plus every built mini-game's scripts, art and sounds (KALASAG O8). */
 async function allFiles() {
   const [{ hazards }, { slides }, games] = await Promise.all([
@@ -91,7 +91,7 @@ async function allFiles() {
     builtGameFiles().catch(() => []),
   ]);
   return [
-    ...new Set([...hazards.flatMap((h) => [h.video, h.image]), ...slides.map((s) => sceneUrl(s.id)), ...games].filter(Boolean)),
+    ...new Set([...hazards.flatMap((h) => [h.video, h.image, h.infographic?.en, h.infographic?.fil]), ...slides.map((s) => sceneUrl(s.id)), ...games].filter(Boolean)),
   ];
 }
 

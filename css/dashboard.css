@@ -105,7 +105,7 @@
   font-size: var(--fs-sm);
 }
 
-/* ---------- Safety posters grid ---------- */
+/* ---------- Posters grid ---------- */
 .poster-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

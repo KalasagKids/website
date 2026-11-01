@@ -31,23 +31,6 @@
       "fil": "Tandaan: alamin ang daan palabas, at mag-mask kapag may abo!"
     }
   },
-  "infographic": {
-    "signs": [
-      { "en": "Rumbling sounds", "fil": "Mga dagundong" },
-      { "en": "More steam or smoke", "fil": "Mas maraming usok" },
-      { "en": "PHIVOLCS Alert Level raised", "fil": "Itinaas ng PHIVOLCS ang Alert Level" }
-    ],
-    "dos": [
-      { "en": "Evacuate when told", "fil": "Lumikas kapag sinabihan" },
-      { "en": "Wear a mask during ashfall", "fil": "Mag-mask kapag may abo" },
-      { "en": "Close doors and windows", "fil": "Isara ang pinto at bintana" }
-    ],
-    "donts": [
-      { "en": "Don't go near the volcano", "fil": "Huwag lumapit sa bulkan" },
-      { "en": "Don't rub ash from your eyes", "fil": "Huwag kusutin ang mata kapag may abo" },
-      { "en": "Don't go home until it's safe", "fil": "Huwag umuwi hangga't hindi ligtas" }
-    ]
-  },
   "subjectLinks": [
     { "subject": "science", "en": "Magma, the rock cycle, and the Pacific Ring of Fire.", "fil": "Magma, rock cycle, at ang Pacific Ring of Fire." },
     { "subject": "ap", "en": "Taal and Mayon, and how PHIVOLCS keeps watch.", "fil": "Ang Taal at Mayon, at kung paano nagbabantay ang PHIVOLCS." }

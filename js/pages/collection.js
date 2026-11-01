@@ -2,19 +2,19 @@
  * collection.js — the Collections page: everything a pupil can watch, play and print.
  *
  * A sticky aside (a scrollable tab row on phones) organizes the groups:
- *   All · Videos · Games · Safety posters · Quizzes
+ *   All · Videos · Games · Posters · Quizzes
  * with deep links collection.html#videos, #games, #posters, #quizzes. "All" shows each
  * group's first few items with a "See all" link. Category chips filter every group.
  * Videos play in the same modal as the lesson page and count as watched the same way.
  */
 
-import { getHazardIndex, fetchJSON, esc, hazardBanner } from "../core/data.js";
+import { getHazardIndex, esc, hazardBanner } from "../core/data.js";
 import { t, pick } from "../core/i18n.js";
 import * as state from "../core/state.js";
 import * as mascot from "../core/mascot.js";
 import * as offline from "../core/offline.js";
 import { loadGames, gameById, gameThumb, STARS_PER_GAME } from "../core/games.js";
-import { hazardIconImg, hazardUrl } from "../ui/hazard-card.js";
+import { hazardUrl } from "../ui/hazard-card.js";
 import { watchHazardVideo } from "../ui/hazard-video.js";
 
 const GROUPS = [
@@ -26,22 +26,14 @@ const GROUPS = [
 const PREVIEW = 4; // items per group on "All"
 
 let index = null;
-const posters = new Map(); // hazardId → true when its lesson has a safety poster
 let category = "all"; // survives re-renders
 
 export async function init() {
   [index] = await Promise.all([getHazardIndex(), loadGames()]);
-  await loadPosters();
   render();
   window.addEventListener("kalasag:languagechange", render);
   window.addEventListener("hashchange", () => render({ focusMain: true }));
   window.addEventListener("kalasag:offlinechange", markSaved);
-}
-
-async function loadPosters() {
-  const withLesson = index.hazards.filter((h) => h.lesson);
-  const lessons = await Promise.all(withLesson.map((h) => fetchJSON(h.lesson).catch(() => null)));
-  withLesson.forEach((h, i) => lessons[i]?.infographic && posters.set(h.id, true));
 }
 
 const currentGroup = () => {
@@ -60,7 +52,7 @@ function gameItems() {
   return index.hazards.filter((h) => inCategory(h) && gameById(h.game));
 }
 function posterItems() {
-  return index.hazards.filter((h) => inCategory(h) && posters.has(h.id));
+  return index.hazards.filter((h) => inCategory(h) && h.infographic);
 }
 function quizItems() {
   return index.hazards.filter((h) => inCategory(h) && h.quizDataPath);
@@ -131,7 +123,7 @@ function posterCard(h) {
   return `
     <li class="card c-card c-card--poster" data-category="${esc(h.category)}">
       <a class="c-card__poster" href="${hazardUrl(h.id)}#infographic">
-        ${hazardIconImg(h, "hazard-icon--lg")}
+        <img class="c-card__poster-img" src="${esc(pick(h.infographic).replace(/\.webp$/, "-thumb.webp"))}" alt="" width="96" height="96" loading="lazy">
         <span>
           <span class="label-kicker">${esc(t("learn.infographic"))}</span>
           <span class="c-card__title">${esc(pick(h.name))}</span>

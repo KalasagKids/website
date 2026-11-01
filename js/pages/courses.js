@@ -195,34 +195,16 @@ function beatsMarkup(lesson) {
   }).join("")}</ol>`;
 }
 
-function posterMarkup(hazard, lesson) {
-  const info = lesson?.infographic;
-  if (!info) {
+function posterMarkup(hazard) {
+  if (!hazard.infographic) {
     return `<img class="poster-placeholder" src="${PLACEHOLDER_IMG}" alt="">`;
   }
-  const list = (items, mark) => items.map((item) => `<li><span aria-hidden="true">${mark}</span> ${esc(pick(item))}</li>`).join("");
+  // One picture per language; the link opens it full size.
+  const src = esc(pick(hazard.infographic));
   return `
-    <article class="poster" data-category="${esc(hazard.category)}">
-      <header class="poster__head">
-        ${hazardIconImg(hazard, "hazard-icon--lg")}
-        <h3 class="poster__title">${esc(pick(hazard.name))}</h3>
-      </header>
-      <div class="poster__cols">
-        <section class="poster__col poster__col--signs">
-          <h4>⚠️ ${esc(t("learn.signs"))}</h4>
-          <ul>${list(info.signs || [], "•")}</ul>
-        </section>
-        <section class="poster__col poster__col--dos">
-          <h4>✅ ${esc(t("learn.dos"))}</h4>
-          <ul>${list(info.dos || [], "✓")}</ul>
-        </section>
-        <section class="poster__col poster__col--donts">
-          <h4>❌ ${esc(t("learn.donts"))}</h4>
-          <ul>${list(info.donts || [], "✗")}</ul>
-        </section>
-      </div>
-      <footer class="poster__foot">🚨 ${esc(t("learn.hotlineReminder"))} · Red Cross 143 · PNP 117</footer>
-    </article>`;
+    <a class="poster" href="${src}" target="_blank" rel="noopener" data-category="${esc(hazard.category)}">
+      <img class="poster__img" src="${src}" alt="${esc(`${t("learn.infographic")}: ${pick(hazard.name)}`)}" width="938" height="938">
+    </a>`;
 }
 
 async function subjectsMarkup(hazard, lesson) {
@@ -327,9 +309,9 @@ async function renderHazardView(hazard, index) {
     <section class="section" id="infographic">
       <div class="section-head">
         <h2 class="section-title">${esc(t("learn.infographic"))}</h2>
-        ${lesson?.infographic ? `<button type="button" class="btn btn--ghost no-print" data-print>🖨 ${esc(t("common.print"))}</button>` : ""}
+        ${hazard.infographic ? `<button type="button" class="btn btn--ghost no-print" data-print>🖨 ${esc(t("common.print"))}</button>` : ""}
       </div>
-      ${posterMarkup(hazard, lesson)}
+      ${posterMarkup(hazard)}
     </section>
 
     <section class="section">
@@ -345,7 +327,7 @@ async function renderHazardView(hazard, index) {
   main().querySelector("[data-print]")?.addEventListener("click", () => window.print());
   if (location.hash === "#infographic" || location.hash === "#quiz") main().querySelector(location.hash)?.scrollIntoView();
   // Collections' print button opens the poster with ?print=1.
-  if (new URLSearchParams(location.search).get("print") === "1" && lesson?.infographic && !printed) {
+  if (new URLSearchParams(location.search).get("print") === "1" && hazard.infographic && !printed) {
     printed = true;
     setTimeout(() => window.print(), 400);
   }

@@ -21,7 +21,7 @@
  *
  * Some files are named only inside the content JSON, so they're read from it on
  * install (adding a hazard, lesson, quiz or slide needs no change here): each hazard's
- * icon, card thumbnail, lesson and quiz from hazards.json, and the first OFFLINE_SCENES
+ * icon, card thumbnail, safety-poster thumbnails (both languages), lesson and quiz from hazards.json, and the first OFFLINE_SCENES
  * slides in scenes.json so the welcome slideshow works offline (the rest only
  * once someone saves everything).
  *
@@ -33,7 +33,7 @@
  * -------------------------------------------------------------
  */
 
-const CACHE_VERSION = "v40";
+const CACHE_VERSION = "v42";
 const SHELL_CACHE = `kalasag-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `kalasag-data-${CACHE_VERSION}`;
 const SAVED_CACHE = "kalasag-saved-v1"; // same name as in js/core/offline.js
@@ -179,7 +179,7 @@ const DATA_FILES = [
 
 // File-type helpers so routing logic below stays readable.
 const isMediaRequest = (url) =>
-  url.pathname.startsWith(BASE + "assets/videos/") || url.pathname.startsWith(BASE + "assets/infographics/");
+  url.pathname.startsWith(BASE + "assets/videos/");
 
 const isDataRequest = (url) => url.pathname.startsWith(BASE + "js/data/") && url.pathname.endsWith(".json");
 
@@ -199,9 +199,13 @@ async function precacheFromContent() {
   const read = async (path) => (await caches.match(path)).json();
   const [{ hazards }, { slides }] = await Promise.all([read("js/data/hazards.json"), read("js/data/scenes.json")]);
   const art = hazards.flatMap((h) => [h.icon, h.banner]); // Home posters, Collections, Learn cards: ~0.5 MB
+  // Collections poster thumbnails (~0.4 MB). Full posters (~10 MB) cache when opened, or with "Save everything".
+  const posters = hazards.flatMap((h) =>
+    h.infographic ? [h.infographic.en, h.infographic.fil].map((src) => src.replace(/\.webp$/, "-thumb.webp")) : []
+  );
   const scenes = slides.slice(0, OFFLINE_SCENES).map((slide) => `assets/images/scenes/${slide.id}.webp`);
   const content = hazards.flatMap((h) => [h.lesson, h.quizDataPath]); // ~0.1 MB in all
-  await Promise.all([addEach(SHELL_CACHE, [...art, ...scenes]), addEach(DATA_CACHE, content)]);
+  await Promise.all([addEach(SHELL_CACHE, [...art, ...posters, ...scenes]), addEach(DATA_CACHE, content)]);
 }
 
 async function addEach(cacheName, urls) {

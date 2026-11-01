@@ -1,6 +1,6 @@
 /* =============================================================
    collection.css — the Collections page: a sticky aside that organizes the collection
-   (All · Videos · Games · Safety posters · Quizzes) and the content beside it. Below
+   (All · Videos · Games · Posters · Quizzes) and the content beside it. Below
    760 px the aside becomes a horizontal tab row that scrolls on its own, so the page
    itself never scrolls sideways.
    ============================================================= */
@@ -200,6 +200,13 @@
   gap: var(--sp-3);
   color: var(--text);
   text-decoration: none;
+}
+.c-card__poster-img {
+  flex: none;
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--cat, var(--border-strong));
+  border-radius: var(--radius-sm);
 }
 .c-card__poster > span {
   display: flex;

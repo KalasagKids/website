@@ -129,7 +129,7 @@ function renderGamesCard() {
     </article>`;
 }
 
-// ---------- Safety posters (infographics) ----------
+// ---------- Posters (infographics) ----------
 function renderInfographics() {
   document.querySelector("[data-posters]").innerHTML = index.hazards
     .map(

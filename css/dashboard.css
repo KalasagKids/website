@@ -344,3 +344,99 @@
     height: 45px;
   }
 }
+
+/* ---------- Certificate (every video watched + every quiz passed) ---------- */
+.cert-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: var(--sp-5);
+  align-items: center;
+  border-color: var(--sunny-dark);
+  box-shadow: var(--shadow-step) var(--sunny-dark);
+}
+.cert-card__preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  image-rendering: pixelated;
+}
+.cert-card__form {
+  display: grid;
+  gap: var(--sp-2);
+}
+.cert-card__text {
+  margin: 0 0 var(--sp-2);
+}
+.cert-card__label {
+  font-family: var(--font-pixel);
+  font-weight: 700;
+}
+.cert-card__field {
+  width: 100%;
+  min-height: 48px;
+  padding: var(--sp-2) var(--sp-3);
+  border: var(--bw) solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-md);
+}
+.cert-card__field:focus {
+  border-color: var(--focus);
+  outline: none;
+}
+.cert-card__hint {
+  min-height: 1.4em;
+  margin: 0;
+  color: var(--accent-ink);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+.cert-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+}
+.cert-card__privacy {
+  margin: var(--sp-2) 0 0;
+  color: var(--text-dim);
+  font-size: var(--fs-xs);
+}
+
+@media (max-width: 700px) {
+  .cert-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Print shows only the certificate image, landscape, on its own page. */
+.cert-print {
+  display: none;
+}
+@page cert {
+  size: landscape;
+  margin: 8mm;
+}
+@media print {
+  body.is-printing-cert > :not(.cert-print) {
+    display: none !important;
+  }
+  body.is-printing-cert {
+    page: cert;
+    margin: 0;
+    padding: 0 !important;
+  }
+  body.is-printing-cert .cert-print {
+    display: block;
+  }
+  .cert-print img {
+    display: block;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

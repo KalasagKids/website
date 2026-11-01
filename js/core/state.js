@@ -189,6 +189,15 @@ export function getPassedQuizCount() {
   return countTrue(read("local", "quizzes", {}));
 }
 
+// ---------- Certificate ----------
+// Only whether Agila already celebrated it on this device. The pupil's name is never stored.
+/** Returns true the first time the certificate is shown. */
+export function markCertificateSeen() {
+  if (read("local", "certSeen", false)) return false;
+  write("local", "certSeen", true);
+  return true;
+}
+
 // ---------- Mini-games ----------
 // The games keep their own progress under "kalasag:games" (written by AG.store in
 // minigames/js/core/store.js, KALASAG O6); it carries the prefix, so a reset clears it too.

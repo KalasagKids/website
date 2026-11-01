@@ -16,11 +16,15 @@ import * as mascot from "../core/mascot.js";
 import * as hotlines from "../ui/hotline-panel.js";
 import { hazardIconImg, hazardUrl } from "../ui/hazard-card.js";
 import { loadGames, gameById, dailyToday, gameThumb } from "../core/games.js";
+import * as certificate from "../ui/certificate.js";
 
 const GREETING_MS = 15000;
 const TICKER_MS = 9000;
+// ?debug=cert shows the certificate card without finishing every course.
+const DEBUG_CERT = new URLSearchParams(location.search).get("debug") === "cert";
 
 let index = null;
+let cheerUntil = 0; // keeps Agila's certificate cheer in the bubble for one tip cycle
 
 export async function init() {
   [index] = await Promise.all([getHazardIndex(), loadGames()]);
@@ -33,21 +37,36 @@ export async function init() {
 
   window.addEventListener("kalasag:languagechange", renderAll);
   window.addEventListener("kalasag:statechange", () => {
+    renderCertificate();
     renderStatsCard();
     renderGamesCard();
   });
 }
 
 function renderAll() {
+  renderCertificate();
   renderJumpBackIn();
   renderGamesCard();
   renderInfographics();
   renderStatsCard();
 }
 
+// ---------- Certificate (every video watched + every quiz passed) ----------
+function renderCertificate() {
+  if (!index) return;
+  const firstTime = certificate.render(document.querySelector("[data-cert]"), index.hazards, { force: DEBUG_CERT });
+  if (!firstTime) return;
+  // Agila celebrates the first time the card appears on this device.
+  cheerUntil = Date.now() + GREETING_MS - 1000;
+  document.querySelector("[data-greeting]").textContent = t("cert.cheer");
+  mascot.setExpression("cheer");
+}
+
 // ---------- Greeting bubble ----------
 async function renderGreeting(bubble) {
-  bubble.textContent = await mascot.getRandomTip(bubble.textContent);
+  const tip = await mascot.getRandomTip(bubble.textContent);
+  if (Date.now() < cheerUntil) return;
+  bubble.textContent = tip;
 }
 
 function startGreeting() {
@@ -56,6 +75,7 @@ function startGreeting() {
   setInterval(() => !document.hidden && renderGreeting(bubble), GREETING_MS);
   // Tapping the bubble shows another tip right away.
   bubble.addEventListener("click", () => {
+    cheerUntil = 0;
     renderGreeting(bubble);
     mascot.setExpression("happy");
   });

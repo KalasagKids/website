@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A building collapse is when part or all of a building falls down. Strong shaking, weak materials, or old damage can cause it.",
+      "fil": "Ang pagguho ng gusali ay kapag bumagsak ang bahagi o buong gusali. Maaari itong dulot ng malakas na pagyanig, mahinang materyales, o lumang sira."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Big cracks in walls or floors, tilting walls or posts, and bits of cement falling off. After an earthquake, damaged buildings can fall during aftershocks.",
+      "fil": "Malalaking bitak sa pader o sahig, tumatagilid na pader o poste, at nalalaglag na piraso ng semento. Pagkatapos ng lindol, maaaring bumagsak ang sirang gusali kapag may aftershock."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Help your family look for cracks at home, and tell an adult if you find any. Know the exits of your home and classroom.",
+      "fil": "Tulungan ang pamilya na maghanap ng bitak sa bahay, at sabihan ang nakatatanda kapag may nakita ka. Alamin ang mga labasan ng bahay at silid-aralan."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Stay away from damaged buildings, and tell an adult right away! If you are inside when shaking starts, Duck, Cover, and Hold.",
+      "fil": "Lumayo sa sirang gusali, at sabihan agad ang nakatatanda! Kung nasa loob ka kapag nagsimula ang pagyanig, Duck, Cover, and Hold."
+    },
+    "after": {
+      "sprite": "pose_alert_geared",
+      "en": "Never go back into a damaged building until engineers say it's safe. Stay away from broken walls and fallen wires, and watch for aftershocks.",
+      "fil": "Huwag bumalik sa sirang gusali hangga't hindi sinasabi ng mga engineer na ligtas na. Lumayo sa gumuhong pader at nahulog na kable, at mag-ingat sa aftershock."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: see a crack, step back, and tell an adult!",
+      "fil": "Tandaan: may bitak? Lumayo, at sabihan ang nakatatanda!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "How shaking, weak materials, and cracks weaken buildings.", "fil": "Kung paano pinahihina ng pagyanig, mahinang materyales, at bitak ang gusali." },
+    { "subject": "tle", "en": "Home safety checks and the PHIVOLCS “How Safe Is My House?” checklist.", "fil": "Pagsusuri sa kaligtasan ng bahay at ang “How Safe Is My House?” ng PHIVOLCS." }
+  ]
+}

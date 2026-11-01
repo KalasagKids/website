@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A landslide is when soil, rocks, and mud slide down a slope. Heavy rain or an earthquake can cause it.",
+      "fil": "Ang pagguho ng lupa ay ang pagbagsak ng lupa, bato, at putik pababa mula sa mataas na lugar. Maaari itong dulot ng malakas na ulan o lindol."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "New cracks in the ground or walls, tilting trees or fences, doors that suddenly stick, and streams turning muddy. Listen for PAGASA rainfall warnings.",
+      "fil": "Bagong bitak sa lupa o pader, tumatagilid na puno o bakod, mga pintong biglang mahirap buksan, at lumalabong tubig sa sapa. Makinig sa rainfall warning ng PAGASA."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Find out if your area is landslide-prone and where your evacuation center is. Pack a Go Bag with your family.",
+      "fil": "Alamin kung may banta ng pagguho sa inyong lugar at kung nasaan ang evacuation center. Maghanda ng Go Bag kasama ang pamilya."
+    },
+    "during": {
+      "sprite": "pose_alert_geared",
+      "en": "Get out of the landslide's path and go to a safer place. If you're inside and can't get out, get under a sturdy table and protect your head.",
+      "fil": "Umalis sa daraanan ng gumuguhong lupa at pumunta sa mas ligtas na lugar. Kung nasa loob ka at hindi makalabas, pumunta sa ilalim ng matibay na mesa at protektahan ang ulo."
+    },
+    "after": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Stay away from the slide area, because more slides may come. Watch for flash floods and fallen trees or posts. Go home only when officials say it's safe.",
+      "fil": "Lumayo sa lugar na gumuho dahil maaaring may susunod pa. Mag-ingat sa biglaang baha at natumbang puno o poste. Umuwi lamang kapag sinabi ng mga opisyal na ligtas na."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: watch for cracks, and move away fast!",
+      "fil": "Tandaan: bantayan ang bitak, at lumayo agad!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Soil, slopes, erosion, and how rain loosens the ground.", "fil": "Lupa, dalisdis, erosion, at kung paano niluluwag ng ulan ang lupa." },
+    { "subject": "ap", "en": "Landslide-prone areas and DENR–MGB geohazard maps.", "fil": "Mga lugar na may banta ng pagguho at ang geohazard map ng DENR–MGB." }
+  ]
+}

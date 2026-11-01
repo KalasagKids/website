@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A tsunami is a series of giant sea waves. It is usually caused by a strong earthquake under the sea.",
+      "fil": "Ang tsunami ay sunod-sunod na higanteng alon sa dagat. Kadalasan, dulot ito ng malakas na lindol sa ilalim ng dagat."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Watch for Shake, Drop, Roar: strong shaking, the sea suddenly pulling back, and a loud roar from the ocean. PHIVOLCS also issues tsunami warnings.",
+      "fil": "Bantayan ang Shake, Drop, Roar: malakas na pagyanig, biglang pag-urong ng dagat, at malakas na ugong mula sa dagat. Nagbibigay rin ang PHIVOLCS ng tsunami warning."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "If you live near the coast, know the way to high ground and your evacuation center. Join tsunami drills and pack a Go Bag.",
+      "fil": "Kung malapit ka sa dagat, alamin ang daan papunta sa mataas na lugar at ang evacuation center. Sumali sa tsunami drill at maghanda ng Go Bag."
+    },
+    "during": {
+      "sprite": "pose_run_flap_2_geared",
+      "en": "Run to high ground! If you notice even one sign, move uphill or away from the sea right away. Never go to the beach to watch the waves.",
+      "fil": "Tumakbo sa mataas na lugar! Kapag may napansin kang kahit isang senyales, umakyat o lumayo agad sa dagat. Huwag pumunta sa dalampasigan para manood ng alon."
+    },
+    "after": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Stay on high ground. More waves may come, and the first one may not be the biggest. Only go back when officials say it's safe.",
+      "fil": "Manatili sa mataas na lugar. Maaaring may darating pang alon, at maaaring hindi ang una ang pinakamalaki. Bumalik lamang kapag sinabi ng mga opisyal na ligtas na."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: Shake, Drop, Roar — run to high ground!",
+      "fil": "Tandaan: Shake, Drop, Roar — tumakbo sa mataas na lugar!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Undersea earthquakes and how tsunami waves travel.", "fil": "Lindol sa ilalim ng dagat at kung paano naglalakbay ang tsunami." },
+    { "subject": "ap", "en": "Tsunami-prone coasts and PHIVOLCS tsunami warnings.", "fil": "Mga baybaying may banta ng tsunami at ang tsunami warning ng PHIVOLCS." }
+  ]
+}

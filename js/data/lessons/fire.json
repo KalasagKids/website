@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A fire is when something burns out of control. It needs heat, fuel, and air, and it can spread very fast.",
+      "fil": "Ang sunog ay kapag may nasusunog na hindi na makontrol. Kailangan nito ng init, gatong, at hangin, at napakabilis nitong kumalat."
+    },
+    "signs": {
+      "sprite": "pose_alert_geared",
+      "en": "Smoke, a burning smell, crackling sounds, or a fire alarm going off. Fires often start suddenly, so act fast.",
+      "fil": "Usok, amoy ng nasusunog, lagitik ng apoy, o tumutunog na fire alarm. Madalas biglaan ang sunog, kaya kumilos agad."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Never play with matches, lighters, or candles. Make a fire escape plan with your family and practice it.",
+      "fil": "Huwag kailanman laruin ang posporo, lighter, o kandila. Gumawa ng fire escape plan kasama ang pamilya at ensayuhin ito."
+    },
+    "during": {
+      "sprite": "pose_duck_cover_geared",
+      "en": "Get out and stay out! Crawl low under smoke and cover your nose and mouth with a damp cloth. If your clothes catch fire: Stop, Drop, and Roll!",
+      "fil": "Lumabas at huwag nang bumalik! Gumapang nang mababa sa ilalim ng usok at takpan ang ilong at bibig ng basang tela. Kapag nasunog ang damit: Stop, Drop, and Roll!"
+    },
+    "after": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Once outside, call for help or tell an adult to call. Never go back inside until firefighters say it's safe, and get checked for injuries.",
+      "fil": "Paglabas, humingi ng tulong o sabihan ang nakatatanda na tumawag. Huwag nang bumalik sa loob hangga't hindi sinasabi ng bumbero na ligtas na, at magpasuri kung nasaktan."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: get out, stay out, and call for help!",
+      "fil": "Tandaan: lumabas, huwag bumalik, at humingi ng tulong!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "The fire triangle: heat, fuel, and oxygen.", "fil": "Ang fire triangle: init, gatong, at oxygen." },
+    { "subject": "tle", "en": "Home fire safety checks and a family escape plan.", "fil": "Pagsusuri sa kaligtasan sa sunog sa bahay at family escape plan." }
+  ]
+}

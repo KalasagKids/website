@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A flood is when water covers land that is usually dry. Heavy rain or an overflowing river can make water rise fast.",
+      "fil": "Ang baha ay kapag tinakpan ng tubig ang lupang karaniwang tuyo. Dahil sa malakas na ulan o umaapaw na ilog, maaaring tumaas agad ang tubig."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Nonstop heavy rain, rising water in rivers and canals, and water creeping into streets. PAGASA gives Yellow, Orange, and Red rainfall warnings.",
+      "fil": "Tuloy-tuloy na malakas na ulan, tumataas na tubig sa ilog at kanal, at tubig na pumapasok sa kalye. Nagbibigay ang PAGASA ng Yellow, Orange, at Red rainfall warning."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Help your family move important things to a higher place. Pack a Go Bag and know the way to your evacuation center.",
+      "fil": "Tulungan ang pamilya na iakyat ang mahahalagang gamit sa mataas na lugar. Maghanda ng Go Bag at alamin ang daan papunta sa evacuation center."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Never walk or play in floodwater! Stay indoors, evacuate when told, and don't touch anything electric if you are wet.",
+      "fil": "Huwag kailanman maglakad o maglaro sa baha! Manatili sa loob, lumikas kapag sinabihan, at huwag humawak ng de-kuryenteng gamit kung basa ka."
+    },
+    "after": {
+      "sprite": "gear_on_full",
+      "en": "Go home only when officials say it's safe. Let adults check the electricity first. Don't eat or drink anything that floodwater touched.",
+      "fil": "Umuwi lamang kapag sinabi ng mga opisyal na ligtas na. Hayaang suriin muna ng nakatatanda ang kuryente. Huwag kainin o inumin ang anumang nadampian ng baha."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: stay out of floodwater, always!",
+      "fil": "Tandaan: lumayo sa baha, palagi!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "The water cycle, heavy rain, and how rivers overflow.", "fil": "Water cycle, malakas na ulan, at kung paano umaapaw ang ilog." },
+    { "subject": "ap", "en": "PAGASA rainfall warnings and flood-prone areas.", "fil": "Ang rainfall warning ng PAGASA at mga lugar na madalas bahain." }
+  ]
+}

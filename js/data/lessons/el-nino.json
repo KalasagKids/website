@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "El Niño is when the Pacific Ocean gets warmer than usual. It changes the weather and brings the Philippines less rain and hotter days.",
+      "fil": "Ang El Niño ay kapag mas umiinit kaysa karaniwan ang Pacific Ocean. Binabago nito ang panahon, kaya mas kaunti ang ulan at mas mainit ang mga araw sa Pilipinas."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "PAGASA announces El Niño on the news. Then come weeks of little rain, very hot days, dry fields, and weak water from the tap.",
+      "fil": "Inaanunsyo ng PAGASA ang El Niño sa balita. Pagkatapos, ilang linggong kaunti ang ulan, sobrang init, tuyo ang bukid, at mahina ang tubig sa gripo."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Help your family store clean water in covered containers. Tell an adult about leaking faucets, and keep your own water bottle ready.",
+      "fil": "Tulungan ang pamilya na mag-ipon ng malinis na tubig sa lalagyang may takip. Sabihan ang nakatatanda kapag may tumutulong gripo, at ihanda ang sariling bote ng tubig."
+    },
+    "during": {
+      "sprite": "prop_on_sweat_drop_geared",
+      "en": "Save every drop! Turn off the tap while brushing, drink lots of clean water, and use a hat or umbrella under the hot sun.",
+      "fil": "Tipirin ang bawat patak! Isara ang gripo habang nagsisipilyo, uminom ng maraming malinis na tubig, at gumamit ng sombrero o payong sa ilalim ng mainit na araw."
+    },
+    "after": {
+      "sprite": "pose_alert_geared",
+      "en": "If you or a friend feels dizzy or very weak from the heat, move to a cool place, rest, sip water, and tell an adult right away.",
+      "fil": "Kapag ikaw o ang kaibigan mo ay nahihilo o nanghihina dahil sa init, pumunta sa malamig na lugar, magpahinga, uminom ng tubig, at sabihan agad ang nakatatanda."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: save every drop, and drink up!",
+      "fil": "Tandaan: tipirin ang bawat patak, at uminom ng tubig!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Ocean temperature, climate, and why El Niño brings dry months.", "fil": "Temperatura ng dagat, klima, at kung bakit nagdadala ng tagtuyot ang El Niño." },
+    { "subject": "tle", "en": "Saving and safely storing water at home.", "fil": "Pagtitipid at ligtas na pag-iimbak ng tubig sa bahay." }
+  ]
+}

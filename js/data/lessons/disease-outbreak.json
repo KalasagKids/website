@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A disease outbreak is when many more people than usual get sick with the same illness. Germs can spread fast from person to person.",
+      "fil": "Ang pagkalat ng sakit ay kapag mas marami kaysa karaniwan ang nagkakaroon ng parehong sakit. Mabilis na kumakalat ang mikrobyo mula sa isang tao papunta sa iba."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "DOH announces an outbreak on the news. Many classmates may be absent, or more people around you may have fever, cough, or diarrhea.",
+      "fil": "Inaanunsyo ng DOH ang outbreak sa balita. Maaaring maraming kaklase ang liban, o mas maraming tao sa paligid ang may lagnat, ubo, o pagtatae."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Practice proper handwashing, eat healthy food, and drink plenty of water. Keep tissues and a face mask in your bag.",
+      "fil": "Mag-ensayo ng tamang paghuhugas ng kamay, kumain ng masustansyang pagkain, at uminom ng maraming tubig. Magdala ng tissue at face mask sa bag."
+    },
+    "during": {
+      "sprite": "prop_on_face_mask_geared",
+      "en": "Wash your hands and cover your cough! Scrub with soap for 20 seconds, and cough into a tissue or your elbow. Stay home if you're sick.",
+      "fil": "Maghugas ng kamay at takpan ang ubo! Magsabon nang 20 segundo, at umubo sa tissue o sa siko. Manatili sa bahay kung may sakit ka."
+    },
+    "after": {
+      "sprite": "expr_wink_geared",
+      "en": "If you get a fever or feel sick, tell an adult right away. Rest at home until you are well, and keep following DOH advice.",
+      "fil": "Kapag nilagnat o masama ang pakiramdam, sabihan agad ang nakatatanda. Magpahinga sa bahay hanggang gumaling, at patuloy na sundin ang payo ng DOH."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: wash your hands, and cover your cough!",
+      "fil": "Tandaan: maghugas ng kamay, at takpan ang ubo!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Germs, viruses, and how diseases spread.", "fil": "Mikrobyo, virus, at kung paano kumakalat ang sakit." },
+    { "subject": "mapeh", "en": "Proper handwashing and covering coughs in Health class.", "fil": "Tamang paghuhugas ng kamay at pagtakip sa ubo sa Health." }
+  ]
+}

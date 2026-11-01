@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A road accident is when a car, motorcycle, or other vehicle hits a person or another vehicle. Following road rules helps prevent it.",
+      "fil": "Ang aksidente sa daan ay kapag may kotse, motorsiklo, o ibang sasakyan na bumangga sa tao o sa ibang sasakyan. Nakatutulong ang pagsunod sa batas trapiko para maiwasan ito."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Accidents happen in seconds. Watch for fast or turning vehicles, and follow traffic lights, road signs, and traffic enforcers' signals.",
+      "fil": "Ilang segundo lang, maaaring may maaksidente. Bantayan ang mabibilis o lumiliko na sasakyan, at sundin ang traffic light, road sign, at senyas ng traffic enforcer."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Learn what road signs and pedestrian signals mean. Always buckle your seat belt, and if you are 12 or younger, sit in the back seat.",
+      "fil": "Alamin ang kahulugan ng road sign at pedestrian signal. Laging mag-seatbelt, at kung 12 taong gulang ka pababa, umupo sa likod."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Look left and right before you cross! Use the pedestrian lane or overpass, follow the signals, and never run or use gadgets while crossing.",
+      "fil": "Tumingin sa kaliwa at kanan bago tumawid! Gumamit ng pedestrian lane o overpass, sundin ang mga senyas, at huwag tumakbo o mag-gadget habang tumatawid."
+    },
+    "after": {
+      "sprite": "pose_alert_geared",
+      "en": "If you see an accident, stay on the sidewalk and away from traffic. Tell an adult or a traffic enforcer right away so they can call for help.",
+      "fil": "Kapag may nakita kang aksidente, manatili sa bangketa at lumayo sa mga sasakyan. Sabihan agad ang nakatatanda o traffic enforcer para makatawag sila ng tulong."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: stop, look left and right, then cross!",
+      "fil": "Tandaan: huminto, tumingin sa kaliwa at kanan, saka tumawid!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "english", "en": "Reading road signs, pedestrian signals, and safety words.", "fil": "Pagbasa ng road sign, pedestrian signal, at mga salitang pangkaligtasan." },
+    { "subject": "ap", "en": "Philippine laws on seat belts and motorcycle helmets.", "fil": "Mga batas ng Pilipinas tungkol sa seatbelt at helmet sa motorsiklo." }
+  ]
+}

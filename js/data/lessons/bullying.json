@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "Bullying is when someone hurts, scares, or shames another child again and again. It can be hitting, name-calling, or mean messages online, called cyberbullying.",
+      "fil": "Ang pambu-bully ay kapag paulit-ulit na sinasaktan, tinatakot, o pinapahiya ng isang bata ang iba. Maaari itong pananakit, panlalait, o masasamang mensahe online, na tinatawag na cyberbullying."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "A friend seems sad, stays alone, or doesn't want to go to school. Broken things, mean posts about them, or being left out can be signs too.",
+      "fil": "Mukhang malungkot ang kaibigan, laging nag-iisa, o ayaw pumasok sa paaralan. Maaari ring senyales ang nasirang gamit, masasamang post tungkol sa kanya, o pag-iwan sa kanya."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Be kind and include others. Know your trusted adults at school, like your teacher, the guidance counselor, or the principal.",
+      "fil": "Maging mabait at isama ang iba. Kilalanin ang mapagkakatiwalaang nakatatanda sa paaralan, tulad ng iyong guro, guidance counselor, o punong-guro."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Speak up and tell a trusted adult! Calmly say “Stop,” walk away, and stay near friends. Never hit back or join in.",
+      "fil": "Magsalita at magsabi sa mapagkakatiwalaang nakatatanda! Mahinahong sabihin ang “Tigil,” lumayo, at manatili malapit sa mga kaibigan. Huwag gumanti o makisali."
+    },
+    "after": {
+      "sprite": "expr_wink_geared",
+      "en": "Tell a teacher or your parents, even if it already stopped. Schools must keep you safe and keep reports private. It is never your fault.",
+      "fil": "Sabihan ang guro o magulang, kahit tumigil na ito. Dapat kang panatilihing ligtas ng paaralan at gawing pribado ang ulat. Hindi mo ito kasalanan kailanman."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: be kind, speak up, and tell a trusted adult!",
+      "fil": "Tandaan: maging mabait, magsalita, at magsabi sa nakatatanda!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "esp", "en": "Kindness, respect, and standing up for others.", "fil": "Kabaitan, paggalang, at pagtatanggol sa kapwa." },
+    { "subject": "mapeh", "en": "Emotional health and safe, respectful play.", "fil": "Kalusugang emosyonal at ligtas at magalang na paglalaro." }
+  ]
+}

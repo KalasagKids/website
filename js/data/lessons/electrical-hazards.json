@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "An electrical hazard is anything that could give you an electric shock, like damaged wires, wet outlets, or power lines. A shock can hurt or burn you.",
+      "fil": "Ang panganib sa kuryente ay anumang bagay na maaaring makakuryente sa iyo, tulad ng sirang kable, basang saksakan, o linya ng kuryente. Maaari kang masaktan o mapaso ng kuryente."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Sparks, buzzing, a burning smell, hot plugs, or wires on the ground. Power companies like Meralco ask people to report fallen or sparking wires.",
+      "fil": "Kislap, ugong, amoy ng nasusunog, mainit na plug, o kable sa lupa. Ipinapaulat ng mga kompanya ng kuryente tulad ng Meralco ang nahulog o kumikislap na kable."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Keep water and wet hands away from outlets, and tell an adult about damaged plugs or wires. Never fly kites near power lines.",
+      "fil": "Ilayo ang tubig at basang kamay sa saksakan, at sabihan ang nakatatanda kapag may sirang plug o kable. Huwag magpalipad ng saranggola malapit sa linya ng kuryente."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Never touch fallen wires! Stay far away, warn others to keep back, and tell an adult so they can report it.",
+      "fil": "Huwag kailanman hawakan ang nahulog na kable! Lumayo, sabihan ang iba na huwag lumapit, at sabihan ang nakatatanda para maiulat nila ito."
+    },
+    "after": {
+      "sprite": "pose_alert_geared",
+      "en": "After a flood or storm, let adults have an electrician check the wiring before using appliances. Stay away from wet outlets and cords.",
+      "fil": "Pagkatapos ng baha o bagyo, hayaang ipasuri ng nakatatanda sa electrician ang kable bago gumamit ng appliances. Lumayo sa basang saksakan at kordon."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: keep water away, and never touch fallen wires!",
+      "fil": "Tandaan: ilayo ang tubig, at huwag hawakan ang nahulog na kable!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Electric current, conductors, and why water carries electricity.", "fil": "Kuryente, conductor, at kung bakit dinadaluyan ng kuryente ang tubig." },
+    { "subject": "tle", "en": "Safe use of outlets, plugs, and extension cords at home.", "fil": "Ligtas na paggamit ng saksakan, plug, at extension cord sa bahay." }
+  ]
+}

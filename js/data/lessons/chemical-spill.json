@@ -1,0 +1,37 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "An oil or chemical spill is when oil or another harmful liquid leaks onto land or into water. It can hurt people, animals, and plants.",
+      "fil": "Ang pagtagas ng langis o kemikal ay kapag tumagas ang langis o iba pang mapanganib na likido sa lupa o tubig. Maaari itong makasakit sa tao, hayop, at halaman."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "A strong, strange smell, dark oily patches on water or sand, or dead fish. Some people get headaches or trouble breathing near a spill.",
+      "fil": "Malakas at kakaibang amoy, maitim at malangis na bahagi sa tubig o buhangin, o patay na isda. May mga taong sumasakit ang ulo o nahihirapang huminga malapit sa tagas."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Never play with or mix cleaning products or fuel at home. Learn to read danger labels on bottles, like the skull sign.",
+      "fil": "Huwag kailanman paglaruan o paghaluin ang panlinis o gasolina sa bahay. Alamin ang mga label ng panganib sa bote, tulad ng larawan ng bungo."
+    },
+    "during": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Stay away and tell an adult! Don't touch the oil or the water, and move away from strong fumes. Let adults report it to officials.",
+      "fil": "Lumayo at sabihan ang nakatatanda! Huwag hawakan ang langis o ang tubig, at lumayo sa matapang na amoy. Hayaang ang nakatatanda ang mag-ulat sa mga opisyal."
+    },
+    "after": {
+      "sprite": "gear_on_full",
+      "en": "Don't swim, fish, or eat seafood from the area until officials say it's safe. Drink only safe water, and tell an adult if you feel sick.",
+      "fil": "Huwag lumangoy, mangisda, o kumain ng lamang-dagat mula sa lugar hangga't hindi sinasabi ng mga opisyal na ligtas na. Uminom lamang ng ligtas na tubig, at sabihan ang nakatatanda kung masama ang pakiramdam."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: strange smell or spill? Stay away and tell!",
+      "fil": "Tandaan: kakaibang amoy o tagas? Lumayo at magsabi!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Why oil and water don't mix, and how pollution harms sea life.", "fil": "Kung bakit hindi naghahalo ang langis at tubig, at kung paano sinisira ng polusyon ang buhay sa dagat." }
+  ]
+}

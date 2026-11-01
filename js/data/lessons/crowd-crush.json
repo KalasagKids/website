@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A crowd crush is when people are packed so tightly that they can't move or breathe well. It can happen at fiestas, concerts, or exits.",
+      "fil": "Ang siksikan ng tao ay kapag sobrang dikit-dikit ang mga tao kaya hindi na sila makagalaw o makahinga nang maayos. Maaari itong mangyari sa pista, konsiyerto, o labasan."
+    },
+    "signs": {
+      "sprite": "prop_on_sweat_drop_geared",
+      "en": "There is usually no official warning. Watch for a crowd so tight you're squeezed from all sides, people pushing, or the crowd suddenly surging forward.",
+      "fil": "Kadalasan, walang opisyal na babala. Bantayan kung sobrang sikip na naiipit ka sa lahat ng panig, nagtutulakan ang mga tao, o biglang dumadagsa pasulong ang mga tao."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Stay with your adult and agree on a meeting spot. When you arrive, find the exits, the first aid station, and security.",
+      "fil": "Manatili sa kasamang nakatatanda at magkasundo ng meeting spot. Pagdating, hanapin ang mga labasan, ang first aid station, at ang security."
+    },
+    "during": {
+      "sprite": "pose_alert_geared",
+      "en": "Walk calmly and follow the exit signs! Move with the crowd, don't push, and edge toward open space. Keep your arms in front of your chest.",
+      "fil": "Maglakad nang mahinahon at sundin ang exit sign! Sumabay sa daloy ng tao, huwag manulak, at unti-unting lumapit sa maluwag na lugar. Itapat ang mga braso sa harap ng dibdib."
+    },
+    "after": {
+      "sprite": "pose_point_geared",
+      "en": "Once you're out, go to your meeting spot or a first aid station. If you got hurt or lost your family, tell a security guard or rescuer.",
+      "fil": "Paglabas, pumunta sa meeting spot o sa first aid station. Kapag nasaktan ka o nawala sa pamilya, sabihan ang security guard o rescuer."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: walk calmly, don't push, and follow the exit signs!",
+      "fil": "Tandaan: maglakad nang mahinahon, huwag manulak, at sundin ang exit sign!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "ap", "en": "Fiestas, processions, and why the Fire Code requires clear exits.", "fil": "Pista, prusisyon, at kung bakit itinatakda ng Fire Code ang malinaw na labasan." },
+    { "subject": "mapeh", "en": "Orderly lining up and exit drills in PE.", "fil": "Maayos na pagpila at exit drill sa PE." }
+  ]
+}

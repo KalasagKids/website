@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A pest infestation is when too many pests, like mosquitoes, rats, or cockroaches, live in or near your home. Some pests spread diseases.",
+      "fil": "Ang pagdami ng peste ay kapag sobrang dami ng peste, tulad ng lamok, daga, o ipis, sa loob o paligid ng bahay. May mga pesteng nagdadala ng sakit."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "Lots of mosquito bites, rat droppings, or chewed food packs. DOH warns about dengue and leptospirosis, especially in the rainy season.",
+      "fil": "Maraming kagat ng lamok, dumi ng daga, o ngatngat na balot ng pagkain. Nagbababala ang DOH tungkol sa dengue at leptospirosis, lalo na tuwing tag-ulan."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Keep food in covered containers and throw trash in the right bin. Help clean up places where water collects.",
+      "fil": "Ilagay ang pagkain sa lalagyang may takip at itapon ang basura sa tamang basurahan. Tumulong linisin ang mga lugar na naiipunan ng tubig."
+    },
+    "during": {
+      "sprite": "gear_on_full",
+      "en": "Do the 4T every day at 4 p.m.: Taob, Taktak, Tuyo, Takip! Turn over, tap out, dry, and cover anything that holds water.",
+      "fil": "Gawin ang 4T araw-araw tuwing alas-kwatro: Taob, Taktak, Tuyo, Takip! Itaob, itaktak, patuyuin, at takpan ang anumang naiipunan ng tubig."
+    },
+    "after": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Got a fever after mosquito bites or wading in floodwater? Tell an adult right away and see a doctor. Never touch rat traps or poison.",
+      "fil": "Nilagnat matapos makagat ng lamok o lumusong sa baha? Sabihan agad ang nakatatanda at magpatingin sa doktor. Huwag hawakan ang bitag o lason sa daga."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: Taob, Taktak, Tuyo, Takip — every day!",
+      "fil": "Tandaan: Taob, Taktak, Tuyo, Takip — araw-araw!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "Mosquito life cycles and diseases carried by pests.", "fil": "Life cycle ng lamok at mga sakit na dala ng peste." },
+    { "subject": "tle", "en": "Clean homes, covered food, and proper waste disposal.", "fil": "Malinis na bahay, may takip na pagkain, at tamang pagtatapon ng basura." }
+  ]
+}

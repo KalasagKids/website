@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "Community conflict is when people in a neighborhood argue, fight, or cause trouble. It can be a loud quarrel between neighbors or a bigger disturbance outside.",
+      "fil": "Ang gulo sa komunidad ay kapag nagtatalo, nag-aaway, o nagkakagulo ang mga tao sa isang lugar. Maaari itong malakas na away ng magkapitbahay o mas malaking kaguluhan sa labas."
+    },
+    "signs": {
+      "sprite": "pose_alert_geared",
+      "en": "Shouting, people running, loud bangs, or angry crowds gathering. Barangay officials or the police may tell everyone to stay indoors.",
+      "fil": "Sigawan, nagtatakbuhang tao, malalakas na putok, o nagkukumpulang galit na tao. Maaaring sabihan ng mga opisyal ng barangay o pulis ang lahat na manatili sa loob."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Know your parent's number and your trusted adults nearby. Learn the way home from school and a safe place to go, like a relative's house.",
+      "fil": "Alamin ang numero ng magulang at ang mga mapagkakatiwalaang nakatatanda sa malapit. Alamin ang daan pauwi mula sa paaralan at isang ligtas na mapupuntahan, tulad ng bahay ng kamag-anak."
+    },
+    "during": {
+      "sprite": "pose_closed_wings_geared",
+      "en": "Stay home and stay calm! Stay inside with your family, away from doors and windows. Don't go out to watch, take videos, or join in.",
+      "fil": "Manatili sa bahay at manatiling kalmado! Manatili sa loob kasama ang pamilya, malayo sa pinto at bintana. Huwag lumabas para manood, mag-video, o makisali."
+    },
+    "after": {
+      "sprite": "expr_wink_geared",
+      "en": "Go out only when adults say it's safe, and talk to a trusted adult about how you feel. Don't share rumors or videos online.",
+      "fil": "Lumabas lamang kapag sinabi ng nakatatanda na ligtas na, at kausapin ang mapagkakatiwalaang nakatatanda tungkol sa nararamdaman mo. Huwag magpakalat ng tsismis o video online."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: trouble outside? Stay home and stay calm!",
+      "fil": "Tandaan: may gulo sa labas? Manatili sa bahay at kumalma!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "ap", "en": "The barangay, the Lupong Tagapamayapa, and settling disputes peacefully.", "fil": "Ang barangay, ang Lupong Tagapamayapa, at mapayapang pag-aayos ng alitan." },
+    { "subject": "esp", "en": "Respect, peaceful talking, and helping neighbors get along.", "fil": "Paggalang, mapayapang pag-uusap, at pagtulong sa magkakapitbahay na magkasundo." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "Getting lost is when you are separated from your family in a busy place. Stranger danger means being careful with people you don't know.",
+      "fil": "Ang pagkawala ay kapag nahiwalay ka sa pamilya sa mataong lugar. Ang stranger danger ay ang pag-iingat sa mga taong hindi mo kilala."
+    },
+    "signs": {
+      "sprite": "prop_on_magnifier_geared",
+      "en": "You can't see your family anywhere. Or someone you don't know asks you to go with them, keep a secret, or says your parent sent them.",
+      "fil": "Hindi mo na makita ang iyong pamilya. O may taong hindi mo kilala na nagyayaya sa iyo, nagpapatago ng sikreto, o nagsasabing pinapunta siya ng magulang mo."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Memorize your full name, your parent's name and phone number, and your address. Agree on a meeting spot with your family in busy places.",
+      "fil": "Isaulo ang buong pangalan mo, ang pangalan at numero ng magulang, at ang inyong address. Magkasundo ng meeting spot kasama ang pamilya sa mataong lugar."
+    },
+    "during": {
+      "sprite": "expr_wink_geared",
+      "en": "Stay calm and find a trusted helper, like a worker with a name tag or a parent with kids. Say your name and parent's number. Never leave with a stranger.",
+      "fil": "Manatiling kalmado at humanap ng mapagkakatiwalaang tutulong, tulad ng empleyadong may name tag o magulang na may kasamang anak. Sabihin ang pangalan mo at numero ng magulang. Huwag sumama sa estranghero."
+    },
+    "after": {
+      "sprite": "pose_closed_wings_geared",
+      "en": "Once you're safe, tell your parents what happened, especially if a stranger talked to you. Feeling scared is okay, so talk to a trusted adult.",
+      "fil": "Kapag ligtas ka na, ikuwento sa magulang ang nangyari, lalo na kung may estrangherong kumausap sa iyo. Normal ang matakot, kaya kausapin ang mapagkakatiwalaang nakatatanda."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: stay calm, find a helper, and say your name!",
+      "fil": "Tandaan: manatiling kalmado, humanap ng tutulong, at sabihin ang pangalan mo!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "esp", "en": "Knowing your trusted adults and when to say no.", "fil": "Pagkilala sa mapagkakatiwalaang nakatatanda at kung kailan dapat tumanggi." },
+    { "subject": "english", "en": "Saying your name, address, and parent's number clearly.", "fil": "Malinaw na pagsasabi ng pangalan, address, at numero ng magulang." }
+  ]
+}

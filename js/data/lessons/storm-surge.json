@@ -1,0 +1,38 @@
+{
+  "beats": {
+    "what": {
+      "sprite": "pose_point_geared",
+      "en": "A storm surge is when strong typhoon winds push seawater onto the land. The sea rises higher than normal and floods the coast.",
+      "fil": "Ang daluyong ng bagyo ay kapag itinutulak ng malakas na hangin ng bagyo ang tubig-dagat papunta sa lupa. Tumataas ang dagat nang higit sa karaniwan at binabaha ang baybayin."
+    },
+    "signs": {
+      "sprite": "pose_alert_geared",
+      "en": "A strong typhoon coming near the coast, big waves, and the sea rising fast. PAGASA issues storm surge warnings along with typhoon updates.",
+      "fil": "Malakas na bagyong papalapit sa baybayin, malalaking alon, at mabilis na pagtaas ng dagat. Naglalabas ang PAGASA ng storm surge warning kasama ng ulat sa bagyo."
+    },
+    "before": {
+      "sprite": "prop_on_sign_geared",
+      "en": "Know the fastest way to high ground and your evacuation center. Help your family pack a Go Bag, and listen to PAGASA updates.",
+      "fil": "Alamin ang pinakamabilis na daan papunta sa mataas na lugar at ang evacuation center. Tulungan ang pamilya na maghanda ng Go Bag, at makinig sa ulat ng PAGASA."
+    },
+    "during": {
+      "sprite": "pose_run_flap_2_geared",
+      "en": "Move away from the shore! Evacuate to high ground as soon as barangay officials say so. Never stay to watch the waves.",
+      "fil": "Lumayo sa dalampasigan! Lumikas sa mataas na lugar sa oras na sabihin ng mga opisyal ng barangay. Huwag manatili para manood ng alon."
+    },
+    "after": {
+      "sprite": "pose_stop_wing_geared",
+      "en": "Only go home when officials say it's safe. Stay away from floodwater and fallen wires.",
+      "fil": "Umuwi lamang kapag sinabi ng mga opisyal na ligtas na. Lumayo sa baha at nahulog na kable."
+    },
+    "signoff": {
+      "sprite": "pose_run_flap_1_geared",
+      "en": "Remember: when the sea rises, move to high ground!",
+      "fil": "Tandaan: kapag tumataas ang dagat, pumunta sa mataas na lugar!"
+    }
+  },
+  "subjectLinks": [
+    { "subject": "science", "en": "How typhoon winds and low air pressure push the sea inland.", "fil": "Kung paano itinutulak ng hangin at mababang air pressure ng bagyo ang dagat papasok sa lupa." },
+    { "subject": "ap", "en": "Low-lying coastal areas and PAGASA storm surge warnings.", "fil": "Mabababang lugar sa baybayin at ang storm surge warning ng PAGASA." }
+  ]
+}

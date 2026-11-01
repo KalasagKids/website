@@ -1,9 +1,10 @@
 /**
  * courses.js — the Learn page. One page, two views:
  *   courses.html                 → catalog (Learning Journeys rows + All Hazards grid)
- *   courses.html?hazard=<id>     → hazard learning view (video gate, six beats,
+ *   courses.html?hazard=<id>     → hazard learning view (video gate, six beats, quiz,
  *                                  Mini-game section, safety poster, subject strip)
- * The Mini-game section's routes (#game, #play/<w>-<l>, #daily) belong to js/ui/game-host.js.
+ * The Mini-game section's routes (#game, #play/<w>-<l>, #daily) belong to js/ui/game-host.js,
+ * the quiz (#quiz) to js/ui/quiz.js.
  * An unknown or missing id falls back to the catalog.
  */
 
@@ -16,6 +17,7 @@ import { mountSaveButton } from "../ui/offline-ui.js";
 import * as offline from "../core/offline.js";
 import { loadGames } from "../core/games.js";
 import * as gameHost from "../ui/game-host.js";
+import * as quiz from "../ui/quiz.js";
 import { hazardCard, hazardIconImg, hazardUrl } from "../ui/hazard-card.js";
 
 const BEATS = ["what", "signs", "before", "during", "after", "signoff"];
@@ -273,6 +275,7 @@ async function renderHazardView(hazard, index) {
        <button type="button" class="btn btn--ghost save-offline" data-save-video hidden></button>`
     : `<button type="button" class="btn btn--ghost" disabled>${esc(t("learn.noVideo"))}</button>`;
   const watchedTag = state.hasWatchedVideo(hazard.id) ? `<span class="tag tag--done">✓ ${esc(t("learn.watched"))}</span>` : "";
+  const quizTag = () => (state.hasPassedQuiz(hazard.id) ? `<span class="tag tag--done">✓ ${esc(t("quiz.passedTag"))}</span>` : "");
 
   main().innerHTML = `
     <a class="back-link" href="courses.html">‹ ${esc(t("learn.backToAll"))}</a>
@@ -285,12 +288,14 @@ async function renderHazardView(hazard, index) {
           <div class="hazard-hero__tags">
             <span class="tag tag--cat">${esc(pick(category?.name))}</span>
             ${watchedTag}
+            <span data-quiz-tag>${quizTag()}</span>
           </div>
           <h1 class="hazard-hero__title">${esc(pick(hazard.name))}</h1>
           <p class="hazard-hero__blurb">${esc(pick(hazard.blurb))}</p>
         </div>
         <div class="hazard-hero__actions">
           ${watchBtn}
+          ${hazard.quizDataPath ? `<a class="btn btn--ghost" href="#quiz">❓ ${esc(t("learn.takeQuiz"))}</a>` : ""}
           ${hazard.game ? `<a class="btn btn--primary" href="#game">🎮 ${esc(t("learn.playGame"))}</a>` : ""}
         </div>
       </div>
@@ -300,6 +305,15 @@ async function renderHazardView(hazard, index) {
       <h2 class="section-title">${esc(t("learn.lessonTitle"))}</h2>
       ${beatsMarkup(lesson)}
     </section>
+
+    ${
+      hazard.quizDataPath
+        ? `<section class="section quiz-section" id="quiz" aria-labelledby="quiz-title">
+             <h2 class="section-title" id="quiz-title">❓ ${esc(t("quiz.title"))}</h2>
+             <div class="card quiz" data-category="${esc(hazard.category)}" data-quiz-slot></div>
+           </section>`
+        : ""
+    }
 
     ${
       hazard.game
@@ -329,11 +343,19 @@ async function renderHazardView(hazard, index) {
   const saveBtn = main().querySelector("[data-save-video]");
   if (saveBtn) mountSaveButton(saveBtn, hazard.video);
   main().querySelector("[data-print]")?.addEventListener("click", () => window.print());
-  if (location.hash === "#infographic") main().querySelector("#infographic")?.scrollIntoView();
+  if (location.hash === "#infographic" || location.hash === "#quiz") main().querySelector(location.hash)?.scrollIntoView();
   // Collections' print button opens the poster with ?print=1.
   if (new URLSearchParams(location.search).get("print") === "1" && lesson?.infographic && !printed) {
     printed = true;
     setTimeout(() => window.print(), 400);
+  }
+
+  const quizSlot = main().querySelector("[data-quiz-slot]");
+  if (quizSlot) {
+    quiz.attach(quizSlot, hazard, {
+      total: index.hazards.filter((h) => h.quizDataPath).length,
+      onPass: () => (main().querySelector("[data-quiz-tag]").innerHTML = quizTag()),
+    });
   }
 
   const slot = main().querySelector("[data-game-slot]");

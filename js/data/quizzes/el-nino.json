@@ -1,0 +1,314 @@
+{
+  "name": {
+    "en": "El Niño",
+    "fil": "El Niño"
+  },
+  "lessons": [
+    {
+      "en": "Save water every day and store it in clean, covered containers.",
+      "fil": "Magtipid ng tubig araw-araw at itago ito sa malinis at nakatakip na lalagyan."
+    },
+    {
+      "en": "Drink water often and avoid outdoor activity during the hottest hours.",
+      "fil": "Uminom ng tubig nang madalas at iwasan ang outdoor activities sa pinakamainit na oras."
+    },
+    {
+      "en": "Treat heat stroke as an emergency: get help, move to shade, and cool the person.",
+      "fil": "Ituring na emergency ang heat stroke: humingi ng tulong, ilipat sa lilim, at palamigin ang tao."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "In the Philippines, El Niño usually brings…",
+        "fil": "Sa Pilipinas, kadalasang nagdadala ang El Niño ng…"
+      },
+      "choices": [
+        {
+          "en": "Below-normal rainfall and hotter days",
+          "fil": "Mas kaunting ulan kaysa normal at mas mainit na araw"
+        },
+        {
+          "en": "Snow",
+          "fil": "Snow"
+        },
+        {
+          "en": "Only more typhoons and floods",
+          "fil": "Mas maraming bagyo at baha lang"
+        },
+        {
+          "en": "No change at all",
+          "fil": "Walang pagbabago"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Less rain can lead to dry spells, drought, and water shortages.",
+        "fil": "Ang mas kaunting ulan ay puwedeng humantong sa dry spell, tagtuyot, at kakulangan ng tubig."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What is the climate pattern opposite to El Niño, which often brings more rain to the Philippines?",
+        "fil": "Ano ang climate pattern na kabaligtaran ng El Niño, na kadalasang nagdadala ng mas maraming ulan sa Pilipinas?"
+      },
+      "show": {
+        "en": "La Niña",
+        "fil": "La Niña"
+      },
+      "accept": [
+        "la nina",
+        "La Niña"
+      ],
+      "explain": {
+        "en": "El Niño and La Niña are opposite phases of the same natural climate cycle.",
+        "fil": "Ang El Niño at La Niña ay magkabilang yugto ng iisang natural na climate cycle."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "El Niño is a type of typhoon.",
+        "fil": "Isang uri ng bagyo ang El Niño."
+      },
+      "answer": false,
+      "explain": {
+        "en": "El Niño is a climate pattern that lasts for months, not a single storm.",
+        "fil": "Ang El Niño ay climate pattern na tumatagal nang ilang buwan, hindi isang bagyo."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "Heat ____ is a medical emergency with a very high body temperature, confusion, or fainting.",
+        "fil": "Ang heat ____ ay medical emergency na may napakataas na temperatura ng katawan, pagkalito, o pagkahimatay."
+      },
+      "show": {
+        "en": "Stroke",
+        "fil": "Stroke"
+      },
+      "accept": [
+        "stroke"
+      ],
+      "explain": {
+        "en": "Heat stroke needs emergency care right away.",
+        "fil": "Kailangan agad ng emergency na tulong ang heat stroke."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each heat-related term with its description.",
+        "fil": "Itugma ang bawat heat-related na termino sa paglalarawan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Heat cramps",
+            "fil": "Heat cramps"
+          },
+          {
+            "en": "Painful muscle spasms during activity",
+            "fil": "Masakit na pulikat ng kalamnan habang kumikilos"
+          }
+        ],
+        [
+          {
+            "en": "Heat exhaustion",
+            "fil": "Heat exhaustion"
+          },
+          {
+            "en": "Heavy sweating, dizziness, and weakness",
+            "fil": "Matinding pagpapawis, pagkahilo, at panghihina"
+          }
+        ],
+        [
+          {
+            "en": "Heat stroke",
+            "fil": "Heat stroke"
+          },
+          {
+            "en": "Very high temperature and confusion; an emergency",
+            "fil": "Napakataas na temperatura at pagkalito; emergency"
+          }
+        ],
+        [
+          {
+            "en": "Oral rehydration solution",
+            "fil": "Oral rehydration solution (ORS)"
+          },
+          {
+            "en": "Replaces water and salts lost through sweating",
+            "fil": "Pamalit sa tubig at asin na nawala sa pagpapawis"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Spotting heat illness early can stop it from becoming heat stroke.",
+        "fil": "Kapag maagang nakilala ang heat illness, mapipigilan itong mauwi sa heat stroke."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 water-saving habits at home or school.",
+        "fil": "Magbigay ng 3 paraan ng pagtitipid ng tubig sa bahay o school."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "faucet",
+          "tap",
+          "turn off",
+          "gripo"
+        ],
+        [
+          "leak",
+          "fix",
+          "tagas",
+          "tulo"
+        ],
+        [
+          "glass",
+          "cup",
+          "brush",
+          "baso",
+          "sipilyo"
+        ],
+        [
+          "pail",
+          "bucket",
+          "hose",
+          "timba",
+          "balde"
+        ],
+        [
+          "reuse",
+          "recycle",
+          "rinse",
+          "banlaw",
+          "halaman",
+          "gamitin ulit"
+        ],
+        [
+          "short",
+          "bath",
+          "shower",
+          "ligo"
+        ],
+        [
+          "rain",
+          "harvest",
+          "ulan"
+        ]
+      ],
+      "show": {
+        "en": "turn off faucets when not in use, fix leaks, use a glass when brushing teeth, use a pail instead of a hose, reuse rinse water for plants, take shorter baths, collect rainwater",
+        "fil": "isara ang gripo kapag hindi ginagamit, ipaayos ang tagas (leak), gumamit ng baso kapag nagsisipilyo, gumamit ng timba sa halip na hose, gamitin ulit ang pinagbanlawan para sa halaman, bilisan ang paliligo, mag-ipon ng tubig-ulan"
+      },
+      "explain": {
+        "en": "Small daily habits stretch water supplies through long dry months.",
+        "fil": "Ang maliliit na gawi araw-araw ay nakakapagpatagal ng supply ng tubig sa mahabang tag-init."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "After a noontime game, a classmate becomes confused and collapses. What should you do?",
+        "fil": "Pagkatapos ng laro sa tanghaling-tapat, nalito at bumagsak ang kaklase mo. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Let them sleep it off alone",
+          "fil": "Hayaan siyang matulog nang mag-isa"
+        },
+        {
+          "en": "Call for adult help and 911, move them to shade, and cool them with water",
+          "fil": "Tumawag ng adult at 911, ilipat siya sa lilim, at palamigin siya gamit ang tubig"
+        },
+        {
+          "en": "Give them a hot drink",
+          "fil": "Bigyan siya ng mainit na inumin"
+        },
+        {
+          "en": "Tell them to keep playing",
+          "fil": "Sabihan siyang ituloy ang laro"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Confusion and collapse in the heat can mean heat stroke. Fast cooling and emergency help save lives.",
+        "fil": "Ang pagkalito at pagbagsak sa init ay puwedeng heat stroke. Ang mabilis na pagpapalamig at emergency na tulong ay nakakasagip ng buhay."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "A classmate feels sick in the heat. Arrange these first aid steps in order.",
+        "fil": "May kaklaseng nahihirapan dahil sa init. Ayusin ang mga hakbang sa first aid."
+      },
+      "steps": [
+        {
+          "en": "Notice the signs: dizziness, heavy sweating, or confusion",
+          "fil": "Pansinin ang mga senyales: pagkahilo, matinding pagpapawis, o pagkalito"
+        },
+        {
+          "en": "Call an adult for help",
+          "fil": "Tumawag ng adult para humingi ng tulong"
+        },
+        {
+          "en": "Move the person to a cool, shaded place",
+          "fil": "Ilipat ang tao sa malamig at may lilim na lugar"
+        },
+        {
+          "en": "Cool the skin with water or wet cloths",
+          "fil": "Palamigin ang balat gamit ang tubig o basang tela"
+        },
+        {
+          "en": "Give sips of water if the person is awake and alert",
+          "fil": "Painumin nang paunti-unti kung gising at alerto siya"
+        }
+      ],
+      "explain": {
+        "en": "Get help first, then cool the person. Never give drinks to someone who is not fully awake.",
+        "fil": "Humingi muna ng tulong, saka palamigin ang tao. Huwag painumin ang taong hindi lubos na gising."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "During a long dry spell, you see smoke from a grass fire spreading toward houses near your school.",
+        "fil": "Habang mahaba ang dry spell, may nakita kang usok mula sa sunog sa damuhan na kumakalat papunta sa mga bahay malapit sa school ninyo."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Try to beat out the fire alone",
+          "fil": "Subukang patayin ang apoy nang mag-isa"
+        },
+        {
+          "en": "Move away from the smoke and tell adults right away so they can call the fire department or 911",
+          "fil": "Lumayo sa usok at sabihan agad ang mga adult para matawagan ang bumbero o 911"
+        },
+        {
+          "en": "Go closer to take a video",
+          "fil": "Lumapit para kumuha ng video"
+        },
+        {
+          "en": "Ignore it",
+          "fil": "Balewalain ito"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Dry grass lets fires spread very fast. Get away and alert adults.",
+        "fil": "Mabilis kumalat ang apoy sa tuyong damo. Lumayo at sabihan ang mga adult."
+      }
+    }
+  ]
+}

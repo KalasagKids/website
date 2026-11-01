@@ -15,8 +15,6 @@
  */
 
 const PREFIX = "kalasag:";
-const HEARTS_PER_ROUND = 3;
-const HURDLE_ORDER = ["locked", "encountered", "cleared"];
 const SETTINGS_KEYS = ["lang", "theme", "sound"]; // survive "Reset my progress"
 
 const memory = { local: new Map(), session: new Map() };
@@ -94,7 +92,7 @@ export function getStreak() {
   return streak;
 }
 
-/** Call on real engagement (finishing a video, lesson, or game round). */
+/** Call on real engagement (finishing a video, quiz, or game round). */
 export function bumpStreakIfNewDay() {
   const today = todayStamp();
   const current = getStreak();
@@ -102,23 +100,6 @@ export function bumpStreakIfNewDay() {
   const next = { count: current.count + 1, lastVisitDate: today };
   write("local", "streak", next);
   return next;
-}
-
-// ---------- Hearts (in memory only: reset every lesson/round) ----------
-let hearts = HEARTS_PER_ROUND;
-
-export function getHearts() {
-  return hearts;
-}
-
-export function loseHeart() {
-  hearts = Math.max(0, hearts - 1);
-  return hearts;
-}
-
-export function resetHearts(count = HEARTS_PER_ROUND) {
-  hearts = count;
-  return hearts;
 }
 
 // ---------- Hazards explored (this session) ----------
@@ -189,31 +170,23 @@ export function getWatchedCount() {
   return countTrue(read("local", "videosWatched", {}));
 }
 
-// ---------- Story Mode hurdles (Story Mode itself is built last) ----------
-export function getHurdleStatus(hazardId) {
-  return read("local", "hurdles", {})[hazardId] || "locked";
+// ---------- Quizzes ----------
+// The hazards whose quiz was passed (3 out of 3). A pass is kept for good; quizzes give no XP.
+export function hasPassedQuiz(hazardId) {
+  return Boolean(read("local", "quizzes", {})[hazardId]);
 }
 
-/** Status only ever moves forward: locked → encountered → cleared. */
-export function setHurdleStatus(hazardId, status) {
-  if (!HURDLE_ORDER.includes(status)) return;
-  const hurdles = read("local", "hurdles", {});
-  const current = hurdles[hazardId] || "locked";
-  if (HURDLE_ORDER.indexOf(status) <= HURDLE_ORDER.indexOf(current)) return;
-  hurdles[hazardId] = status;
-  write("local", "hurdles", hurdles);
+/** Returns true the first time a hazard's quiz is passed. */
+export function markQuizPassed(hazardId) {
+  const passed = read("local", "quizzes", {});
+  if (passed[hazardId]) return false;
+  passed[hazardId] = true;
+  write("local", "quizzes", passed);
+  return true;
 }
 
-export function getShieldPieces() {
-  return Object.values(read("local", "hurdles", {})).filter((s) => s === "cleared").length;
-}
-
-export function getCurrentStage() {
-  return read("local", "storyStage", 1);
-}
-
-export function isUnlocked(hazardId) {
-  return getHurdleStatus(hazardId) !== "locked";
+export function getPassedQuizCount() {
+  return countTrue(read("local", "quizzes", {}));
 }
 
 // ---------- Mini-games ----------
@@ -319,6 +292,5 @@ export function resetAllProgress() {
       if (!SETTINGS_KEYS.includes(key)) memory[where].delete(key);
     }
   }
-  resetHearts();
   window.dispatchEvent(new CustomEvent("kalasag:statechange", { detail: { key: "*" } }));
 }

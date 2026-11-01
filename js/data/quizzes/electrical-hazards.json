@@ -1,0 +1,314 @@
+{
+  "name": {
+    "en": "Electrical and Power Line Hazards",
+    "fil": "Electrical and Power Line Hazards (Panganib sa Kuryente at Linya ng Kuryente)"
+  },
+  "lessons": [
+    {
+      "en": "Stay far away from fallen power lines and water near them, and report them.",
+      "fil": "Lumayo nang malayo sa natumbang linya ng kuryente at sa tubig na malapit dito, at i-report ito."
+    },
+    {
+      "en": "Never touch someone being shocked; an adult must cut the power first.",
+      "fil": "Huwag hawakan ang taong nakukuryente; dapat munang patayin ng adult ang kuryente."
+    },
+    {
+      "en": "Keep hands dry, avoid overloading outlets, and replace damaged cords.",
+      "fil": "Panatilihing tuyo ang kamay, huwag i-overload ang saksakan, at palitan ang sirang kordon."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which material is a good electrical insulator?",
+        "fil": "Aling materyal ang magandang electrical insulator?"
+      },
+      "choices": [
+        {
+          "en": "Rubber",
+          "fil": "Goma (rubber)"
+        },
+        {
+          "en": "Copper",
+          "fil": "Tanso (copper)"
+        },
+        {
+          "en": "Water",
+          "fil": "Tubig"
+        },
+        {
+          "en": "Iron",
+          "fil": "Bakal"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Rubber and plastic block electricity. Metals and water conduct it.",
+        "fil": "Hinaharangan ng goma at plastic ang kuryente. Dinadaluyan naman ng kuryente ang metal at tubig."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What device in a home's electrical panel automatically cuts power when a circuit is overloaded?",
+        "fil": "Anong device sa electrical panel ng bahay ang kusang pumapatay ng kuryente kapag overloaded ang circuit?"
+      },
+      "show": {
+        "en": "Circuit breaker",
+        "fil": "Circuit breaker"
+      },
+      "accept": [
+        "circuit breaker",
+        "breaker"
+      ],
+      "explain": {
+        "en": "A breaker that trips often is a sign the circuit needs an electrician.",
+        "fil": "Kapag madalas mag-trip ang breaker, senyales ito na kailangang ipatingin sa electrician ang circuit."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Birds sit on power lines, so the lines are safe for people to touch.",
+        "fil": "Dahil nakakadapo ang mga ibon sa linya ng kuryente, ligtas din itong hawakan ng tao."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Birds touch only one wire. A person touching a line while also touching the ground, a pole, or a ladder can be electrocuted.",
+        "fil": "Isang kable lang ang hinahawakan ng ibon. Ang taong humawak sa linya habang nakadikit sa lupa, poste, o hagdan ay puwedeng makuryente nang malubha."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "Stay at least about ____ meters away from a fallen power line.",
+        "fil": "Lumayo nang hindi bababa sa mga ____ metro mula sa natumbang linya ng kuryente."
+      },
+      "show": {
+        "en": "10",
+        "fil": "10 (sampu)"
+      },
+      "accept": [
+        "10",
+        "ten",
+        "10 (sampu)",
+        "sampu"
+      ],
+      "explain": {
+        "en": "The line and the ground around it can carry electricity.",
+        "fil": "Puwedeng may kuryente ang linya at ang lupa sa paligid nito."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each electrical term with its meaning.",
+        "fil": "Itugma ang bawat electrical term sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Conductor",
+            "fil": "Conductor"
+          },
+          {
+            "en": "Lets electricity flow easily",
+            "fil": "Hinahayaang dumaloy nang madali ang kuryente"
+          }
+        ],
+        [
+          {
+            "en": "Insulator",
+            "fil": "Insulator"
+          },
+          {
+            "en": "Blocks the flow of electricity",
+            "fil": "Hinaharangan ang daloy ng kuryente"
+          }
+        ],
+        [
+          {
+            "en": "Electrocution",
+            "fil": "Electrocution"
+          },
+          {
+            "en": "Death caused by electric shock",
+            "fil": "Pagkamatay dahil sa pagkakuryente"
+          }
+        ],
+        [
+          {
+            "en": "Surge protector",
+            "fil": "Surge protector"
+          },
+          {
+            "en": "Protects appliances from power surges",
+            "fil": "Pinoprotektahan ang mga appliance sa biglang lakas ng kuryente"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "These terms explain why safety devices and insulated tools matter.",
+        "fil": "Ipinapaliwanag ng mga terminong ito kung bakit mahalaga ang safety devices at insulated na gamit."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 warning signs of electrical problems at home.",
+        "fil": "Magbigay ng 3 babala na may problema sa kuryente sa bahay."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "flicker",
+          "kurap",
+          "kisap"
+        ],
+        [
+          "warm",
+          "hot",
+          "init"
+        ],
+        [
+          "smell",
+          "burn",
+          "amoy",
+          "sunog"
+        ],
+        [
+          "spark",
+          "kislap"
+        ],
+        [
+          "buzz",
+          "crackl",
+          "ugong"
+        ],
+        [
+          "trip",
+          "breaker"
+        ],
+        [
+          "fray",
+          "cord",
+          "exposed wire",
+          "kordon",
+          "kawad",
+          "gasgas",
+          "punit"
+        ],
+        [
+          "shock",
+          "kuryente"
+        ]
+      ],
+      "show": {
+        "en": "flickering lights, warm outlets, burning smell, sparks, buzzing sounds, breakers that trip often, frayed cords, mild shocks from appliances",
+        "fil": "kumukurap na ilaw, mainit na saksakan, amoy-sunog, kislap o spark, bumubuzz na tunog, madalas mag-trip ang breaker, gasgas o sirang kordon, nakukuryente nang bahagya sa appliance"
+      },
+      "explain": {
+        "en": "Report these to an adult so a licensed electrician can check the wiring.",
+        "fil": "I-report ang mga ito sa adult para maipatingin sa licensed na electrician ang wiring."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "A classmate collapses after touching an exposed wire, and the wire is still touching him. What should you do?",
+        "fil": "Bumagsak ang kaklase mo matapos humawak sa nakalantad na kable, at nakadikit pa rin sa kanya ang kable. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Pull him away with your bare hands",
+          "fil": "Hilahin siya gamit ang kamay mo"
+        },
+        {
+          "en": "Do not touch him; shout for an adult to cut the power at the main switch and call 911",
+          "fil": "Huwag siyang hawakan; sumigaw para ipapatay ng adult ang kuryente sa main switch at tumawag sa 911"
+        },
+        {
+          "en": "Pour water on him",
+          "fil": "Buhusan siya ng tubig"
+        },
+        {
+          "en": "Wait to see if he wakes up",
+          "fil": "Hintayin kung magigising siya"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Touching him can pass the current to you. Cut the power first, then adults can give first aid.",
+        "fil": "Kapag hinawakan mo siya, puwedeng ikaw rin ang makuryente. Patayin muna ang kuryente, saka magbibigay ng first aid ang mga adult."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the steps for unplugging an appliance safely.",
+        "fil": "Ayusin ang mga hakbang sa ligtas na pagbunot ng appliance."
+      },
+      "steps": [
+        {
+          "en": "Make sure your hands are completely dry",
+          "fil": "Siguraduhing tuyong-tuyo ang kamay mo"
+        },
+        {
+          "en": "Check that you are not standing in water",
+          "fil": "Tingnan na hindi ka nakatayo sa tubig"
+        },
+        {
+          "en": "Switch the appliance off",
+          "fil": "I-off ang appliance"
+        },
+        {
+          "en": "Hold the plug itself, not the cord",
+          "fil": "Hawakan ang plug mismo, hindi ang kordon"
+        },
+        {
+          "en": "Pull the plug straight out of the outlet",
+          "fil": "Hilahin nang diretso ang plug mula sa saksakan"
+        }
+      ],
+      "explain": {
+        "en": "Dry hands and a dry floor prevent shocks, and pulling the cord can damage it.",
+        "fil": "Naiiwasan ang pagkakuryente kapag tuyo ang kamay at sahig, at nasisira ang kordon kapag ito ang hinila."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Your kite is tangled on a power line beside the basketball court.",
+        "fil": "Sumabit ang saranggola mo sa linya ng kuryente sa tabi ng basketball court."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Pull the string hard",
+          "fil": "Hilahin nang malakas ang tali"
+        },
+        {
+          "en": "Leave it there and tell an adult to report it to the electric utility",
+          "fil": "Hayaan ito at sabihan ang adult na i-report sa electric utility"
+        },
+        {
+          "en": "Climb the pole to get it",
+          "fil": "Akyatin ang poste para kunin ito"
+        },
+        {
+          "en": "Knock it down with a metal pole",
+          "fil": "Sungkitin gamit ang metal na tubo"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Kites, strings, and poles can carry electricity. Never try to pull a kite off a power line.",
+        "fil": "Puwedeng daluyan ng kuryente ang saranggola, tali, at tubo. Huwag subukang hilahin ang saranggola mula sa linya ng kuryente."
+      }
+    }
+  ]
+}

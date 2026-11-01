@@ -1,0 +1,327 @@
+{
+  "name": {
+    "en": "Oil Spill and Chemical Spill",
+    "fil": "Oil Spill and Chemical Spill (Tagas ng Langis at Kemikal)"
+  },
+  "lessons": [
+    {
+      "en": "Never touch, smell, or taste an unknown spilled substance.",
+      "fil": "Huwag hawakan, amuyin, o tikman ang hindi kilalang natapong substance."
+    },
+    {
+      "en": "Move away upwind and uphill, and tell an adult to call 911 or the barangay.",
+      "fil": "Lumayo papunta sa direksyong pinanggagalingan ng hangin (upwind) at sa mataas na lugar, at ipatawag sa adult ang 911 o ang barangay."
+    },
+    {
+      "en": "Follow official advisories on swimming, fishing, and sheltering in place.",
+      "fil": "Sundin ang official advisories tungkol sa paglangoy, pangingisda, at shelter in place."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which agency leads the response to oil spills at sea in the Philippines?",
+        "fil": "Aling ahensya ang nangunguna sa pagresponde sa oil spill sa dagat sa Pilipinas?"
+      },
+      "choices": [
+        {
+          "en": "Philippine Coast Guard",
+          "fil": "Philippine Coast Guard"
+        },
+        {
+          "en": "PAGASA",
+          "fil": "PAGASA"
+        },
+        {
+          "en": "LTO",
+          "fil": "LTO"
+        },
+        {
+          "en": "PHIVOLCS",
+          "fil": "PHIVOLCS"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The PCG contains and cleans marine spills, as it did after the 2023 MT Princess Empress sinking.",
+        "fil": "Ang PCG ang nagko-contain at naglilinis ng oil spill sa dagat, tulad noong lumubog ang MT Princess Empress noong 2023."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call staying indoors with windows and doors closed and gaps sealed during a chemical release?",
+        "fil": "Ano ang tawag sa pananatili sa loob ng bahay na sarado ang pinto at bintana at natatakpan ang mga siwang habang may chemical release?"
+      },
+      "show": {
+        "en": "Shelter in place",
+        "fil": "Shelter in place"
+      },
+      "accept": [
+        "shelter in place",
+        "sheltering in place"
+      ],
+      "explain": {
+        "en": "When going outside is more dangerous, sealing a room keeps fumes out.",
+        "fil": "Kapag mas delikado ang lumabas, ang pagsasara ng kuwarto ang naglalayo sa usok o fumes."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Mixing bleach with other cleaning products can release toxic gas.",
+        "fil": "Ang paghahalo ng bleach sa ibang panlinis ay puwedeng maglabas ng nakalalasong gas."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Never mix cleaning products. Some combinations give off harmful gases.",
+        "fil": "Huwag paghaluin ang mga panlinis. May mga kombinasyong naglalabas ng mapanganib na gas."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "To rinse a chemical splash from the eyes, use clean ____ water for about 15 to 20 minutes.",
+        "fil": "Para banlawan ang kemikal na tumalsik sa mata, gumamit ng malinis na ____ na tubig nang mga 15 hanggang 20 minuto."
+      },
+      "show": {
+        "en": "Running",
+        "fil": "Umaagos (running)"
+      },
+      "accept": [
+        "running",
+        "flowing",
+        "Umaagos (running)",
+        "Umaagos"
+      ],
+      "explain": {
+        "en": "Rinse well, then get medical help.",
+        "fil": "Banlawan nang mabuti, saka magpatingin sa doktor."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each hazard symbol with its meaning.",
+        "fil": "Itugma ang bawat hazard symbol sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Flame",
+            "fil": "Apoy (flame)"
+          },
+          {
+            "en": "Catches fire easily",
+            "fil": "Madaling magliyab (flammable)"
+          }
+        ],
+        [
+          {
+            "en": "Skull and crossbones",
+            "fil": "Bungo at buto (skull and crossbones)"
+          },
+          {
+            "en": "Poisonous",
+            "fil": "Nakalalason (toxic)"
+          }
+        ],
+        [
+          {
+            "en": "Liquid dripping onto a hand and metal",
+            "fil": "Likidong tumutulo sa kamay at metal"
+          },
+          {
+            "en": "Can burn skin or damage metal",
+            "fil": "Nakakapaso ng balat o nakakasira ng metal (corrosive)"
+          }
+        ],
+        [
+          {
+            "en": "Dead tree and fish",
+            "fil": "Patay na puno at isda"
+          },
+          {
+            "en": "Harmful to the environment",
+            "fil": "Nakakasama sa kalikasan"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Hazard symbols warn you before you touch or open anything.",
+        "fil": "Binabalaan ka ng hazard symbols bago mo pa hawakan o buksan ang anumang lalagyan."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 signs that oil or a chemical may have spilled nearby.",
+        "fil": "Magbigay ng 3 senyales na may natapong langis o kemikal sa malapit."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "film",
+          "sheen",
+          "rainbow",
+          "shiny",
+          "kintab",
+          "bahaghari"
+        ],
+        [
+          "black",
+          "sticky",
+          "tar",
+          "itim",
+          "malagkit"
+        ],
+        [
+          "smell",
+          "odor",
+          "odour",
+          "amoy",
+          "baho"
+        ],
+        [
+          "dead",
+          "fish",
+          "bird",
+          "patay",
+          "isda",
+          "ibon"
+        ],
+        [
+          "vapor",
+          "vapour",
+          "cloud",
+          "fume",
+          "ulap",
+          "usok",
+          "singaw"
+        ],
+        [
+          "eye",
+          "sting",
+          "cough",
+          "itch",
+          "mata",
+          "hapdi",
+          "ubo"
+        ],
+        [
+          "leak",
+          "truck",
+          "drum",
+          "tanker",
+          "tagas"
+        ]
+      ],
+      "show": {
+        "en": "rainbow or shiny film on water, black sticky substance on the shore, strong or unusual smell, dead fish or oiled birds, a vapor cloud, stinging eyes or coughing, a leaking truck or container",
+        "fil": "makintab o kulay-bahagharing patong sa tubig, itim at malagkit na substance sa dalampasigan, matapang o kakaibang amoy, patay na isda o ibong nabalot ng langis, ulap ng vapor, mahapdi ang mata o inuubo, tumatagas na truck o lalagyan"
+      },
+      "explain": {
+        "en": "Unusual sights or smells mean move away and tell an adult.",
+        "fil": "Kapag may kakaibang nakikita o naaamoy, lumayo at sabihan ang adult."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "Your little sister drinks from a bottle that turns out to hold a cleaning liquid. What should you do?",
+        "fil": "Nakainom ang nakababata mong kapatid mula sa bote na may laman palang panlinis. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Make her vomit right away",
+          "fil": "Pasukahin agad siya"
+        },
+        {
+          "en": "Tell an adult at once, call 911 or a poison control center, and bring the bottle",
+          "fil": "Sabihan agad ang adult, tumawag sa 911 o sa poison control center, at dalhin ang bote"
+        },
+        {
+          "en": "Give her soda to wash it down",
+          "fil": "Painumin siya ng softdrinks"
+        },
+        {
+          "en": "Wait to see if she feels sick",
+          "fil": "Hintayin kung sasama ang pakiramdam niya"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Fast expert advice matters. Do not make her vomit unless a health professional says so.",
+        "fil": "Mahalaga ang mabilis na payo ng eksperto. Huwag siyang pasukahin maliban kung sabihin ng health professional."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "You smell a strong chemical odor outside. Arrange these steps in order.",
+        "fil": "May naamoy kang matapang na amoy ng kemikal sa labas. Ayusin ang mga hakbang."
+      },
+      "steps": [
+        {
+          "en": "Notice the strong chemical smell",
+          "fil": "Mapansin ang matapang na amoy ng kemikal"
+        },
+        {
+          "en": "Move away from it, upwind and uphill",
+          "fil": "Lumayo rito, papunta sa pinanggagalingan ng hangin (upwind) at sa mataas na lugar"
+        },
+        {
+          "en": "Warn people nearby to stay back",
+          "fil": "Bigyang-babala ang mga tao sa paligid na lumayo"
+        },
+        {
+          "en": "Tell an adult so they can call 911 or the barangay",
+          "fil": "Sabihan ang adult para matawagan ang 911 o ang barangay"
+        },
+        {
+          "en": "Follow official instructions to shelter in place or evacuate",
+          "fil": "Sundin ang official na instructions na mag-shelter in place o lumikas"
+        }
+      ],
+      "explain": {
+        "en": "Fumes travel with the wind, and many settle in low places.",
+        "fil": "Tinatangay ng hangin ang fumes, at marami sa mga ito ang naiipon sa mababang lugar."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "At the beach, you find black, sticky lumps on the sand and a rainbow-colored sheen on the water. Children nearby are collecting shellfish.",
+        "fil": "Sa beach, may nakita kang itim at malagkit na tipak sa buhangin at makintab na kulay-bahaghari sa tubig. May mga batang namumulot ng shellfish sa malapit."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Collect shellfish too",
+          "fil": "Mamulot din ng shellfish"
+        },
+        {
+          "en": "Do not touch it, stay out of the water, and tell an adult to report it to the barangay or Coast Guard",
+          "fil": "Huwag itong hawakan, lumayo sa tubig, at sabihan ang adult na i-report sa barangay o Coast Guard"
+        },
+        {
+          "en": "Wash the lumps off with your hands",
+          "fil": "Hugasan ang mga tipak gamit ang kamay"
+        },
+        {
+          "en": "Go for a swim",
+          "fil": "Lumangoy"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Oil can irritate skin, and seafood from the area may be contaminated.",
+        "fil": "Nakakairita sa balat ang langis, at puwedeng kontaminado ang seafood mula sa lugar."
+      }
+    }
+  ]
+}

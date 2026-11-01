@@ -1,0 +1,332 @@
+{
+  "name": {
+    "en": "Road and Traffic Accidents",
+    "fil": "Road and Traffic Accidents (Aksidente sa Daan)"
+  },
+  "lessons": [
+    {
+      "en": "Cross only at pedestrian lanes or overpasses, and look left, right, and left again.",
+      "fil": "Tumawid lang sa pedestrian lane o overpass, at tumingin sa kaliwa, kanan, at kaliwa ulit."
+    },
+    {
+      "en": "Always wear a seatbelt or a standard helmet.",
+      "fil": "Laging magsuot ng seatbelt o standard na helmet."
+    },
+    {
+      "en": "Never ride with a driver who has been drinking, and call 911 if you see a crash.",
+      "fil": "Huwag sumakay sa driver na nakainom, at tumawag sa 911 kapag may nakitang aksidente."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "What does a yellow traffic light mean?",
+        "fil": "Ano ang ibig sabihin ng yellow na traffic light?"
+      },
+      "choices": [
+        {
+          "en": "Speed up",
+          "fil": "Bilisan"
+        },
+        {
+          "en": "Prepare to stop",
+          "fil": "Maghandang huminto"
+        },
+        {
+          "en": "Park",
+          "fil": "Mag-park"
+        },
+        {
+          "en": "Turn around",
+          "fil": "Umikot pabalik"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Yellow warns that the light will soon turn red.",
+        "fil": "Babala ang yellow na malapit nang mag-red ang ilaw."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Name the government office that issues driver's licenses and registers vehicles.",
+        "fil": "Ano ang opisina ng gobyerno na nagbibigay ng driver's license at nagre-register ng mga sasakyan?"
+      },
+      "show": {
+        "en": "Land Transportation Office (LTO)",
+        "fil": "Land Transportation Office (LTO)"
+      },
+      "accept": [
+        "land transportation office",
+        "lto",
+        "Land Transportation Office (LTO)"
+      ],
+      "explain": {
+        "en": "The LTO also enforces many road safety laws.",
+        "fil": "Ipinapatupad din ng LTO ang maraming batas sa kaligtasan sa daan."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Seatbelts are needed even on short trips.",
+        "fil": "Kailangan ang seatbelt kahit maikli lang ang biyahe."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Many crashes happen close to home. RA 8750 requires seatbelt use.",
+        "fil": "Maraming aksidente ang nangyayari malapit lang sa bahay. Nire-require ng RA 8750 ang paggamit ng seatbelt."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "When there is no sidewalk, walk on the side of the road ____ oncoming traffic.",
+        "fil": "Kapag walang sidewalk, maglakad sa gilid ng daan na ____ sa paparating na sasakyan."
+      },
+      "show": {
+        "en": "Facing",
+        "fil": "Nakaharap (facing)"
+      },
+      "accept": [
+        "facing",
+        "against",
+        "toward",
+        "towards",
+        "Nakaharap (facing)",
+        "Nakaharap"
+      ],
+      "explain": {
+        "en": "Facing traffic lets you see vehicles coming and step aside.",
+        "fil": "Kapag nakaharap ka sa traffic, nakikita mo ang paparating na sasakyan at makakatabi ka agad."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each Philippine road safety law with its focus.",
+        "fil": "Itugma ang bawat batas sa kaligtasan sa daan sa pokus nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "RA 8750",
+            "fil": "RA 8750"
+          },
+          {
+            "en": "Seat Belts Use Act",
+            "fil": "Seat Belts Use Act"
+          }
+        ],
+        [
+          {
+            "en": "RA 10054",
+            "fil": "RA 10054"
+          },
+          {
+            "en": "Motorcycle Helmet Act",
+            "fil": "Motorcycle Helmet Act"
+          }
+        ],
+        [
+          {
+            "en": "RA 10913",
+            "fil": "RA 10913"
+          },
+          {
+            "en": "Anti-Distracted Driving Act",
+            "fil": "Anti-Distracted Driving Act"
+          }
+        ],
+        [
+          {
+            "en": "RA 11229",
+            "fil": "RA 11229"
+          },
+          {
+            "en": "Child Safety in Motor Vehicles Act",
+            "fil": "Child Safety in Motor Vehicles Act"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "These laws target the biggest risks on Philippine roads.",
+        "fil": "Tinutugunan ng mga batas na ito ang pinakamalalaking panganib sa mga daan sa Pilipinas."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 common causes of road crashes.",
+        "fil": "Magbigay ng 3 karaniwang sanhi ng aksidente sa daan."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "speed",
+          "bilis"
+        ],
+        [
+          "phone",
+          "distract",
+          "text",
+          "cellphone",
+          "selpon"
+        ],
+        [
+          "drunk",
+          "alcohol",
+          "drink",
+          "lasing",
+          "nakainom",
+          "alak"
+        ],
+        [
+          "sign",
+          "signal",
+          "red light",
+          "rule",
+          "batas",
+          "traffic"
+        ],
+        [
+          "overtak"
+        ],
+        [
+          "sleep",
+          "drowsy",
+          "tired",
+          "antok",
+          "puyat"
+        ],
+        [
+          "brake",
+          "tire",
+          "maintenance",
+          "preno",
+          "gulong"
+        ],
+        [
+          "cross",
+          "jaywalk",
+          "tawid"
+        ],
+        [
+          "rain",
+          "weather",
+          "fog",
+          "ulan",
+          "panahon",
+          "bagyo"
+        ]
+      ],
+      "show": {
+        "en": "speeding, distracted driving, drunk driving, ignoring traffic signs, reckless overtaking, drowsy driving, poor vehicle maintenance, unsafe crossing, bad weather",
+        "fil": "sobrang bilis, paggamit ng phone habang nagmamaneho, pagmamaneho nang nakainom, hindi pagsunod sa traffic signs, delikadong pag-overtake, pagmamaneho nang inaantok, sirang preno o gulong, maling pagtawid, masamang panahon"
+      },
+      "explain": {
+        "en": "Most crashes are caused by human choices, which means they can be prevented.",
+        "fil": "Karamihan ng aksidente ay dahil sa desisyon ng tao, kaya puwede itong maiwasan."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "After a party, your uncle has been drinking and offers to drive you home. What should you do?",
+        "fil": "Pagkatapos ng party, nakainom ang tito mo at nag-alok siyang ihatid ka pauwi. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Ride with him",
+          "fil": "Sumakay sa kanya"
+        },
+        {
+          "en": "Politely refuse and call a parent or another sober adult",
+          "fil": "Magalang na tumanggi at tumawag sa magulang o ibang adult na hindi nakainom"
+        },
+        {
+          "en": "Drive the car yourself",
+          "fil": "Ikaw na lang ang magmaneho"
+        },
+        {
+          "en": "Ask him to drive faster to get home sooner",
+          "fil": "Pakiusapan siyang bilisan para mabilis makauwi"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Drunk driving is illegal under RA 10586 and very dangerous.",
+        "fil": "Bawal ang drunk driving ayon sa RA 10586, at napakadelikado nito."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the steps for crossing the road safely.",
+        "fil": "Ayusin ang mga hakbang sa ligtas na pagtawid."
+      },
+      "steps": [
+        {
+          "en": "Stop at the curb or pedestrian lane",
+          "fil": "Huminto sa gilid ng daan o pedestrian lane"
+        },
+        {
+          "en": "Look left, right, and left again",
+          "fil": "Tumingin sa kaliwa, kanan, at kaliwa ulit"
+        },
+        {
+          "en": "Listen for approaching vehicles",
+          "fil": "Pakinggan kung may paparating na sasakyan"
+        },
+        {
+          "en": "Wait until the road is clear or the signal says walk",
+          "fil": "Maghintay hanggang walang sasakyan o hanggang mag-walk ang signal"
+        },
+        {
+          "en": "Walk straight across, still watching for vehicles",
+          "fil": "Tumawid nang diretso habang patuloy na nagbabantay sa sasakyan"
+        }
+      ],
+      "explain": {
+        "en": "Stopping and checking gives you time to judge traffic before you step out.",
+        "fil": "Ang paghinto at pagtingin ay nagbibigay ng oras para matantiya ang traffic bago ka tumawid."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "A tricycle driver offers to take five students home at once, with two of you sitting on the roof.",
+        "fil": "Nag-alok ang isang tricycle driver na isakay nang sabay ang limang estudyante, at dalawa sa inyo ay uupo sa bubong."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Climb onto the roof",
+          "fil": "Umakyat sa bubong"
+        },
+        {
+          "en": "Decline and wait for a safer ride",
+          "fil": "Tumanggi at maghintay ng mas ligtas na sakay"
+        },
+        {
+          "en": "Sit on the edge of the seat",
+          "fil": "Umupo sa gilid ng upuan"
+        },
+        {
+          "en": "Hang on at the back",
+          "fil": "Kumapit sa likod"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Overloading and riding on the roof are illegal and can cause serious falls.",
+        "fil": "Bawal at delikado ang overloading at pagsakay sa bubong; puwede kang mahulog at masaktan nang malubha."
+      }
+    }
+  ]
+}

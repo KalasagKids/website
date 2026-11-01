@@ -40,9 +40,7 @@
       "lesson": "js/data/lessons/earthquake.json",
       "quizDataPath": "js/data/quizzes/earthquake.json",
       "game": "drop-cover-hold",
-      "subjects": ["science", "ap", "mapeh"],
-      "storyStage": 5,
-      "storyOrder": 1
+      "subjects": ["science", "ap", "mapeh"]
     },
     {
       "id": "volcanic-eruption",
@@ -56,9 +54,7 @@
       "lesson": "js/data/lessons/volcanic-eruption.json",
       "quizDataPath": "js/data/quizzes/volcanic-eruption.json",
       "game": "ashfall",
-      "subjects": ["science", "ap"],
-      "storyStage": 5,
-      "storyOrder": 4
+      "subjects": ["science", "ap"]
     },
     {
       "id": "tsunami",
@@ -72,9 +68,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/tsunami.json",
       "game": "wave-runner",
-      "subjects": ["science", "ap"],
-      "storyStage": 5,
-      "storyOrder": 3
+      "subjects": ["science", "ap"]
     },
     {
       "id": "landslide",
@@ -88,9 +82,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/landslide.json",
       "game": "slope-defense",
-      "subjects": ["science", "ap"],
-      "storyStage": 5,
-      "storyOrder": 2
+      "subjects": ["science", "ap"]
     },
 
     {
@@ -105,9 +97,7 @@
       "lesson": "js/data/lessons/typhoon.json",
       "quizDataPath": "js/data/quizzes/typhoon.json",
       "game": "go-bag-tetris",
-      "subjects": ["science", "ap", "tle"],
-      "storyStage": 4,
-      "storyOrder": 1
+      "subjects": ["science", "ap", "tle"]
     },
     {
       "id": "severe-flooding",
@@ -121,9 +111,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/severe-flooding.json",
       "game": "rising-water-house",
-      "subjects": ["science", "ap"],
-      "storyStage": 4,
-      "storyOrder": 2
+      "subjects": ["science", "ap"]
     },
     {
       "id": "storm-surge",
@@ -137,9 +125,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/storm-surge.json",
       "game": "evac-convoy",
-      "subjects": ["science", "ap"],
-      "storyStage": 4,
-      "storyOrder": 3
+      "subjects": ["science", "ap"]
     },
     {
       "id": "el-nino",
@@ -153,9 +139,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/el-nino.json",
       "game": "water-ways",
-      "subjects": ["science", "tle"],
-      "storyStage": 4,
-      "storyOrder": 4
+      "subjects": ["science", "tle"]
     },
 
     {
@@ -170,9 +154,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/disease-outbreak.json",
       "game": "word-lab",
-      "subjects": ["science", "mapeh"],
-      "storyStage": 3,
-      "storyOrder": 1
+      "subjects": ["science", "mapeh"]
     },
     {
       "id": "pest-infestation",
@@ -186,9 +168,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/pest-infestation.json",
       "game": "pest-patrol",
-      "subjects": ["science", "tle"],
-      "storyStage": 3,
-      "storyOrder": 2
+      "subjects": ["science", "tle"]
     },
 
     {
@@ -203,9 +183,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/fire.json",
       "game": "fire-escape",
-      "subjects": ["science", "tle"],
-      "storyStage": 1,
-      "storyOrder": 1
+      "subjects": ["science", "tle"]
     },
     {
       "id": "structural-collapse",
@@ -219,9 +197,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/structural-collapse.json",
       "game": "rubble-rescue",
-      "subjects": ["science", "tle"],
-      "storyStage": 1,
-      "storyOrder": 2
+      "subjects": ["science", "tle"]
     },
     {
       "id": "road-accidents",
@@ -235,9 +211,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/road-accidents.json",
       "game": "safe-crossing",
-      "subjects": ["english", "ap"],
-      "storyStage": 1,
-      "storyOrder": 3
+      "subjects": ["english", "ap"]
     },
     {
       "id": "chemical-spill",
@@ -251,9 +225,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/chemical-spill.json",
       "game": "symbol-jigsaw",
-      "subjects": ["science"],
-      "storyStage": 1,
-      "storyOrder": 4
+      "subjects": ["science"]
     },
     {
       "id": "electrical-hazards",
@@ -267,9 +239,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/electrical-hazards.json",
       "game": "spot-the-shock",
-      "subjects": ["science", "tle"],
-      "storyStage": 1,
-      "storyOrder": 5
+      "subjects": ["science", "tle"]
     },
 
     {
@@ -284,9 +254,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/missing-child.json",
       "game": "lost-and-found",
-      "subjects": ["esp", "english"],
-      "storyStage": 2,
-      "storyOrder": 1
+      "subjects": ["esp", "english"]
     },
     {
       "id": "bullying",
@@ -300,9 +268,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/bullying.json",
       "game": "lunch-table",
-      "subjects": ["esp", "mapeh"],
-      "storyStage": 2,
-      "storyOrder": 2
+      "subjects": ["esp", "mapeh"]
     },
     {
       "id": "crowd-crush",
@@ -316,9 +282,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/crowd-crush.json",
       "game": "go-with-the-flow",
-      "subjects": ["ap", "mapeh"],
-      "storyStage": 2,
-      "storyOrder": 3
+      "subjects": ["ap", "mapeh"]
     },
     {
       "id": "community-conflict",
@@ -332,9 +296,7 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/community-conflict.json",
       "game": "check-before-share",
-      "subjects": ["ap", "esp"],
-      "storyStage": 2,
-      "storyOrder": 4
+      "subjects": ["ap", "esp"]
     }
   ]
 }

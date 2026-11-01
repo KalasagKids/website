@@ -1,0 +1,324 @@
+{
+  "name": {
+    "en": "Building or Structural Collapse",
+    "fil": "Building or Structural Collapse (Pagguho ng Gusali o Istruktura)"
+  },
+  "lessons": [
+    {
+      "en": "Report wide cracks, sagging ceilings, and tilting walls to adults or school officials.",
+      "fil": "I-report sa adult o school officials ang malalaking bitak, lumulubog na kisame, at tumatagilid na pader."
+    },
+    {
+      "en": "Stay out of damaged buildings until an engineer says they are safe.",
+      "fil": "Huwag pumasok sa sirang gusali hangga't hindi sinasabi ng engineer na ligtas ito."
+    },
+    {
+      "en": "If trapped, cover your mouth and tap or whistle so rescuers can find you.",
+      "fil": "Kapag naipit, takpan ang bibig at kumatok o pumito para mahanap ka ng rescuers."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Who should decide whether a damaged building is safe to use?",
+        "fil": "Sino ang dapat magdesisyon kung ligtas gamitin ang sirang gusali?"
+      },
+      "choices": [
+        {
+          "en": "A licensed engineer or building official",
+          "fil": "Licensed na engineer o building official"
+        },
+        {
+          "en": "Any student",
+          "fil": "Kahit sinong estudyante"
+        },
+        {
+          "en": "A passerby",
+          "fil": "Taong dumadaan"
+        },
+        {
+          "en": "A social media post",
+          "fil": "Post sa social media"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Only trained professionals can judge hidden structural damage.",
+        "fil": "Mga trained na propesyonal lang ang makakapagsabi kung may nakatagong pinsala sa istruktura."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What is the process of strengthening an existing building so it can better resist earthquakes and heavy loads?",
+        "fil": "Ano ang tawag sa pagpapatibay ng lumang gusali para mas makayanan nito ang lindol at mabigat na karga?"
+      },
+      "show": {
+        "en": "Retrofitting",
+        "fil": "Retrofitting"
+      },
+      "accept": [
+        "retrofitting",
+        "retrofit"
+      ],
+      "explain": {
+        "en": "Retrofitting old schools and homes reduces collapse risk.",
+        "fil": "Nababawasan ng retrofitting ang panganib na gumuho ang mga lumang school at bahay."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Doors and windows that suddenly jam can be a sign that a building is shifting.",
+        "fil": "Ang biglang pagsabit o hirap isara ng pinto at bintana ay puwedeng senyales na gumagalaw ang gusali."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Jamming doors and windows can mean the frame has moved.",
+        "fil": "Kapag sumasabit ang pinto at bintana, puwedeng gumalaw na ang frame ng gusali."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "The Philippine law that sets building safety standards is the National ____ Code.",
+        "fil": "Ang batas ng Pilipinas na nagtatakda ng safety standards sa gusali ay ang National ____ Code."
+      },
+      "show": {
+        "en": "Building",
+        "fil": "Building"
+      },
+      "accept": [
+        "building"
+      ],
+      "explain": {
+        "en": "The National Building Code (PD 1096) sets rules for safe design and construction.",
+        "fil": "Ang National Building Code (PD 1096) ang nagtatakda ng mga patakaran para sa ligtas na disenyo at pagtatayo."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each building safety term with its meaning.",
+        "fil": "Itugma ang bawat building safety term sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Building permit",
+            "fil": "Building permit"
+          },
+          {
+            "en": "Approval to build after plans are checked",
+            "fil": "Pahintulot magtayo matapos suriin ang plano"
+          }
+        ],
+        [
+          {
+            "en": "Load limit sign",
+            "fil": "Load limit sign"
+          },
+          {
+            "en": "Shows how much weight a structure can hold",
+            "fil": "Nagsasabi kung gaano kabigat ang kayang dalhin ng istruktura"
+          }
+        ],
+        [
+          {
+            "en": "Regular maintenance",
+            "fil": "Regular maintenance"
+          },
+          {
+            "en": "Fixing leaks, rust, and cracks early",
+            "fil": "Maagang pag-aayos ng tagas, kalawang, at bitak"
+          }
+        ],
+        [
+          {
+            "en": "Column",
+            "fil": "Column (haligi)"
+          },
+          {
+            "en": "Vertical support that carries a building's weight",
+            "fil": "Patayong suporta na nagdadala ng bigat ng gusali"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Permits, load limits, and maintenance prevent most collapses.",
+        "fil": "Napipigilan ng permit, load limits, at maintenance ang karamihan ng pagguho."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 warning signs that a structure may be unsafe.",
+        "fil": "Magbigay ng 3 babala na puwedeng hindi na ligtas ang isang istruktura."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "crack",
+          "bitak",
+          "lamat"
+        ],
+        [
+          "sag",
+          "bend",
+          "bulg",
+          "lubog",
+          "kisame",
+          "sahig"
+        ],
+        [
+          "tilt",
+          "lean",
+          "tagilid",
+          "pader"
+        ],
+        [
+          "jam",
+          "stick",
+          "door",
+          "window",
+          "pinto",
+          "bintana",
+          "sabit"
+        ],
+        [
+          "creak",
+          "sound",
+          "noise",
+          "langitngit",
+          "lagitik",
+          "tunog"
+        ],
+        [
+          "plaster",
+          "falling",
+          "chip",
+          "nalalaglag",
+          "nahuhulog"
+        ],
+        [
+          "rust",
+          "steel",
+          "bar",
+          "kalawang",
+          "bakal"
+        ],
+        [
+          "leak",
+          "drip",
+          "tulo"
+        ]
+      ],
+      "show": {
+        "en": "wide or growing cracks, sagging floors or ceilings, tilting walls, doors or windows that jam, creaking sounds, falling plaster, rusted exposed steel bars, leaking ceilings",
+        "fil": "malaki o lumalaking bitak, lumulubog na sahig o kisame, tumatagilid na pader, pinto o bintanang sumasabit, lumalangitngit na tunog, nalalaglag na plaster, kinakalawang na bakal na nakalabas, tumutulong kisame"
+      },
+      "explain": {
+        "en": "Early reporting lets engineers check a structure before it fails.",
+        "fil": "Kapag maagang nai-report, masusuri ng engineer ang istruktura bago ito bumigay."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "After an earthquake, your friend wants to run back into a cracked classroom to get her bag. What should you do?",
+        "fil": "Pagkatapos ng lindol, gustong tumakbo pabalik ng kaibigan mo sa may-bitak na classroom para kunin ang bag niya. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go in with her",
+          "fil": "Sumama sa kanya sa loob"
+        },
+        {
+          "en": "Tell her not to go in and inform the teacher",
+          "fil": "Sabihan siyang huwag pumasok at ipaalam sa teacher"
+        },
+        {
+          "en": "Hold the door open for her",
+          "fil": "Hawakan ang pinto para sa kanya"
+        },
+        {
+          "en": "Wait for an aftershock first",
+          "fil": "Hintayin muna ang aftershock"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The room must be inspected first. Belongings can be collected later if it is declared safe.",
+        "fil": "Kailangan munang suriin ang kuwarto. Makukuha rin ang gamit mamaya kapag idineklarang ligtas na."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "You are trapped under debris. Arrange these steps in order.",
+        "fil": "Naipit ka sa ilalim ng debris. Ayusin ang mga hakbang."
+      },
+      "steps": [
+        {
+          "en": "Stay calm and keep still so debris does not shift",
+          "fil": "Manatiling kalmado at huwag masyadong gumalaw para hindi gumalaw ang debris"
+        },
+        {
+          "en": "Cover your nose and mouth with cloth",
+          "fil": "Takpan ang ilong at bibig gamit ang tela"
+        },
+        {
+          "en": "Tap on a pipe or wall, or blow a whistle",
+          "fil": "Kumatok sa tubo o pader, o pumito"
+        },
+        {
+          "en": "Listen for rescuers and answer their signals",
+          "fil": "Makinig sa rescuers at sagutin ang kanilang senyales"
+        },
+        {
+          "en": "Shout only when rescuers are close",
+          "fil": "Sumigaw lang kapag malapit na ang rescuers"
+        }
+      ],
+      "explain": {
+        "en": "Tapping and whistles save energy and keep you from breathing in dust.",
+        "fil": "Nakakatipid ng lakas ang pagkatok at pagpito, at naiiwasan mong makalanghap ng alikabok."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "During a school program, the temporary stage creaks and shakes as more and more students crowd onto it.",
+        "fil": "Habang may school program, lumalangitngit at umuuga ang pansamantalang stage habang dumarami ang estudyanteng umaakyat dito."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Jump onto it too",
+          "fil": "Umakyat ka rin"
+        },
+        {
+          "en": "Tell a teacher right away so students can get off calmly in small groups",
+          "fil": "Sabihan agad ang teacher para mahinahong makababa ang mga estudyante nang paunti-unti"
+        },
+        {
+          "en": "Take a video",
+          "fil": "Kunan ito ng video"
+        },
+        {
+          "en": "Push others off the stage",
+          "fil": "Itulak pababa ang iba"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Reducing the load quickly can prevent a collapse.",
+        "fil": "Ang mabilis na pagbawas ng bigat ay puwedeng makaiwas sa pagguho."
+      }
+    }
+  ]
+}

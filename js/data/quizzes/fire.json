@@ -1,0 +1,321 @@
+{
+  "name": {
+    "en": "Fire (Household and School Fire)",
+    "fil": "Fire (Sunog sa Bahay at Paaralan)"
+  },
+  "lessons": [
+    {
+      "en": "Shout to warn others, stay low under smoke, and get out fast.",
+      "fil": "Sumigaw para bigyang-babala ang iba, yumuko sa ilalim ng usok, at lumabas agad."
+    },
+    {
+      "en": "Once out, stay out. Tell firefighters about anyone or anything left inside.",
+      "fil": "Kapag nakalabas na, huwag nang bumalik. Sabihan ang bumbero kung may naiwan sa loob."
+    },
+    {
+      "en": "Prevent fires: avoid overloaded outlets and never leave cooking or candles unattended.",
+      "fil": "Iwasan ang sunog: huwag i-overload ang saksakan, at huwag iwan ang niluluto o kandila."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "What three things does a fire need to burn?",
+        "fil": "Ano ang tatlong kailangan ng apoy para magliyab?"
+      },
+      "choices": [
+        {
+          "en": "Heat, fuel, and oxygen",
+          "fil": "Init, gatong (fuel), at oxygen"
+        },
+        {
+          "en": "Water, sand, and wind",
+          "fil": "Tubig, buhangin, at hangin"
+        },
+        {
+          "en": "Smoke, ash, and light",
+          "fil": "Usok, abo, at liwanag"
+        },
+        {
+          "en": "Wood, glass, and metal",
+          "fil": "Kahoy, salamin, at metal"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Removing any one of the three puts out the fire.",
+        "fil": "Kapag tinanggal ang kahit isa sa tatlo, mamamatay ang apoy."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Name the government agency that leads firefighting and fire prevention in the Philippines.",
+        "fil": "Anong ahensya ng gobyerno ang nangunguna sa pag-apula at pag-iwas sa sunog sa Pilipinas?"
+      },
+      "show": {
+        "en": "Bureau of Fire Protection (BFP)",
+        "fil": "Bureau of Fire Protection (BFP)"
+      },
+      "accept": [
+        "bureau of fire protection",
+        "bfp",
+        "Bureau of Fire Protection (BFP)"
+      ],
+      "explain": {
+        "en": "In a fire emergency, call 911 or the BFP.",
+        "fil": "Kapag may sunog, tumawag sa 911 o sa BFP."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Water is safe to use on a burning cooking-oil pan.",
+        "fil": "Ligtas gamitin ang tubig sa nagliliyab na kawali na may mantika."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Water makes burning oil splatter and spread. An adult should cover the pan with a metal lid and turn off the heat.",
+        "fil": "Tumatalsik at kumakalat ang nagliliyab na mantika kapag binuhusan ng tubig. Dapat takpan ng adult ang kawali gamit ang metal na takip at patayin ang kalan."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "If your clothes catch fire: Stop, ____, and roll.",
+        "fil": "Kapag nasunog ang damit mo: Stop, ____, and roll."
+      },
+      "show": {
+        "en": "Drop",
+        "fil": "Drop"
+      },
+      "accept": [
+        "drop"
+      ],
+      "explain": {
+        "en": "Rolling smothers the flames. Running gives them more oxygen.",
+        "fil": "Napapatay ng pag-roll ang apoy. Kapag tumakbo ka, mas lalakas ito dahil sa dagdag na oxygen."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each letter of the PASS method for fire extinguishers with its step.",
+        "fil": "Itugma ang bawat letra ng PASS method para sa fire extinguisher sa hakbang nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "P",
+            "fil": "P"
+          },
+          {
+            "en": "Pull the pin",
+            "fil": "Pull the pin (hilahin ang pin)"
+          }
+        ],
+        [
+          {
+            "en": "A",
+            "fil": "A"
+          },
+          {
+            "en": "Aim at the base of the fire",
+            "fil": "Aim at the base of the fire (itutok sa ilalim ng apoy)"
+          }
+        ],
+        [
+          {
+            "en": "S (first)",
+            "fil": "S (una)"
+          },
+          {
+            "en": "Squeeze the handle",
+            "fil": "Squeeze the handle (pisilin ang hawakan)"
+          }
+        ],
+        [
+          {
+            "en": "S (second)",
+            "fil": "S (pangalawa)"
+          },
+          {
+            "en": "Sweep from side to side",
+            "fil": "Sweep from side to side (iwasiwas pakaliwa't pakanan)"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Learners should know PASS, but their main job in a fire is to get out and alert adults.",
+        "fil": "Dapat alam ng learners ang PASS, pero ang pangunahing trabaho nila kapag may sunog ay lumabas at sabihan ang mga adult."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 common causes of household or school fires.",
+        "fil": "Magbigay ng 3 karaniwang sanhi ng sunog sa bahay o school."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "overload",
+          "octopus",
+          "outlet",
+          "extension",
+          "saksakan"
+        ],
+        [
+          "wiring",
+          "wire",
+          "electrical",
+          "kawad",
+          "kable",
+          "kuryente"
+        ],
+        [
+          "cook",
+          "stove",
+          "kitchen",
+          "luto",
+          "kalan"
+        ],
+        [
+          "candle",
+          "mosquito coil",
+          "coil",
+          "kandila",
+          "katol"
+        ],
+        [
+          "lpg",
+          "gas",
+          "gasul"
+        ],
+        [
+          "cigarette",
+          "smok",
+          "sigarilyo",
+          "yosi"
+        ],
+        [
+          "match",
+          "lighter",
+          "posporo"
+        ],
+        [
+          "firecracker",
+          "paputok",
+          "firework",
+          "rebentador"
+        ]
+      ],
+      "show": {
+        "en": "overloaded outlets, faulty wiring, unattended cooking, candles or mosquito coils, LPG leaks, cigarettes, playing with matches or lighters, firecrackers",
+        "fil": "overloaded na saksakan (octopus connection), sirang wiring, iniwang niluluto, kandila o katol na malapit sa kurtina, tagas ng LPG, sigarilyo, paglalaro ng posporo o lighter, paputok"
+      },
+      "explain": {
+        "en": "Most fires start from small situations that safe habits can prevent.",
+        "fil": "Kadalasang nagsisimula ang sunog sa maliliit na sitwasyong maiiwasan ng ligtas na gawi."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "You wake up at night and smell smoke. The hallway is dark. What should you do?",
+        "fil": "Nagising ka sa gabi at may naamoy kang usok. Madilim ang pasilyo. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Hide under the bed",
+          "fil": "Magtago sa ilalim ng kama"
+        },
+        {
+          "en": "Shout to wake your family, stay low, and crawl to the nearest safe exit",
+          "fil": "Sumigaw para gisingin ang pamilya, yumuko, at gumapang papunta sa pinakamalapit na ligtas na exit"
+        },
+        {
+          "en": "Open the windows and go back to sleep",
+          "fil": "Buksan ang bintana at matulog ulit"
+        },
+        {
+          "en": "Look for your phone first",
+          "fil": "Hanapin muna ang phone mo"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Smoke rises, so cleaner air is near the floor. Every second counts.",
+        "fil": "Umaakyat ang usok, kaya mas malinis ang hangin malapit sa sahig. Mahalaga ang bawat segundo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these fire escape steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito sa pagtakas sa sunog."
+      },
+      "steps": [
+        {
+          "en": "Shout “Fire!” to warn others",
+          "fil": "Sumigaw ng “Sunog!” para bigyang-babala ang iba"
+        },
+        {
+          "en": "Stay low under the smoke",
+          "fil": "Yumuko sa ilalim ng usok"
+        },
+        {
+          "en": "Feel the door with the back of your hand before opening it",
+          "fil": "Damhin ang pinto gamit ang likod ng kamay bago ito buksan"
+        },
+        {
+          "en": "Get out using the nearest safe exit",
+          "fil": "Lumabas gamit ang pinakamalapit na ligtas na exit"
+        },
+        {
+          "en": "Go to the meeting place and call 911 or the BFP",
+          "fil": "Pumunta sa meeting place at tumawag sa 911 o BFP"
+        }
+      ],
+      "explain": {
+        "en": "A hot door means fire may be behind it, so use another way out.",
+        "fil": "Kapag mainit ang pinto, baka may apoy sa likod nito, kaya gumamit ng ibang daan."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Your family is safely outside a burning house. Your sister realizes her cat is still inside.",
+        "fil": "Ligtas nang nakalabas ang pamilya mo sa nasusunog na bahay. Naalala ng kapatid mo na naiwan sa loob ang pusa niya."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Run back in quickly for the cat",
+          "fil": "Tumakbo pabalik para kunin ang pusa"
+        },
+        {
+          "en": "Stay out and tell the firefighters about the cat",
+          "fil": "Manatili sa labas at sabihan ang bumbero tungkol sa pusa"
+        },
+        {
+          "en": "Send a younger child to look",
+          "fil": "Utusan ang mas batang kapatid na hanapin ito"
+        },
+        {
+          "en": "Open the front door and call the cat",
+          "fil": "Buksan ang pinto sa harap at tawagin ang pusa"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Never go back into a burning building. Firefighters have the gear to search safely.",
+        "fil": "Huwag nang bumalik sa nasusunog na gusali. May gamit ang bumbero para ligtas na makapaghanap."
+      }
+    }
+  ]
+}

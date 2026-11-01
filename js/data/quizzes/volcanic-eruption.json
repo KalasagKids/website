@@ -1,0 +1,326 @@
+{
+  "name": {
+    "en": "Volcanic Eruption",
+    "fil": "Volcanic Eruption (Pagputok ng Bulkan)"
+  },
+  "lessons": [
+    {
+      "en": "Follow PHIVOLCS alert levels and evacuate as soon as officials order it.",
+      "fil": "Sundin ang PHIVOLCS alert levels at lumikas agad kapag nag-utos ang mga opisyal."
+    },
+    {
+      "en": "Never enter the Permanent Danger Zone, even when the volcano looks calm.",
+      "fil": "Huwag pumasok sa Permanent Danger Zone, kahit mukhang kalmado ang bulkan."
+    },
+    {
+      "en": "During ashfall, stay indoors and wear an N95 mask and goggles if you must go out.",
+      "fil": "Kapag may ashfall, manatili sa loob ng bahay at magsuot ng N95 mask at goggles kung kailangang lumabas."
+    },
+    {
+      "en": "Stay away from river channels during heavy rain because lahars can flow down them.",
+      "fil": "Lumayo sa mga ilog o daluyan ng tubig mula sa bulkan kapag malakas ang ulan, dahil puwedeng dumaloy doon ang lahar."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "What is the highest PHIVOLCS Volcano Alert Level?",
+        "fil": "Ano ang pinakamataas na PHIVOLCS Volcano Alert Level?"
+      },
+      "choices": [
+        {
+          "en": "Alert Level 3",
+          "fil": "Alert Level 3"
+        },
+        {
+          "en": "Alert Level 5",
+          "fil": "Alert Level 5"
+        },
+        {
+          "en": "Alert Level 7",
+          "fil": "Alert Level 7"
+        },
+        {
+          "en": "Alert Level 10",
+          "fil": "Alert Level 10"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Alert levels go from 0 (normal) to 5 (hazardous eruption in progress).",
+        "fil": "Ang alert levels ay mula 0 (normal) hanggang 5 (may mapanganib na pagputok na nagaganap)."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call a fast flow of volcanic debris mixed with water, often set off by heavy rain, that rushes down river channels?",
+        "fil": "Ano ang tawag sa mabilis na daloy ng volcanic debris na may halong tubig, na kadalasang dulot ng malakas na ulan, at dumadaloy pababa sa mga ilog?"
+      },
+      "show": {
+        "en": "Lahar",
+        "fil": "Lahar"
+      },
+      "accept": [
+        "lahar",
+        "lahars"
+      ],
+      "explain": {
+        "en": "Lahars can bury roads and homes far from the volcano, even months or years after an eruption.",
+        "fil": "Puwedeng matabunan ng lahar ang mga kalsada at bahay na malayo sa bulkan, kahit ilang buwan o taon pagkatapos ng pagputok."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Volcanic ash is soft like flour and safe to breathe.",
+        "fil": "Ang volcanic ash ay malambot na parang harina at ligtas langhapin."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Ash is made of tiny, sharp bits of rock and glass that hurt the lungs and eyes.",
+        "fil": "Ang abo ay binubuo ng maliliit at matatalas na piraso ng bato at salamin (glass) na nakakasakit sa baga at mata."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "The area around a volcano where no one should live or enter is called the Permanent ____ Zone.",
+        "fil": "Ang lugar sa paligid ng bulkan na hindi dapat tirhan o pasukin ninuman ay tinatawag na Permanent ____ Zone."
+      },
+      "show": {
+        "en": "Danger",
+        "fil": "Danger"
+      },
+      "accept": [
+        "danger"
+      ],
+      "explain": {
+        "en": "Eruptions can start with little warning, so the Permanent Danger Zone stays closed at all times.",
+        "fil": "Puwedeng pumutok ang bulkan nang halos walang babala, kaya laging sarado ang Permanent Danger Zone."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each volcanic hazard with its description.",
+        "fil": "Itugma ang bawat volcanic hazard sa paglalarawan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Ashfall",
+            "fil": "Ashfall"
+          },
+          {
+            "en": "Fine rock particles falling from the sky",
+            "fil": "Pinong piraso ng bato na bumabagsak mula sa langit"
+          }
+        ],
+        [
+          {
+            "en": "Pyroclastic density current",
+            "fil": "Pyroclastic density current"
+          },
+          {
+            "en": "Very hot, fast cloud of gas, ash, and rock",
+            "fil": "Napakainit at mabilis na ulap ng gas, abo, at bato"
+          }
+        ],
+        [
+          {
+            "en": "Lahar",
+            "fil": "Lahar"
+          },
+          {
+            "en": "Volcanic mudflow along river channels",
+            "fil": "Volcanic mudflow na dumadaloy sa mga ilog"
+          }
+        ],
+        [
+          {
+            "en": "Volcanic gas",
+            "fil": "Volcanic gas"
+          },
+          {
+            "en": "Can irritate the eyes, throat, and lungs",
+            "fil": "Puwedeng makairita sa mata, lalamunan, at baga"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Each hazard needs a different response, so it helps to tell them apart.",
+        "fil": "Iba-iba ang tamang response sa bawat hazard, kaya mahalagang alam mo ang pagkakaiba nila."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 supplies that protect a family during ashfall.",
+        "fil": "Magbigay ng 3 supplies na poprotekta sa pamilya habang may ashfall."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "n95",
+          "mask"
+        ],
+        [
+          "goggle",
+          "gogel"
+        ],
+        [
+          "water",
+          "tubig",
+          "inumin"
+        ],
+        [
+          "food",
+          "pagkain"
+        ],
+        [
+          "flashlight",
+          "lamp",
+          "ilaw"
+        ],
+        [
+          "radio",
+          "radyo"
+        ],
+        [
+          "medicine",
+          "gamot"
+        ],
+        [
+          "long sleeve",
+          "clothes",
+          "jacket",
+          "damit",
+          "manggas"
+        ],
+        [
+          "plastic",
+          "tarp",
+          "cover",
+          "pantakip",
+          "trapal"
+        ],
+        [
+          "eyeglass",
+          "glasses",
+          "salamin"
+        ],
+        [
+          "first aid",
+          "bendahe"
+        ]
+      ],
+      "show": {
+        "en": "N95 masks, goggles, covered drinking water, food, flashlight, battery radio, medicines, long-sleeved clothes, plastic covers, eyeglasses, first aid kit",
+        "fil": "N95 mask, goggles, nakatakip na inuming tubig, pagkain, flashlight, battery radio, gamot, damit na mahaba ang manggas, plastic na pantakip, salamin sa mata (eyeglasses), first aid kit"
+      },
+      "explain": {
+        "en": "Masks and goggles protect lungs and eyes, and covered water stays free of ash.",
+        "fil": "Pinoprotektahan ng mask at goggles ang baga at mata, at hindi napapasukan ng abo ang nakatakip na tubig."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "Ash starts falling on your town, but your barangay is not being evacuated. What should your family do?",
+        "fil": "Nagsimulang bumagsak ang abo sa bayan ninyo, pero hindi pinapalikas ang barangay ninyo. Ano ang dapat gawin ng pamilya mo?"
+      },
+      "choices": [
+        {
+          "en": "Stay indoors, close doors and windows, and cover water containers",
+          "fil": "Manatili sa loob, isara ang mga pinto at bintana, at takpan ang mga lalagyan ng tubig"
+        },
+        {
+          "en": "Go outside to sweep the ash right away",
+          "fil": "Lumabas agad para walisin ang abo"
+        },
+        {
+          "en": "Open the windows so the ash blows through",
+          "fil": "Buksan ang mga bintana para dumaan ang abo"
+        },
+        {
+          "en": "Drive fast to the next town",
+          "fil": "Magmaneho nang mabilis papunta sa kabilang bayan"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Staying sheltered limits how much ash you breathe. Ash makes roads slippery and hard to see on.",
+        "fil": "Kapag nasa loob ka, mas kaunti ang abong malalanghap mo. Nagiging madulas at malabo ang daan dahil sa abo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Your barangay orders an evacuation because the alert level was raised. Arrange the steps in order.",
+        "fil": "Nag-utos ang barangay ninyo ng evacuation dahil itinaas ang alert level. Ayusin ang mga hakbang."
+      },
+      "steps": [
+        {
+          "en": "Hear the official evacuation order from the barangay or radio",
+          "fil": "Marinig ang official na evacuation order mula sa barangay o radyo"
+        },
+        {
+          "en": "Put on your mask and grab the go-bag",
+          "fil": "Isuot ang mask at kunin ang go-bag"
+        },
+        {
+          "en": "Leave with your family using the official route",
+          "fil": "Umalis kasama ang pamilya gamit ang official na ruta"
+        },
+        {
+          "en": "Arrive and register at the evacuation center",
+          "fil": "Dumating at magpa-register sa evacuation center"
+        },
+        {
+          "en": "Stay until authorities say it is safe to return",
+          "fil": "Manatili hanggang sabihin ng mga awtoridad na ligtas nang bumalik"
+        }
+      ],
+      "explain": {
+        "en": "Leaving early, by the official route, keeps families away from danger and helps officials account for everyone.",
+        "fil": "Ang maagang pag-alis, gamit ang official na ruta, ay naglalayo sa pamilya sa panganib at tumutulong sa mga opisyal na mabilang ang lahat."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Weeks after an eruption, it has rained hard for hours. Your house is beside a river that flows down from the volcano. The water is turning thick and gray, and it is carrying rocks and logs.",
+        "fil": "Ilang linggo pagkatapos ng pagputok, ilang oras nang malakas ang ulan. Nasa tabi ng ilog na galing sa bulkan ang bahay ninyo. Lumalapot at nagiging kulay-abo ang tubig, at may dala na itong mga bato at troso."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Stand on the riverbank to watch",
+          "fil": "Tumayo sa pampang para manood"
+        },
+        {
+          "en": "Move to higher ground away from the river right away and warn others",
+          "fil": "Lumipat agad sa mas mataas na lugar, malayo sa ilog, at bigyang-babala ang iba"
+        },
+        {
+          "en": "Wait until morning to decide",
+          "fil": "Hintayin munang mag-umaga bago magdesisyon"
+        },
+        {
+          "en": "Cross the river to reach a friend",
+          "fil": "Tumawid sa ilog para puntahan ang kaibigan"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Thick, rocky water in a river from the volcano may be a lahar. Lahars move fast and follow river channels.",
+        "fil": "Ang malapot at mabatong tubig sa ilog na galing sa bulkan ay puwedeng lahar. Mabilis ang lahar at sumusunod ito sa mga ilog."
+      }
+    }
+  ]
+}

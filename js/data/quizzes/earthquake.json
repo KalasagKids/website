@@ -1,0 +1,351 @@
+{
+  "name": {
+    "en": "Earthquake",
+    "fil": "Earthquake (Lindol)"
+  },
+  "lessons": [
+    {
+      "en": "During shaking, Drop, Cover, and Hold On under a sturdy table, away from glass.",
+      "fil": "Habang lumilindol, mag-Drop, Cover, and Hold On sa ilalim ng matibay na mesa, malayo sa salamin."
+    },
+    {
+      "en": "Before an earthquake, secure heavy furniture and keep a go-bag ready.",
+      "fil": "Bago lumindol, i-secure ang mabibigat na gamit at ihanda ang go-bag."
+    },
+    {
+      "en": "After shaking, expect aftershocks, evacuate calmly, and never re-enter damaged buildings.",
+      "fil": "Pagkatapos ng lindol, asahan ang aftershocks, lumikas nang mahinahon, at huwag nang bumalik sa sirang gusali."
+    },
+    {
+      "en": "Near the coast, strong or long shaking means go to high ground right away.",
+      "fil": "Kung malapit sa dagat, ang malakas o matagal na pagyanig ay senyales na pumunta agad sa mataas na lugar."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which agency gives official earthquake information in the Philippines?",
+        "fil": "Aling ahensya ang nagbibigay ng official na impormasyon tungkol sa lindol sa Pilipinas?"
+      },
+      "choices": [
+        {
+          "en": "PAGASA",
+          "fil": "PAGASA"
+        },
+        {
+          "en": "PHIVOLCS",
+          "fil": "PHIVOLCS"
+        },
+        {
+          "en": "DPWH",
+          "fil": "DPWH"
+        },
+        {
+          "en": "LTO",
+          "fil": "LTO"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "PHIVOLCS (Philippine Institute of Volcanology and Seismology) monitors earthquakes, volcanoes, and tsunamis. PAGASA handles weather.",
+        "fil": "Ang PHIVOLCS (Philippine Institute of Volcanology and Seismology) ang nagbabantay sa lindol, bulkan, at tsunami. Ang PAGASA naman ay para sa panahon o weather."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call the smaller earthquakes that follow a main earthquake and can shake already weakened buildings?",
+        "fil": "Ano ang tawag sa mas maliliit na lindol na sumusunod sa malakas na lindol at puwedeng magpayanig sa mga gusaling humina na?"
+      },
+      "show": {
+        "en": "Aftershocks",
+        "fil": "Aftershocks"
+      },
+      "accept": [
+        "aftershock",
+        "aftershocks"
+      ],
+      "explain": {
+        "en": "Aftershocks can come minutes, days, or weeks later. Be ready to Drop, Cover, and Hold On again.",
+        "fil": "Puwedeng dumating ang aftershocks ilang minuto, araw, o linggo pagkatapos. Maging handang mag-Drop, Cover, and Hold On ulit."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Standing in a doorway is the safest thing to do during an earthquake.",
+        "fil": "Ang pagtayo sa pintuan (doorway) ang pinakaligtas na gawin habang lumilindol."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Doorways are not stronger than the rest of a house, and doors can swing and hit you. Drop, Cover, and Hold On under a sturdy table instead.",
+        "fil": "Hindi mas matibay ang doorway kaysa sa ibang bahagi ng bahay, at puwede kang tamaan ng umuugoy na pinto. Mag-Drop, Cover, and Hold On sa ilalim ng matibay na mesa."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "During an earthquake, remember: Drop, Cover, and ____ On.",
+        "fil": "Habang lumilindol, tandaan: Drop, Cover, and ____ On."
+      },
+      "show": {
+        "en": "Hold",
+        "fil": "Hold"
+      },
+      "accept": [
+        "hold"
+      ],
+      "explain": {
+        "en": "Holding on to your table keeps your shelter over you while the ground moves.",
+        "fil": "Ang paghawak sa mesa ay nagpapanatili sa proteksyon mo sa itaas habang gumagalaw ang lupa."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each hazard at home with the best way to make it safer.",
+        "fil": "Itugma ang bawat panganib sa bahay sa pinakamainam na paraan para gawin itong mas ligtas."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Tall bookshelf",
+            "fil": "Mataas na bookshelf"
+          },
+          {
+            "en": "Strap it to the wall",
+            "fil": "Itali o i-strap sa pader"
+          }
+        ],
+        [
+          {
+            "en": "Heavy jar on a top shelf",
+            "fil": "Mabigat na garapon sa itaas na shelf"
+          },
+          {
+            "en": "Move it to a low shelf",
+            "fil": "Ilipat sa mababang shelf"
+          }
+        ],
+        [
+          {
+            "en": "Bags and chairs blocking the exit",
+            "fil": "Mga bag at upuan na nakaharang sa exit"
+          },
+          {
+            "en": "Clear the path to the door",
+            "fil": "Linisin ang daan papunta sa pinto"
+          }
+        ],
+        [
+          {
+            "en": "Big framed picture above a bed",
+            "fil": "Malaking picture frame sa itaas ng kama"
+          },
+          {
+            "en": "Hang it away from where people sleep",
+            "fil": "Isabit sa malayo sa tinutulugan"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Many earthquake injuries come from falling objects. Securing and moving heavy items lowers that risk.",
+        "fil": "Maraming injury sa lindol ay galing sa nahuhulog na gamit. Ang pag-secure at paglipat ng mabibigat na bagay ay nakakabawas ng panganib."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 items that belong in an earthquake go-bag.",
+        "fil": "Magbigay ng 3 gamit na dapat nasa earthquake go-bag."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "water",
+          "tubig"
+        ],
+        [
+          "food",
+          "biscuit",
+          "canned",
+          "ready to eat",
+          "pagkain",
+          "biskwit",
+          "de lata"
+        ],
+        [
+          "flashlight",
+          "torch",
+          "lamp",
+          "ilaw",
+          "lampara"
+        ],
+        [
+          "batter",
+          "baterya"
+        ],
+        [
+          "whistle",
+          "pito",
+          "silbato"
+        ],
+        [
+          "first aid",
+          "bandage",
+          "medkit",
+          "bendahe"
+        ],
+        [
+          "medicine",
+          "medication",
+          "vitamin",
+          "gamot",
+          "bitamina"
+        ],
+        [
+          "radio",
+          "radyo"
+        ],
+        [
+          "document",
+          "id card",
+          "birth certificate",
+          "papers",
+          "dokumento",
+          "papeles"
+        ],
+        [
+          "mask"
+        ],
+        [
+          "power bank",
+          "powerbank",
+          "charger"
+        ],
+        [
+          "cash",
+          "money",
+          "pera"
+        ],
+        [
+          "cloth",
+          "shirt",
+          "jacket",
+          "damit",
+          "kamiseta"
+        ],
+        [
+          "blanket",
+          "kumot"
+        ]
+      ],
+      "show": {
+        "en": "water, ready-to-eat food, flashlight, extra batteries, whistle, first aid kit, medicines, radio, copies of documents, face mask, power bank, cash, extra clothes, blanket",
+        "fil": "tubig, ready-to-eat na pagkain, flashlight, extra batteries, pito (whistle), first aid kit, gamot, radyo, kopya ng mga dokumento, face mask, power bank, pera, extra na damit, kumot"
+      },
+      "explain": {
+        "en": "A go-bag should help your family last at least three days if services are cut.",
+        "fil": "Dapat makatulong ang go-bag para makaraos ang pamilya nang hindi bababa sa tatlong araw kung putol ang mga serbisyo."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "You are in the school canteen when strong shaking starts. What should you do?",
+        "fil": "Nasa school canteen ka nang biglang lumakas ang pagyanig. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Run out the door right away",
+          "fil": "Tumakbo agad palabas ng pinto"
+        },
+        {
+          "en": "Drop, Cover, and Hold On under a sturdy table, away from glass",
+          "fil": "Mag-Drop, Cover, and Hold On sa ilalim ng matibay na mesa, malayo sa salamin"
+        },
+        {
+          "en": "Stand by the window to watch",
+          "fil": "Tumayo sa tabi ng bintana para manood"
+        },
+        {
+          "en": "Climb onto the table",
+          "fil": "Umakyat sa ibabaw ng mesa"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Moving while the ground shakes can make you fall or get hit. Protect your head and neck until the shaking stops, then evacuate calmly.",
+        "fil": "Kapag gumagalaw ka habang yumayanig, puwede kang matumba o matamaan. Protektahan ang ulo at leeg hanggang tumigil ang pagyanig, saka lumikas nang mahinahon."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the steps of a school earthquake evacuation from first to last.",
+        "fil": "Ayusin ang mga hakbang sa earthquake evacuation sa school mula una hanggang huli."
+      },
+      "steps": [
+        {
+          "en": "Drop, Cover, and Hold On until the shaking stops",
+          "fil": "Mag-Drop, Cover, and Hold On hanggang tumigil ang pagyanig"
+        },
+        {
+          "en": "Check yourself and nearby classmates for injuries",
+          "fil": "Tingnan kung may sugat ka at ang mga kaklase sa tabi mo"
+        },
+        {
+          "en": "Wait for your teacher's signal to evacuate",
+          "fil": "Hintayin ang senyales ng teacher bago lumikas"
+        },
+        {
+          "en": "Walk calmly in line to the open evacuation area",
+          "fil": "Maglakad nang mahinahon at nakapila papunta sa open evacuation area"
+        },
+        {
+          "en": "Stay for the head count and wait for instructions",
+          "fil": "Manatili para sa head count at hintayin ang instructions"
+        }
+      ],
+      "explain": {
+        "en": "Staying put during shaking, then leaving in an orderly way, prevents injuries and makes sure no one is left behind.",
+        "fil": "Ang pananatili sa puwesto habang yumayanig, at maayos na paglabas pagkatapos, ay nakakaiwas sa injury at nasisigurong walang maiiwan."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "You are at the beach with your family. The ground shakes so hard for almost a minute that you can barely stand. When it stops, there is no siren and no text alert.",
+        "fil": "Nasa beach ka kasama ang pamilya mo. Napakalakas ng pagyanig nang halos isang minuto kaya halos hindi ka makatayo. Pagtigil nito, walang sirena at walang text alert."
+      },
+      "question": {
+        "en": "What is the safest next step?",
+        "fil": "Ano ang pinakaligtas na susunod na gawin?"
+      },
+      "choices": [
+        {
+          "en": "Wait for a text alert before moving",
+          "fil": "Maghintay muna ng text alert bago kumilos"
+        },
+        {
+          "en": "Walk to the shore to check the waves",
+          "fil": "Pumunta sa dalampasigan para tingnan ang alon"
+        },
+        {
+          "en": "Go quickly on foot to high ground or far inland",
+          "fil": "Maglakad nang mabilis papunta sa mataas na lugar o malayo sa dagat"
+        },
+        {
+          "en": "Go back to the cottage to pack your things",
+          "fil": "Bumalik sa cottage para mag-impake"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Strong or long shaking near the coast is a natural tsunami warning. A tsunami from a nearby earthquake can arrive within minutes, before any official alert.",
+        "fil": "Ang malakas o matagal na pagyanig malapit sa dagat ay natural na babala ng tsunami. Puwedeng dumating ang tsunami mula sa malapit na lindol sa loob lang ng ilang minuto, bago pa ang anumang official na alert."
+      }
+    }
+  ]
+}

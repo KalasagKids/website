@@ -1,0 +1,331 @@
+{
+  "name": {
+    "en": "Typhoons",
+    "fil": "Typhoons (Bagyo)"
+  },
+  "lessons": [
+    {
+      "en": "Follow PAGASA wind signals and rainfall warnings, and evacuate early when told.",
+      "fil": "Sundin ang wind signals at rainfall warnings ng PAGASA, at lumikas nang maaga kapag inutos."
+    },
+    {
+      "en": "Secure the house, store water and food, and charge phones before the storm.",
+      "fil": "I-secure ang bahay, mag-imbak ng tubig at pagkain, at i-charge ang mga phone bago dumating ang bagyo."
+    },
+    {
+      "en": "After the storm, stay away from floodwater and fallen wires.",
+      "fil": "Pagkatapos ng bagyo, lumayo sa baha at sa mga natumbang kable ng kuryente."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Inside which area does PAGASA give tropical cyclones a local name?",
+        "fil": "Sa loob ng aling lugar binibigyan ng PAGASA ng local na pangalan ang mga tropical cyclone?"
+      },
+      "choices": [
+        {
+          "en": "Philippine Area of Responsibility (PAR)",
+          "fil": "Philippine Area of Responsibility (PAR)"
+        },
+        {
+          "en": "Permanent Danger Zone (PDZ)",
+          "fil": "Permanent Danger Zone (PDZ)"
+        },
+        {
+          "en": "Local Government Unit (LGU)",
+          "fil": "Local Government Unit (LGU)"
+        },
+        {
+          "en": "National Capital Region (NCR)",
+          "fil": "National Capital Region (NCR)"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Cyclones get a local name once they enter PAR, which makes updates easier to follow.",
+        "fil": "Nabibigyan ng local na pangalan ang bagyo pagpasok nito sa PAR, para mas madaling sundan ang updates."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What is the calm, clear center of a typhoon called, after which strong winds return from the other side?",
+        "fil": "Ano ang tawag sa kalmado at maaliwalas na gitna ng bagyo, na pagkatapos ay babalik ang malakas na hangin mula sa kabilang direksyon?"
+      },
+      "show": {
+        "en": "The eye",
+        "fil": "Eye (mata ng bagyo)"
+      },
+      "accept": [
+        "eye",
+        "the eye",
+        "eye of the storm",
+        "eye of the typhoon",
+        "Eye (mata ng bagyo)",
+        "mata ng bagyo"
+      ],
+      "explain": {
+        "en": "The calm can last only minutes. Strong winds come back once the eye passes.",
+        "fil": "Ilang minuto lang puwedeng tumagal ang kalmado. Babalik ang malakas na hangin pagdaan ng mata ng bagyo."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "A higher Tropical Cyclone Wind Signal number means stronger winds are expected.",
+        "fil": "Kapag mas mataas ang numero ng Tropical Cyclone Wind Signal, mas malakas ang hanging inaasahan."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Signals run from No. 1 to No. 5. Signal No. 5 means extreme winds.",
+        "fil": "Mula Signal No. 1 hanggang Signal No. 5 ang wind signals. Ang Signal No. 5 ay para sa extreme na hangin."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "Portable generators give off carbon ____, a poisonous gas, so use them only outdoors.",
+        "fil": "Naglalabas ng carbon ____, isang nakalalasong gas, ang portable generator, kaya gamitin lang ito sa labas."
+      },
+      "show": {
+        "en": "Monoxide",
+        "fil": "Monoxide"
+      },
+      "accept": [
+        "monoxide"
+      ],
+      "explain": {
+        "en": "Carbon monoxide has no smell and can build up indoors. Keep generators outside, away from doors and windows.",
+        "fil": "Walang amoy ang carbon monoxide at puwede itong maipon sa loob ng bahay. Ilagay ang generator sa labas, malayo sa mga pinto at bintana."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each wind signal with what it means.",
+        "fil": "Itugma ang bawat wind signal sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Signal No. 1",
+            "fil": "Signal No. 1"
+          },
+          {
+            "en": "Strong winds; minimal to minor damage",
+            "fil": "Malakas na hangin; minimal hanggang minor na pinsala"
+          }
+        ],
+        [
+          {
+            "en": "Signal No. 3",
+            "fil": "Signal No. 3"
+          },
+          {
+            "en": "Storm-force winds; moderate to significant damage",
+            "fil": "Storm-force na hangin; katamtaman hanggang malaking pinsala"
+          }
+        ],
+        [
+          {
+            "en": "Signal No. 4",
+            "fil": "Signal No. 4"
+          },
+          {
+            "en": "Typhoon-force winds; very destructive",
+            "fil": "Typhoon-force na hangin; napakamapanira"
+          }
+        ],
+        [
+          {
+            "en": "Signal No. 5",
+            "fil": "Signal No. 5"
+          },
+          {
+            "en": "Extreme super typhoon winds; catastrophic",
+            "fil": "Extreme na hangin ng super typhoon; catastrophic na pinsala"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Knowing the signals helps families decide how urgently to prepare.",
+        "fil": "Kapag alam mo ang signals, alam ng pamilya kung gaano kabilis dapat maghanda."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 4 ways to prepare a home before a typhoon.",
+        "fil": "Magbigay ng 4 na paraan para ihanda ang bahay bago dumating ang bagyo."
+      },
+      "count": 4,
+      "pool": [
+        [
+          "roof",
+          "bubong"
+        ],
+        [
+          "loose",
+          "secure",
+          "tie down",
+          "maluwag",
+          "itali",
+          "ipasok"
+        ],
+        [
+          "tree",
+          "branch",
+          "sanga",
+          "puno"
+        ],
+        [
+          "drain",
+          "canal",
+          "gutter",
+          "kanal",
+          "alulod",
+          "estero"
+        ],
+        [
+          "water",
+          "tubig"
+        ],
+        [
+          "food",
+          "pagkain"
+        ],
+        [
+          "charge",
+          "power bank",
+          "batter",
+          "baterya"
+        ],
+        [
+          "go bag",
+          "gobag",
+          "emergency kit",
+          "kit"
+        ],
+        [
+          "evacuat",
+          "lumikas",
+          "ebakwasyon"
+        ],
+        [
+          "window",
+          "shutter",
+          "board",
+          "bintana",
+          "tabla"
+        ]
+      ],
+      "show": {
+        "en": "fasten the roof, secure loose objects, trim tree branches, clear drains, store water, store food, charge phones and power banks, prepare a go-bag, know the evacuation center, close or board up windows",
+        "fil": "higpitan ang bubong, i-secure o ipasok ang mga maluwag na gamit, putulin ang mga sanga ng puno, linisin ang mga kanal at alulod, mag-imbak ng tubig, mag-imbak ng pagkain, i-charge ang phone at power bank, ihanda ang go-bag, alamin ang evacuation center, isara o takpan ng tabla ang mga bintana"
+      },
+      "explain": {
+        "en": "Many typhoon injuries come from flying objects and falling trees.",
+        "fil": "Maraming injury tuwing bagyo ay galing sa lumilipad na gamit at natutumbang puno."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "PAGASA has raised Signal No. 2 over your coastal town, and your father plans to go fishing. What should you do?",
+        "fil": "Itinaas ng PAGASA ang Signal No. 2 sa coastal town ninyo, at balak mangisda ng tatay mo. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go fishing with him",
+          "fil": "Sumama sa kanya sa pangingisda"
+        },
+        {
+          "en": "Ask him not to go and remind him the sea is dangerous during a typhoon",
+          "fil": "Pakiusapan siyang huwag tumuloy at ipaalala na delikado ang dagat kapag may bagyo"
+        },
+        {
+          "en": "Say nothing",
+          "fil": "Huwag na lang magsalita"
+        },
+        {
+          "en": "Help him load the boat quickly",
+          "fil": "Tulungan siyang magkarga sa bangka"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Strong waves can overturn boats, and the Coast Guard usually suspends sea travel during typhoons.",
+        "fil": "Kayang itaob ng malalakas na alon ang bangka, at kadalasang sinususpinde ng Coast Guard ang biyahe sa dagat kapag may bagyo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these typhoon safety steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito para sa kaligtasan sa bagyo."
+      },
+      "steps": [
+        {
+          "en": "Monitor PAGASA advisories as the typhoon approaches",
+          "fil": "Bantayan ang PAGASA advisories habang papalapit ang bagyo"
+        },
+        {
+          "en": "Secure the house and prepare the go-bag",
+          "fil": "I-secure ang bahay at ihanda ang go-bag"
+        },
+        {
+          "en": "Evacuate early if officials order it",
+          "fil": "Lumikas nang maaga kung mag-utos ang mga opisyal"
+        },
+        {
+          "en": "Stay indoors, away from windows, while it passes",
+          "fil": "Manatili sa loob, malayo sa mga bintana, habang dumadaan ang bagyo"
+        },
+        {
+          "en": "After it passes, avoid floodwater and fallen wires",
+          "fil": "Pagkatapos ng bagyo, lumayo sa baha at natumbang kable ng kuryente"
+        }
+      ],
+      "explain": {
+        "en": "Each phase has its own job: prepare, shelter, then recover carefully.",
+        "fil": "May kanya-kanyang trabaho ang bawat yugto: maghanda, sumilong, at mag-ingat sa pagbangon."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "In the middle of a typhoon, the wind suddenly stops and the sky looks clear. Your cousin wants to go outside to look at the damage.",
+        "fil": "Nasa gitna ng bagyo, biglang tumigil ang hangin at lumiwanag ang langit. Gusto ng pinsan mong lumabas para tingnan ang pinsala."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go out together quickly",
+          "fil": "Lumabas kayo nang mabilis"
+        },
+        {
+          "en": "Stay inside, because the eye may be passing and winds will return",
+          "fil": "Manatili sa loob dahil baka mata ng bagyo ito at babalik ang hangin"
+        },
+        {
+          "en": "Open all the windows",
+          "fil": "Buksan ang lahat ng bintana"
+        },
+        {
+          "en": "Climb onto the roof to look",
+          "fil": "Umakyat sa bubong para tumingin"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The calm may be the eye. Strong winds return quickly from the opposite direction.",
+        "fil": "Puwedeng mata ng bagyo ang kalmado. Mabilis na babalik ang malakas na hangin mula sa kabilang direksyon."
+      }
+    }
+  ]
+}

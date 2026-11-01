@@ -1,0 +1,315 @@
+{
+  "name": {
+    "en": "Crowd Crush During Evacuations or Public Events",
+    "fil": "Crowd Crush During Evacuations or Public Events (Siksikan o Stampede)"
+  },
+  "lessons": [
+    {
+      "en": "Know two exits, stay near the edges, and leave early when a crowd feels too tight.",
+      "fil": "Alamin ang dalawang exit, manatili sa gilid, at umalis nang maaga kapag masyado nang masikip."
+    },
+    {
+      "en": "If caught, keep your arms in front of your chest and move with the flow toward the sides.",
+      "fil": "Kapag naipit, itaas ang braso sa harap ng dibdib at sumabay sa agos papunta sa gilid."
+    },
+    {
+      "en": "During evacuations: don't push, don't talk, don't run, don't return.",
+      "fil": "Tuwing evacuation: huwag magtulakan, huwag magdaldalan, huwag tumakbo, huwag bumalik."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "A crowd crush happens when…",
+        "fil": "Nangyayari ang crowd crush kapag…"
+      },
+      "choices": [
+        {
+          "en": "So many people are packed together that they cannot move freely and the pressure becomes dangerous",
+          "fil": "Sobrang siksikan ng tao kaya hindi na sila makagalaw at nagiging delikado ang pressure"
+        },
+        {
+          "en": "People line up neatly",
+          "fil": "Maayos na nakapila ang mga tao"
+        },
+        {
+          "en": "A room is nearly empty",
+          "fil": "Halos walang tao sa kuwarto"
+        },
+        {
+          "en": "People walk slowly in a park",
+          "fil": "Mabagal na naglalakad ang mga tao sa park"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Crushes come from too many people in too little space, not usually from carelessness.",
+        "fil": "Ang crush ay dahil sa sobrang dami ng tao sa maliit na espasyo, hindi kadalasan dahil sa kapabayaan."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call a narrow place, like a doorway or stairway, where crowds slow down and pile up?",
+        "fil": "Ano ang tawag sa makitid na lugar, tulad ng pinto o hagdan, kung saan bumabagal at nagsisiksikan ang mga tao?"
+      },
+      "show": {
+        "en": "Bottleneck",
+        "fil": "Bottleneck"
+      },
+      "accept": [
+        "bottleneck",
+        "bottle neck",
+        "choke point",
+        "chokepoint"
+      ],
+      "explain": {
+        "en": "Bottlenecks concentrate people, so pass through them calmly or avoid them.",
+        "fil": "Dito nagkukumpol ang mga tao, kaya dumaan nang mahinahon o iwasan ito."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Stopping to pick up something you dropped in a moving crowd is safe.",
+        "fil": "Ligtas huminto para pulutin ang nahulog mong gamit sa gumagalaw na siksikan."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Bending down can make you fall or be pushed. Leave the item.",
+        "fil": "Kapag yumuko ka, puwede kang matumba o maitulak. Iwan na ang gamit."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "If caught in a dense crowd, keep your arms up in front of your ____ to protect your breathing space.",
+        "fil": "Kapag naipit sa siksikan, itaas ang braso sa harap ng iyong ____ para maprotektahan ang espasyo para makahinga."
+      },
+      "show": {
+        "en": "Chest",
+        "fil": "Dibdib (chest)"
+      },
+      "accept": [
+        "chest",
+        "Dibdib (chest)",
+        "Dibdib"
+      ],
+      "explain": {
+        "en": "Arms in front of the chest keep room to breathe under pressure.",
+        "fil": "Ang braso sa harap ng dibdib ay nagbibigay ng espasyo para makahinga kahit may pressure."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each crowd safety measure with what it does.",
+        "fil": "Itugma ang bawat crowd safety measure sa ginagawa nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Capacity limit",
+            "fil": "Capacity limit"
+          },
+          {
+            "en": "Lets in only as many people as the space can hold",
+            "fil": "Pinapapasok lang ang kayang laman ng lugar"
+          }
+        ],
+        [
+          {
+            "en": "One-way flow",
+            "fil": "One-way flow"
+          },
+          {
+            "en": "Separate lanes for going in and coming out",
+            "fil": "Magkahiwalay na daan papasok at palabas"
+          }
+        ],
+        [
+          {
+            "en": "Trained marshals",
+            "fil": "Trained marshals"
+          },
+          {
+            "en": "Staff who guide people and watch the crowd",
+            "fil": "Staff na gumagabay sa tao at nagbabantay sa siksikan"
+          }
+        ],
+        [
+          {
+            "en": "Several open exits",
+            "fil": "Maraming bukas na exit"
+          },
+          {
+            "en": "Routes out on many sides",
+            "fil": "Mga daan palabas sa iba't ibang gilid"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Organizers use these measures to prevent most crowd crushes.",
+        "fil": "Ginagamit ng organizers ang mga ito para maiwasan ang karamihan ng crowd crush."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 warning signs that a crowd is becoming dangerous.",
+        "fil": "Magbigay ng 3 babala na nagiging delikado na ang siksikan."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "move",
+          "freely",
+          "stuck",
+          "galaw"
+        ],
+        [
+          "touch",
+          "packed",
+          "squeez",
+          "pressed",
+          "ipit",
+          "siksik"
+        ],
+        [
+          "sway",
+          "wave",
+          "push",
+          "umuuga",
+          "alon",
+          "tulak"
+        ],
+        [
+          "shout",
+          "scream",
+          "cry",
+          "help",
+          "sigaw",
+          "tulong",
+          "iyak"
+        ],
+        [
+          "fall",
+          "tumba",
+          "bagsak"
+        ],
+        [
+          "exit",
+          "block",
+          "harang",
+          "labasan"
+        ]
+      ],
+      "show": {
+        "en": "you cannot move freely, you are pressed on all sides, the crowd sways in waves, people shout for help, people fall, exits are blocked",
+        "fil": "hindi ka na makagalaw nang malaya, naiipit ka sa lahat ng gilid, umuuga ang tao na parang alon, may sumisigaw ng tulong, may natutumba, nakaharang ang mga exit"
+      },
+      "explain": {
+        "en": "Noticing early gives you time to move to the edges or leave.",
+        "fil": "Kapag napansin mo agad, may oras ka pang lumipat sa gilid o umalis."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "At a free concert, the crowd near the stage gets tighter and your little brother starts crying. What should you do?",
+        "fil": "Sa isang free concert, lalong sumisikip malapit sa stage at nagsimulang umiyak ang nakababata mong kapatid. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Push forward to get to the stage",
+          "fil": "Makipagsiksikan papunta sa stage"
+        },
+        {
+          "en": "Hold his hand, keep him in front of you, and move toward the edges and an exit",
+          "fil": "Hawakan ang kamay niya, ilagay siya sa harap mo, at lumipat papunta sa gilid at sa exit"
+        },
+        {
+          "en": "Lift him on your shoulders and stay",
+          "fil": "Pasanin siya sa balikat at manatili"
+        },
+        {
+          "en": "Sit down on the ground",
+          "fil": "Umupo sa sahig"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Children feel crowd pressure sooner. Leaving early is the safest choice.",
+        "fil": "Mas maagang nararamdaman ng mga bata ang pressure ng siksikan. Pinakaligtas ang maagang pag-alis."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the steps of a calm school evacuation.",
+        "fil": "Ayusin ang mga hakbang ng mahinahong school evacuation."
+      },
+      "steps": [
+        {
+          "en": "Listen for the teacher's instruction",
+          "fil": "Pakinggan ang instruction ng teacher"
+        },
+        {
+          "en": "Line up with your class",
+          "fil": "Pumila kasama ang klase mo"
+        },
+        {
+          "en": "Walk calmly using your class's assigned exit and stairway",
+          "fil": "Maglakad nang mahinahon gamit ang nakatalagang exit at hagdan ng klase ninyo"
+        },
+        {
+          "en": "Keep to the four don'ts: no pushing, talking, running, or returning",
+          "fil": "Sundin ang apat na huwag: huwag magtulakan, magdaldalan, tumakbo, o bumalik"
+        },
+        {
+          "en": "Wait at the assembly area for the head count",
+          "fil": "Maghintay sa assembly area para sa head count"
+        }
+      ],
+      "explain": {
+        "en": "Assigned exits spread classes out, and calm walking prevents falls.",
+        "fil": "Napaghihiwalay ng nakatalagang exit ang mga klase, at naiiwasan ang pagkatumba kapag mahinahong naglalakad."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "In a mall, someone shouts that something dangerous is happening, and people start running toward one exit.",
+        "fil": "Sa isang mall, may sumigaw na may delikadong nangyayari, at nagsimulang magtakbuhan ang mga tao papunta sa iisang exit."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Run with the crowd",
+          "fil": "Sumabay sa pagtakbo"
+        },
+        {
+          "en": "Stay calm, move to the side or into a store, and listen for mall security announcements",
+          "fil": "Manatiling kalmado, tumabi o pumasok sa isang tindahan, at pakinggan ang announcement ng mall security"
+        },
+        {
+          "en": "Shout louder to warn people",
+          "fil": "Sumigaw nang mas malakas para bigyang-babala ang iba"
+        },
+        {
+          "en": "Climb over a railing",
+          "fil": "Umakyat sa railing"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Rumors can cause dangerous rushes even when there is no real threat.",
+        "fil": "Kayang magdulot ng delikadong takbuhan ang tsismis kahit wala namang totoong banta."
+      }
+    }
+  ]
+}

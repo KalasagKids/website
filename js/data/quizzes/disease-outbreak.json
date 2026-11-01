@@ -1,0 +1,307 @@
+{
+  "name": {
+    "en": "Disease Outbreak",
+    "fil": "Disease Outbreak (Paglaganap ng Sakit)"
+  },
+  "lessons": [
+    {
+      "en": "Wash hands with soap for at least 20 seconds and cover coughs with your elbow.",
+      "fil": "Maghugas ng kamay gamit ang sabon nang hindi bababa sa 20 segundo at takpan ang ubo gamit ang siko."
+    },
+    {
+      "en": "Stay home when sick and see a health worker early.",
+      "fil": "Manatili sa bahay kapag may sakit at magpatingin agad sa health worker."
+    },
+    {
+      "en": "Get information from the DOH and health workers, and never tease people who were sick.",
+      "fil": "Kumuha ng impormasyon mula sa DOH at health workers, at huwag kailanman tuksuhin ang mga taong nagkasakit."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "A disease that spreads across many countries or the whole world is called a…",
+        "fil": "Ang sakit na kumakalat sa maraming bansa o sa buong mundo ay tinatawag na…"
+      },
+      "choices": [
+        {
+          "en": "Pandemic",
+          "fil": "Pandemic"
+        },
+        {
+          "en": "Allergy",
+          "fil": "Allergy"
+        },
+        {
+          "en": "Injury",
+          "fil": "Injury"
+        },
+        {
+          "en": "Endemic disease",
+          "fil": "Endemic na sakit"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "A pandemic is worldwide. An outbreak or epidemic is more local.",
+        "fil": "Ang pandemic ay buong mundo. Ang outbreak o epidemic ay mas lokal."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Which mosquito spreads dengue?",
+        "fil": "Anong lamok ang nagdadala ng dengue?"
+      },
+      "show": {
+        "en": "Aedes mosquito",
+        "fil": "Aedes mosquito"
+      },
+      "accept": [
+        "aedes",
+        "aedes aegypti",
+        "aedes mosquito",
+        "aedes albopictus"
+      ],
+      "explain": {
+        "en": "Aedes mosquitoes breed in clean, standing water around homes and schools.",
+        "fil": "Nangingitlog ang Aedes sa malinis at nakatigil na tubig sa paligid ng bahay at school."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Antibiotics can cure viral infections like the flu.",
+        "fil": "Kayang gamutin ng antibiotics ang viral infections tulad ng trangkaso (flu)."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Antibiotics work on bacteria, not viruses. Use only medicines a doctor recommends.",
+        "fil": "Para sa bacteria ang antibiotics, hindi para sa virus. Gamot na inirekomenda lang ng doktor ang inumin."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "Wash your hands with soap and water for at least ____ seconds.",
+        "fil": "Maghugas ng kamay gamit ang sabon at tubig nang hindi bababa sa ____ segundo."
+      },
+      "show": {
+        "en": "20",
+        "fil": "20 (dalawampu)"
+      },
+      "accept": [
+        "20",
+        "twenty",
+        "20 (dalawampu)",
+        "dalawampu"
+      ],
+      "explain": {
+        "en": "About 20 seconds of scrubbing removes most germs from your hands.",
+        "fil": "Ang mga 20 segundong pagkuskos ay nakakatanggal ng karamihan ng mikrobyo sa kamay."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each public health term with its meaning.",
+        "fil": "Itugma ang bawat public health term sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Quarantine",
+            "fil": "Quarantine"
+          },
+          {
+            "en": "Keeping people who were exposed apart to watch for illness",
+            "fil": "Paghiwalay sa mga na-expose para bantayan kung magkakasakit"
+          }
+        ],
+        [
+          {
+            "en": "Isolation",
+            "fil": "Isolation"
+          },
+          {
+            "en": "Separating people who are already sick",
+            "fil": "Paghiwalay sa mga taong may sakit na"
+          }
+        ],
+        [
+          {
+            "en": "Immunization",
+            "fil": "Immunization"
+          },
+          {
+            "en": "Giving vaccines to protect against disease",
+            "fil": "Pagbibigay ng bakuna para maprotektahan laban sa sakit"
+          }
+        ],
+        [
+          {
+            "en": "Disease surveillance",
+            "fil": "Disease surveillance"
+          },
+          {
+            "en": "Tracking cases to spot outbreaks early",
+            "fil": "Pagsubaybay sa mga kaso para maagang makita ang outbreak"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "These tools work together to stop an outbreak from spreading.",
+        "fil": "Magkakasamang gumagana ang mga ito para pigilan ang pagkalat ng outbreak."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name the 4 parts of the DOH 4S strategy against dengue.",
+        "fil": "Ibigay ang 4 na bahagi ng DOH 4S strategy laban sa dengue."
+      },
+      "count": 4,
+      "pool": [
+        [
+          "search",
+          "destroy",
+          "breeding",
+          "hanap",
+          "sirain",
+          "pinamumugaran"
+        ],
+        [
+          "self",
+          "protect",
+          "repellent",
+          "long sleeve",
+          "mosquito net",
+          "proteksyon",
+          "kulambo",
+          "manggas"
+        ],
+        [
+          "seek",
+          "consult",
+          "early",
+          "doctor",
+          "magpatingin",
+          "doktor",
+          "konsulta"
+        ],
+        [
+          "support",
+          "fog",
+          "spray",
+          "suporta"
+        ]
+      ],
+      "show": {
+        "en": "Search and destroy breeding sites; Self-protection; Seek early consultation; Support fogging or spraying in hotspot areas",
+        "fil": "Search and destroy (hanapin at sirain ang pinamumugaran ng lamok); Self-protection (proteksyon sa sarili); Seek early consultation (magpatingin agad); Support fogging or spraying (suportahan ang fogging o spraying sa mga hotspot)"
+      },
+      "explain": {
+        "en": "Removing standing water is the most important step because it stops mosquitoes from breeding.",
+        "fil": "Pinakamahalaga ang pagtanggal ng nakatigil na tubig dahil doon nangingitlog ang lamok."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "During a dengue outbreak, your little sister has had a high fever for two days. What should your family do?",
+        "fil": "May dengue outbreak, at dalawang araw nang mataas ang lagnat ng nakababata mong kapatid. Ano ang dapat gawin ng pamilya mo?"
+      },
+      "choices": [
+        {
+          "en": "Wait another week",
+          "fil": "Maghintay pa ng isang linggo"
+        },
+        {
+          "en": "Bring her to a doctor or health center right away",
+          "fil": "Dalhin agad siya sa doktor o health center"
+        },
+        {
+          "en": "Give her leftover antibiotics",
+          "fil": "Painumin siya ng natirang antibiotics"
+        },
+        {
+          "en": "Send her to school as usual",
+          "fil": "Papasukin pa rin siya sa school"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Early medical care is important for dengue, especially if there is stomach pain or bleeding.",
+        "fil": "Mahalaga ang maagang pagpapatingin sa dengue, lalo na kung may pananakit ng tiyan o pagdurugo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the handwashing steps in order.",
+        "fil": "Ayusin ang mga hakbang sa paghuhugas ng kamay."
+      },
+      "steps": [
+        {
+          "en": "Wet your hands with clean water",
+          "fil": "Basain ang kamay ng malinis na tubig"
+        },
+        {
+          "en": "Apply soap",
+          "fil": "Lagyan ng sabon"
+        },
+        {
+          "en": "Scrub all parts of your hands for at least 20 seconds",
+          "fil": "Kuskusin ang lahat ng bahagi ng kamay nang hindi bababa sa 20 segundo"
+        },
+        {
+          "en": "Rinse well with clean water",
+          "fil": "Banlawan nang mabuti ng malinis na tubig"
+        },
+        {
+          "en": "Dry with a clean towel or let them air dry",
+          "fil": "Patuyuin gamit ang malinis na towel o hayaang matuyo sa hangin"
+        }
+      ],
+      "explain": {
+        "en": "Scrubbing every part of the hands, including between fingers, removes the most germs.",
+        "fil": "Ang pagkuskos sa bawat bahagi ng kamay, pati sa pagitan ng mga daliri, ang pinakamabisang pantanggal ng mikrobyo."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "A post in your class group chat shares a miracle cure for the outbreak disease. It has no source, and classmates keep forwarding it.",
+        "fil": "May nag-post sa class group chat ninyo ng miracle cure daw para sa sakit na kumakalat. Walang source ito, pero patuloy itong ipinapasa ng mga kaklase mo."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Forward it too",
+          "fil": "I-forward din ito"
+        },
+        {
+          "en": "Do not share it, and check information from the DOH or health workers",
+          "fil": "Huwag itong i-share, at alamin ang tamang impormasyon mula sa DOH o health workers"
+        },
+        {
+          "en": "Try the cure at home",
+          "fil": "Subukan ang cure sa bahay"
+        },
+        {
+          "en": "Post it on more pages",
+          "fil": "I-post pa ito sa ibang pages"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "False cures can be harmful and spread confusion. Trust official health sources.",
+        "fil": "Puwedeng makasama ang pekeng gamot at nagdudulot ito ng kalituhan. Magtiwala sa official na health sources."
+      }
+    }
+  ]
+}

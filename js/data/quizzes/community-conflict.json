@@ -1,0 +1,322 @@
+{
+  "name": {
+    "en": "Community Conflict and Unrest",
+    "fil": "Community Conflict and Unrest (Hidwaan at Kaguluhan sa Komunidad)"
+  },
+  "lessons": [
+    {
+      "en": "Move away from crowds that turn angry and get indoors with trusted adults.",
+      "fil": "Lumayo sa mga taong nagagalit at nagkakagulo, at pumasok sa loob kasama ang trusted adults."
+    },
+    {
+      "en": "Follow curfews, lockdowns, and official advisories.",
+      "fil": "Sundin ang curfew, lockdown, at official advisories."
+    },
+    {
+      "en": "Check facts before sharing, and choose peaceful ways like barangay mediation.",
+      "fil": "Tiyakin muna ang facts bago mag-share, at piliin ang mapayapang paraan tulad ng barangay mediation."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Community conflict is…",
+        "fil": "Ang community conflict ay…"
+      },
+      "choices": [
+        {
+          "en": "A serious disagreement between people or groups that can lead to harm if not solved peacefully",
+          "fil": "Seryosong hindi pagkakasundo ng mga tao o grupo na puwedeng mauwi sa pinsala kung hindi maaayos nang mapayapa"
+        },
+        {
+          "en": "A friendly sports match",
+          "fil": "Friendly na laro"
+        },
+        {
+          "en": "A class party",
+          "fil": "Class party"
+        },
+        {
+          "en": "A weather event",
+          "fil": "Isang weather event"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Disagreements are normal. They become hazards when they turn violent.",
+        "fil": "Normal ang hindi pagkakasundo. Nagiging panganib ito kapag nauwi na sa karahasan."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Name the barangay system that helps neighbors settle disputes peacefully through mediation.",
+        "fil": "Ano ang sistema sa barangay na tumutulong sa magkakapitbahay na ayusin ang alitan nang mapayapa sa pamamagitan ng mediation?"
+      },
+      "show": {
+        "en": "Katarungang Pambarangay (Lupon Tagapamayapa)",
+        "fil": "Katarungang Pambarangay (Lupon Tagapamayapa)"
+      },
+      "accept": [
+        "katarungang pambarangay",
+        "lupon tagapamayapa",
+        "lupon",
+        "barangay mediation",
+        "lupong tagapamayapa",
+        "Katarungang Pambarangay (Lupon Tagapamayapa)"
+      ],
+      "explain": {
+        "en": "Barangay mediation helps neighbors solve problems without violence.",
+        "fil": "Tinutulungan ng barangay mediation ang magkakapitbahay na maayos ang problema nang walang karahasan."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Blaming a whole group for what a few people did helps keep the peace.",
+        "fil": "Ang pagsisi sa buong grupo dahil sa ginawa ng iilan ay nakakatulong para mapanatili ang kapayapaan."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Blaming whole groups hurts innocent people and makes conflict worse.",
+        "fil": "Nasasaktan ang mga inosente kapag sinisisi ang buong grupo, at lalong lumalala ang gulo."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "A rule that requires people to stay indoors during set hours for safety is called a ____.",
+        "fil": "Ang patakaran na nag-uutos na manatili sa loob ng bahay sa takdang oras para sa kaligtasan ay tinatawag na ____."
+      },
+      "show": {
+        "en": "Curfew",
+        "fil": "Curfew"
+      },
+      "accept": [
+        "curfew"
+      ],
+      "explain": {
+        "en": "Curfews keep people away from danger while authorities restore order.",
+        "fil": "Inilalayo ng curfew ang mga tao sa panganib habang ibinabalik ng mga awtoridad ang kaayusan."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each peace-building action with its meaning.",
+        "fil": "Itugma ang bawat paraan ng pagbuo ng kapayapaan sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Mediation",
+            "fil": "Mediation"
+          },
+          {
+            "en": "A neutral person helps two sides find a fair solution",
+            "fil": "Tinutulungan ng neutral na tao ang dalawang panig na makahanap ng patas na solusyon"
+          }
+        ],
+        [
+          {
+            "en": "Peace education",
+            "fil": "Peace education"
+          },
+          {
+            "en": "Learning nonviolence and conflict resolution in school",
+            "fil": "Pag-aaral ng nonviolence at conflict resolution sa school"
+          }
+        ],
+        [
+          {
+            "en": "Fact-checking",
+            "fil": "Fact-checking"
+          },
+          {
+            "en": "Confirming information before believing or sharing it",
+            "fil": "Pagtiyak sa impormasyon bago ito paniwalaan o i-share"
+          }
+        ],
+        [
+          {
+            "en": "Respect for diversity",
+            "fil": "Respect for diversity"
+          },
+          {
+            "en": "Valuing different cultures and beliefs",
+            "fil": "Pagpapahalaga sa iba't ibang kultura at paniniwala"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "These actions help communities solve disagreements peacefully.",
+        "fil": "Tinutulungan ng mga ito ang komunidad na maayos ang hindi pagkakasundo nang mapayapa."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 ways a family can prepare for possible unrest.",
+        "fil": "Magbigay ng 3 paraan para makapaghanda ang pamilya sa posibleng kaguluhan."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "meet",
+          "tagpuan"
+        ],
+        [
+          "contact",
+          "number",
+          "phone",
+          "numero",
+          "telepono"
+        ],
+        [
+          "go bag",
+          "gobag",
+          "kit",
+          "bag"
+        ],
+        [
+          "route",
+          "evacuat",
+          "ruta",
+          "daan"
+        ],
+        [
+          "news",
+          "official",
+          "radio",
+          "update",
+          "advisor",
+          "balita",
+          "radyo"
+        ],
+        [
+          "elder",
+          "grand",
+          "disab",
+          "help",
+          "lola",
+          "lolo",
+          "matanda",
+          "kapansanan",
+          "tulong"
+        ],
+        [
+          "food",
+          "water",
+          "pagkain",
+          "tubig"
+        ]
+      ],
+      "show": {
+        "en": "agree on a meeting place, keep emergency contacts, prepare a go-bag, know safe routes and evacuation centers, follow official news, plan for family members who need help, store food and water",
+        "fil": "magkasundo sa meeting place, magtabi ng emergency contacts, ihanda ang go-bag, alamin ang ligtas na ruta at evacuation centers, sundan ang official na balita, magplano para sa miyembro ng pamilya na kailangan ng tulong, mag-imbak ng pagkain at tubig"
+      },
+      "explain": {
+        "en": "Calm preparation helps families act quickly without panic.",
+        "fil": "Ang mahinahong paghahanda ay tumutulong sa pamilya na mabilis kumilos nang hindi nagpa-panic."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "On your way home, a crowd at the end of the street starts shouting and throwing things. What should you do?",
+        "fil": "Pauwi ka nang biglang nagsigawan at nagbatuhan ng gamit ang mga tao sa dulo ng kalye. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Get closer to see what is happening",
+          "fil": "Lumapit para makita kung ano ang nangyayari"
+        },
+        {
+          "en": "Turn around calmly, take another route or go into a safe building, and contact your parents",
+          "fil": "Mahinahong umikot pabalik, dumaan sa ibang ruta o pumasok sa ligtas na gusali, at kontakin ang magulang mo"
+        },
+        {
+          "en": "Join the crowd",
+          "fil": "Sumali sa grupo"
+        },
+        {
+          "en": "Film it up close",
+          "fil": "Kunan ito ng video nang malapitan"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Bystanders can be hurt during clashes. Distance is your best protection.",
+        "fil": "Puwedeng masaktan ang mga nanonood lang kapag may gulo. Ang distansya ang pinakamagandang proteksyon mo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "You receive a scary message about the conflict. Arrange these steps in order.",
+        "fil": "May natanggap kang nakakatakot na message tungkol sa gulo. Ayusin ang mga hakbang."
+      },
+      "steps": [
+        {
+          "en": "Pause before sharing it",
+          "fil": "Huminto muna bago ito i-share"
+        },
+        {
+          "en": "Check whether it comes from an official source",
+          "fil": "Alamin kung galing ito sa official na source"
+        },
+        {
+          "en": "Compare it with trusted news or government advisories",
+          "fil": "Ikumpara ito sa trusted na balita o advisories ng gobyerno"
+        },
+        {
+          "en": "Do not forward it if it cannot be verified",
+          "fil": "Huwag i-forward kung hindi ma-verify"
+        },
+        {
+          "en": "Tell an adult if the message talks about danger",
+          "fil": "Sabihan ang adult kung may binabanggit itong panganib"
+        }
+      ],
+      "explain": {
+        "en": "Unverified messages can cause panic and even violence.",
+        "fil": "Ang hindi verified na message ay puwedeng magdulot ng panic at maging ng karahasan."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "After returning home from an evacuation, you find a strange metal object half-buried in your yard.",
+        "fil": "Pagbalik ninyo galing evacuation, may nakita kang kakaibang metal na bagay na kalahating nakabaon sa bakuran ninyo."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Pick it up to look at it",
+          "fil": "Pulutin ito para tingnan"
+        },
+        {
+          "en": "Do not touch it; move away, keep others away, and tell an adult to report it to the police or barangay",
+          "fil": "Huwag itong hawakan; lumayo, ilayo ang iba, at sabihan ang adult na i-report sa pulis o barangay"
+        },
+        {
+          "en": "Kick it to see if it moves",
+          "fil": "Sipain ito para makita kung gagalaw"
+        },
+        {
+          "en": "Bring it to school",
+          "fil": "Dalhin ito sa school"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Unknown objects in former conflict areas can be dangerous. Leave them for authorities.",
+        "fil": "Puwedeng delikado ang hindi kilalang bagay sa lugar na dating may gulo. Hayaan ang mga awtoridad ang humawak dito."
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "name": {
+    "en": "Severe Flooding",
+    "fil": "Severe Flooding (Matinding Baha)"
+  },
+  "lessons": [
+    {
+      "en": "Never walk, swim, or drive through floodwater: turn around, don't drown.",
+      "fil": "Huwag maglakad, lumangoy, o magmaneho sa baha: turn around, don't drown."
+    },
+    {
+      "en": "Evacuate early, and have an adult switch off the main power before water enters.",
+      "fil": "Lumikas nang maaga, at ipapatay sa adult ang main power bago pumasok ang tubig."
+    },
+    {
+      "en": "After a flood, use safe water, throw away soaked food, and see a doctor for fever.",
+      "fil": "Pagkatapos ng baha, gumamit ng ligtas na tubig, itapon ang pagkaing nababad, at magpatingin sa doktor kapag nilagnat."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which PAGASA rainfall warning color means serious flooding is expected?",
+        "fil": "Aling kulay ng PAGASA rainfall warning ang nangangahulugang inaasahan ang matinding baha?"
+      },
+      "choices": [
+        {
+          "en": "Yellow",
+          "fil": "Yellow"
+        },
+        {
+          "en": "Orange",
+          "fil": "Orange"
+        },
+        {
+          "en": "Red",
+          "fil": "Red"
+        },
+        {
+          "en": "Green",
+          "fil": "Green"
+        }
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "PAGASA uses yellow, orange, and red. Red calls for evacuation in flood-prone areas.",
+        "fil": "Gumagamit ang PAGASA ng yellow, orange, at red. Ang red ay nangangailangan ng paglikas sa mga lugar na madaling bahain."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Name the disease spread through floodwater that is contaminated by rat urine.",
+        "fil": "Anong sakit ang nakukuha sa bahang may ihi ng daga?"
+      },
+      "show": {
+        "en": "Leptospirosis",
+        "fil": "Leptospirosis"
+      },
+      "accept": [
+        "leptospirosis",
+        "lepto"
+      ],
+      "explain": {
+        "en": "The germs enter through cuts or the eyes, nose, and mouth. Avoid wading in floodwater.",
+        "fil": "Pumapasok ang mikrobyo sa sugat o sa mata, ilong, at bibig. Iwasang lumusong sa baha."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "About 15 cm (6 inches) of fast-moving water can knock an adult down.",
+        "fil": "Kaya ng mga 15 cm (6 inches) na mabilis na agos ng tubig na patumbahin ang isang adult."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Moving water is much stronger than it looks, and about 30 cm can float a small car.",
+        "fil": "Mas malakas ang agos kaysa sa itsura nito, at kaya ng mga 30 cm na tubig na palutangin ang maliit na kotse."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "If floodwater covers the road, remember: Turn around, don't ____.",
+        "fil": "Kapag baha ang daan, tandaan: Turn around, don't ____."
+      },
+      "show": {
+        "en": "Drown",
+        "fil": "Drown"
+      },
+      "accept": [
+        "drown"
+      ],
+      "explain": {
+        "en": "Go back and find another way. Floodwater can also hide open manholes and sharp objects.",
+        "fil": "Bumalik at maghanap ng ibang daan. Puwede ring may nakatagong bukas na manhole o matatalas na bagay sa ilalim ng baha."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each type of flood with its description.",
+        "fil": "Itugma ang bawat uri ng baha sa paglalarawan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Flash flood",
+            "fil": "Flash flood"
+          },
+          {
+            "en": "Rises very quickly, in minutes to hours",
+            "fil": "Napakabilis tumaas, sa loob ng ilang minuto hanggang oras"
+          }
+        ],
+        [
+          {
+            "en": "Riverine flood",
+            "fil": "Riverine flood"
+          },
+          {
+            "en": "A river overflows its banks",
+            "fil": "Umaapaw ang ilog sa pampang nito"
+          }
+        ],
+        [
+          {
+            "en": "Urban flood",
+            "fil": "Urban flood"
+          },
+          {
+            "en": "Drains cannot carry away rainwater",
+            "fil": "Hindi kaya ng kanal na padaluyin ang tubig-ulan"
+          }
+        ],
+        [
+          {
+            "en": "Coastal flood",
+            "fil": "Coastal flood"
+          },
+          {
+            "en": "Seawater covers low land near the shore",
+            "fil": "Tinatakpan ng tubig-dagat ang mababang lupa malapit sa dalampasigan"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Flash floods are the most dangerous because they leave little time to react.",
+        "fil": "Pinakadelikado ang flash flood dahil kaunti lang ang oras para kumilos."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 ways to stay healthy after a flood.",
+        "fil": "Magbigay ng 3 paraan para manatiling malusog pagkatapos ng baha."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "water",
+          "boil",
+          "tubig",
+          "pakulo",
+          "kumukulo"
+        ],
+        [
+          "hand",
+          "wash",
+          "kamay",
+          "hugas"
+        ],
+        [
+          "food",
+          "pagkain"
+        ],
+        [
+          "boot",
+          "shoe",
+          "bota",
+          "sapatos"
+        ],
+        [
+          "standing",
+          "container",
+          "mosquito",
+          "naipon",
+          "lalagyan",
+          "lamok"
+        ],
+        [
+          "mold",
+          "dry",
+          "clean",
+          "amag",
+          "patuyo",
+          "linis"
+        ],
+        [
+          "doctor",
+          "health center",
+          "clinic",
+          "fever",
+          "doktor",
+          "lagnat"
+        ]
+      ],
+      "show": {
+        "en": "drink safe or boiled water, wash hands often, throw away flood-soaked food, wear boots, remove standing water, dry and clean the house to stop mold, see a doctor for fever",
+        "fil": "uminom ng ligtas o pinakuluang tubig, maghugas ng kamay nang madalas, itapon ang pagkaing nababad sa baha, magsuot ng bota, tanggalin ang naipong tubig sa mga lalagyan, patuyuin at linisin ang bahay para hindi magka-amag, magpatingin sa doktor kapag nilagnat"
+      },
+      "explain": {
+        "en": "Diseases like leptospirosis and dengue often rise in the weeks after a flood.",
+        "fil": "Kadalasang dumarami ang kaso ng leptospirosis at dengue sa mga linggo pagkatapos ng baha."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "Floodwater is rising quickly inside your house, and your family did not evacuate. What should you do?",
+        "fil": "Mabilis na tumataas ang tubig sa loob ng bahay ninyo, at hindi kayo nakalikas. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go to the highest floor or roof and signal for help",
+          "fil": "Pumunta sa pinakamataas na palapag o bubong at humingi ng tulong gamit ang senyales"
+        },
+        {
+          "en": "Swim out through the current",
+          "fil": "Lumangoy palabas sa agos"
+        },
+        {
+          "en": "Go down to the lowest room",
+          "fil": "Bumaba sa pinakamababang kuwarto"
+        },
+        {
+          "en": "Unplug appliances while standing in water",
+          "fil": "Bunutin ang mga saksakan habang nakatayo sa tubig"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Staying high and visible is safer than swimming or wading through moving water.",
+        "fil": "Mas ligtas manatili sa mataas at makikitang lugar kaysa lumangoy o lumusong sa umaagos na tubig."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these flood safety steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito para sa kaligtasan sa baha."
+      },
+      "steps": [
+        {
+          "en": "Monitor rainfall warnings and river levels",
+          "fil": "Bantayan ang rainfall warnings at ang level ng ilog"
+        },
+        {
+          "en": "Move valuables and documents to a high place",
+          "fil": "Ilagay sa mataas na lugar ang mahahalagang gamit at dokumento"
+        },
+        {
+          "en": "Have an adult switch off the main power before water enters",
+          "fil": "Ipapatay sa adult ang main power bago pumasok ang tubig"
+        },
+        {
+          "en": "Evacuate early to higher ground with the go-bag",
+          "fil": "Lumikas nang maaga papunta sa mataas na lugar dala ang go-bag"
+        },
+        {
+          "en": "Return only when officials say it is safe",
+          "fil": "Bumalik lang kapag sinabi ng mga opisyal na ligtas na"
+        }
+      ],
+      "explain": {
+        "en": "Preparing early and turning off power before water arrives prevents drowning and electrocution.",
+        "fil": "Ang maagang paghahanda at pagpatay sa kuryente bago dumating ang tubig ay nakakaiwas sa pagkalunod at pagkakuryente."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Your younger cousin slips into a canal with fast-moving water. No adult is right beside you.",
+        "fil": "Nadulas ang nakababata mong pinsan sa kanal na malakas ang agos. Walang adult na nasa tabi mo."
+      },
+      "question": {
+        "en": "What is the safest thing to do?",
+        "fil": "Ano ang pinakaligtas na gawin?"
+      },
+      "choices": [
+        {
+          "en": "Jump in after her",
+          "fil": "Tumalon para sagipin siya"
+        },
+        {
+          "en": "Shout for adults, call 911, and from the bank reach with a long stick or throw something that floats",
+          "fil": "Sumigaw para tumawag ng adult, tumawag sa 911, at mula sa pampang, iabot ang mahabang patpat o ihagis ang bagay na lumulutang"
+        },
+        {
+          "en": "Run home without telling anyone",
+          "fil": "Umuwi nang hindi nagsasabi kaninuman"
+        },
+        {
+          "en": "Wade in while holding a friend's hand",
+          "fil": "Lumusong habang nakahawak sa kamay ng kaibigan"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Reach or throw, don't go. Entering moving water can make you a second person in danger.",
+        "fil": "Reach or throw, don't go. Kapag lumusong ka sa umaagos na tubig, puwede kang maging pangalawang taong nasa panganib."
+      }
+    }
+  ]
+}

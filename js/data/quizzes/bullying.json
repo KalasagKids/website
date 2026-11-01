@@ -1,0 +1,316 @@
+{
+  "name": {
+    "en": "Bullying and Peer Violence",
+    "fil": "Bullying and Peer Violence (Pambu-bully at Karahasan ng Kapwa)"
+  },
+  "lessons": [
+    {
+      "en": "Bullying is never the target's fault.",
+      "fil": "Hindi kailanman kasalanan ng biktima ang bullying."
+    },
+    {
+      "en": "Tell a trusted adult; asking for help is not snitching.",
+      "fil": "Magsabi sa trusted adult; ang paghingi ng tulong ay hindi pagsusumbong para lang manira."
+    },
+    {
+      "en": "Be an upstander: don't join in, support the target, and get an adult. Never step into a fight.",
+      "fil": "Maging upstander: huwag sumali, suportahan ang biktima, at tumawag ng adult. Huwag pumagitna sa away."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which statement best describes bullying?",
+        "fil": "Alin ang pinakamagandang paglalarawan sa bullying?"
+      },
+      "choices": [
+        {
+          "en": "Repeated, intentional behavior meant to hurt or control someone who has a hard time defending themselves",
+          "fil": "Paulit-ulit at sinasadyang pag-uugali para manakit o kontrolin ang taong nahihirapang ipagtanggol ang sarili"
+        },
+        {
+          "en": "A friendly joke both people enjoy",
+          "fil": "Biruang parehong nag-eenjoy ang dalawa"
+        },
+        {
+          "en": "A disagreement solved politely",
+          "fil": "Hindi pagkakasundo na naayos nang magalang"
+        },
+        {
+          "en": "Playing a fair game",
+          "fil": "Patas na paglalaro"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Bullying is repeated and involves an imbalance of power.",
+        "fil": "Paulit-ulit ang bullying at may hindi pantay na kapangyarihan."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call a person who safely speaks up or gets help when they see bullying?",
+        "fil": "Ano ang tawag sa taong ligtas na nagsasalita o humihingi ng tulong kapag may nakikitang bullying?"
+      },
+      "show": {
+        "en": "Upstander",
+        "fil": "Upstander"
+      },
+      "accept": [
+        "upstander",
+        "up stander"
+      ],
+      "explain": {
+        "en": "Upstanders help without putting themselves in danger.",
+        "fil": "Tumutulong ang upstanders nang hindi inilalagay ang sarili sa panganib."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Bullying is the fault of the person being bullied.",
+        "fil": "Kasalanan ng biktima kung bakit siya binu-bully."
+      },
+      "answer": false,
+      "explain": {
+        "en": "No one deserves to be bullied, whatever their differences.",
+        "fil": "Walang sinumang dapat ma-bully, anuman ang pagkakaiba niya sa iba."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "RA 10627 is also known as the Anti-____ Act of 2013.",
+        "fil": "Ang RA 10627 ay kilala rin bilang Anti-____ Act of 2013."
+      },
+      "show": {
+        "en": "Bullying",
+        "fil": "Bullying"
+      },
+      "accept": [
+        "bullying"
+      ],
+      "explain": {
+        "en": "This law requires schools to have policies to prevent and respond to bullying, including online.",
+        "fil": "Inaatasan ng batas na ito ang mga school na magkaroon ng patakaran para maiwasan at matugunan ang bullying, kasama ang online."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each type of bullying with its example.",
+        "fil": "Itugma ang bawat uri ng bullying sa halimbawa nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Physical",
+            "fil": "Physical"
+          },
+          {
+            "en": "Hitting, kicking, or pushing",
+            "fil": "Pananakit, paninipa, o pagtutulak"
+          }
+        ],
+        [
+          {
+            "en": "Verbal",
+            "fil": "Verbal"
+          },
+          {
+            "en": "Name-calling, insults, or threats",
+            "fil": "Panlalait, pang-iinsulto, o pagbabanta"
+          }
+        ],
+        [
+          {
+            "en": "Social",
+            "fil": "Social"
+          },
+          {
+            "en": "Spreading rumors or leaving someone out on purpose",
+            "fil": "Pagkakalat ng tsismis o sinasadyang hindi pagsali sa isang tao"
+          }
+        ],
+        [
+          {
+            "en": "Cyberbullying",
+            "fil": "Cyberbullying"
+          },
+          {
+            "en": "Posting hurtful messages or photos online",
+            "fil": "Pag-post ng nakakasakit na message o litrato online"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Knowing the types helps you recognize bullying when it happens.",
+        "fil": "Kapag alam mo ang mga uri, mas madali mong makikilala ang bullying kapag nangyayari ito."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 trusted people a student can go to about bullying.",
+        "fil": "Magbigay ng 3 trusted na tao na puwedeng lapitan ng estudyante tungkol sa bullying."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "parent",
+          "mom",
+          "dad",
+          "mother",
+          "father",
+          "guardian",
+          "nanay",
+          "tatay",
+          "magulang"
+        ],
+        [
+          "teacher",
+          "adviser",
+          "advisor",
+          "guro",
+          "titser"
+        ],
+        [
+          "counsel",
+          "guidance"
+        ],
+        [
+          "principal",
+          "punong guro"
+        ],
+        [
+          "nurse",
+          "nars"
+        ],
+        [
+          "sibling",
+          "brother",
+          "sister",
+          "aunt",
+          "uncle",
+          "grand",
+          "relative",
+          "lola",
+          "lolo",
+          "kapatid",
+          "kuya",
+          "tito",
+          "tita",
+          "pinsan",
+          "kamag anak"
+        ]
+      ],
+      "show": {
+        "en": "parent or guardian, teacher or adviser, guidance counselor, principal, school nurse, an older sibling or relative",
+        "fil": "magulang o guardian, teacher o adviser, guidance counselor, principal, school nurse, nakatatandang kapatid o kamag-anak"
+      },
+      "explain": {
+        "en": "You do not have to handle bullying alone.",
+        "fil": "Hindi mo kailangang harapin nang mag-isa ang bullying."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "You are added to a group chat that is making fun of a classmate's photo. What should you do?",
+        "fil": "Na-add ka sa group chat na pinagtatawanan ang litrato ng isang kaklase. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Like the posts so you fit in",
+          "fil": "I-like ang mga post para makisama"
+        },
+        {
+          "en": "Don't like, share, or reply; leave the chat, reach out kindly to the classmate, and tell a trusted adult",
+          "fil": "Huwag mag-like, mag-share, o mag-reply; umalis sa chat, kumustahin nang mabait ang kaklase, at sabihan ang trusted adult"
+        },
+        {
+          "en": "Add your own jokes",
+          "fil": "Magdagdag ng sariling biro"
+        },
+        {
+          "en": "Screenshot it and post it somewhere else",
+          "fil": "I-screenshot at i-post sa ibang lugar"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Bullies want an audience. Refusing to join in and getting help takes that away.",
+        "fil": "Gusto ng bully ng audience. Kapag tumanggi kang sumali at humingi ka ng tulong, nawawala ang audience na iyon."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange the steps for responding to cyberbullying.",
+        "fil": "Ayusin ang mga hakbang sa pagharap sa cyberbullying."
+      },
+      "steps": [
+        {
+          "en": "Do not reply to the hurtful messages",
+          "fil": "Huwag sagutin ang mga nakakasakit na message"
+        },
+        {
+          "en": "Take screenshots to save the evidence",
+          "fil": "Mag-screenshot para may ebidensya"
+        },
+        {
+          "en": "Block and report the account",
+          "fil": "I-block at i-report ang account"
+        },
+        {
+          "en": "Tell a trusted adult",
+          "fil": "Sabihan ang trusted adult"
+        },
+        {
+          "en": "Keep reporting if it continues",
+          "fil": "Patuloy na mag-report kung nagpapatuloy ito"
+        }
+      ],
+      "explain": {
+        "en": "Saved evidence helps adults and platforms take action.",
+        "fil": "Nakakatulong ang naka-save na ebidensya para makakilos ang adults at ang platform."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "A classmate quietly tells you they feel hopeless because of bullying and asks you not to tell anyone.",
+        "fil": "Tahimik na sinabi sa iyo ng isang kaklase na nawawalan na siya ng pag-asa dahil sa bullying, at pinakiusapan kang huwag sabihin kahit kanino."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Keep the secret",
+          "fil": "Ilihim ito"
+        },
+        {
+          "en": "Listen kindly, stay with them, and tell a trusted adult or the guidance counselor right away",
+          "fil": "Makinig nang mabuti, samahan siya, at sabihan agad ang trusted adult o ang guidance counselor"
+        },
+        {
+          "en": "Tell them to toughen up",
+          "fil": "Sabihan siyang magpakatatag na lang"
+        },
+        {
+          "en": "Post about it online",
+          "fil": "I-post ito online"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Their safety matters more than a secret. Support is available, including the NCMH crisis line 1553.",
+        "fil": "Mas mahalaga ang kaligtasan niya kaysa sa sikreto. May tulong na available, kasama ang NCMH crisis line na 1553."
+      }
+    }
+  ]
+}

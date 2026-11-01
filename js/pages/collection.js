@@ -2,7 +2,7 @@
  * collection.js — the Collections page: everything a pupil can watch, play and print.
  *
  * A sticky aside (a scrollable tab row on phones) organizes the groups:
- *   All · Videos · Games · Safety posters · Quizzes (soon)
+ *   All · Videos · Games · Safety posters · Quizzes
  * with deep links collection.html#videos, #games, #posters, #quizzes. "All" shows each
  * group's first few items with a "See all" link. Category chips filter every group.
  * Videos play in the same modal as the lesson page and count as watched the same way.
@@ -21,7 +21,7 @@ const GROUPS = [
   { id: "videos", key: "collection.videos", icon: "▶" },
   { id: "games", key: "collection.games", icon: "🎮" },
   { id: "posters", key: "collection.posters", icon: "📋" },
-  { id: "quizzes", key: "collection.quizzes", icon: "❓", soon: true },
+  { id: "quizzes", key: "collection.quizzes", icon: "❓" },
 ];
 const PREVIEW = 4; // items per group on "All"
 
@@ -62,10 +62,14 @@ function gameItems() {
 function posterItems() {
   return index.hazards.filter((h) => inCategory(h) && posters.has(h.id));
 }
+function quizItems() {
+  return index.hazards.filter((h) => inCategory(h) && h.quizDataPath);
+}
 function count(groupId) {
   if (groupId === "videos") return videoItems().filter((h) => h.video).length;
   if (groupId === "games") return gameItems().length;
   if (groupId === "posters") return posterItems().length;
+  if (groupId === "quizzes") return quizItems().length;
   return 0;
 }
 
@@ -140,27 +144,52 @@ function posterCard(h) {
     </li>`;
 }
 
-function quizzesPanel() {
+function quizCard(h) {
+  const cat = index.categoryById.get(h.category);
+  const passed = state.hasPassedQuiz(h.id);
+  const href = `${hazardUrl(h.id)}#quiz`;
   return `
-    <div class="pending collection-soon">
-      <img class="sprite" src="${mascot.spriteUrl("prop_on_magnifier_geared")}" alt="" width="80" height="80">
-      <div>
-        <h3 class="collection-soon__title">${esc(t("collection.quizzesTitle"))}</h3>
-        <p>${esc(t("collection.quizzesText"))}</p>
+    <li class="card c-card" data-category="${esc(h.category)}">
+      <a class="c-card__media" href="${href}" tabindex="-1" aria-hidden="true">
+        <img class="c-card__img" src="${esc(hazardBanner(h))}" alt="" loading="lazy">
+      </a>
+      <div class="c-card__body">
+        <span class="label-kicker">${esc(pick(cat?.name))}</span>
+        <h3 class="c-card__title"><a href="${href}">${esc(pick(h.name))}</a></h3>
+        <div class="c-card__tags">
+          ${
+            passed
+              ? `<span class="tag tag--done">✓ ${esc(t("quiz.passedTag"))}</span>`
+              : `<span class="tag">${esc(t("collection.quizNotYet"))}</span>`
+          }
+          <a class="btn ${passed ? "btn--ghost" : "btn--primary"} c-card__btn" href="${href}">${esc(t(passed ? "quiz.playAgain" : "collection.takeQuiz"))}</a>
+        </div>
+      </div>
+    </li>`;
+}
+
+/** "Quizzes passed: n / 19" above the quiz cards (always over every hazard, not the filter). */
+function quizProgress() {
+  const total = index.hazards.filter((h) => h.quizDataPath).length;
+  const passed = index.hazards.filter((h) => h.quizDataPath && state.hasPassedQuiz(h.id)).length;
+  return `
+    <div class="quiz-progress">
+      <p class="section-sub">${esc(t("collection.quizzesText"))}</p>
+      <div class="quiz-progress__bar">
+        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${passed}" aria-label="${esc(t("dash.stats.quizzes"))}">
+          <div class="progress__fill" style="--value:${total ? Math.round((passed / total) * 100) : 0}%"></div>
+        </div>
+        <span>${esc(t("quiz.progress", { n: passed, total }))}</span>
       </div>
     </div>`;
 }
 
+const ITEMS = { videos: videoItems, games: gameItems, posters: posterItems, quizzes: quizItems };
+const CARDS = { videos: videoCard, games: gameCard, posters: posterCard, quizzes: quizCard };
+
 function groupSection(group, preview) {
-  if (group.id === "quizzes") {
-    return `
-      <section class="collection-group" data-group="quizzes" aria-labelledby="cg-quizzes">
-        <div class="section-head"><h2 class="section-title" id="cg-quizzes">${group.icon} ${esc(t(group.key))}</h2></div>
-        ${quizzesPanel()}
-      </section>`;
-  }
-  const items = group.id === "videos" ? videoItems() : group.id === "games" ? gameItems() : posterItems();
-  const card = group.id === "videos" ? videoCard : group.id === "games" ? gameCard : posterCard;
+  const items = ITEMS[group.id]();
+  const card = CARDS[group.id];
   const shown = preview ? items.slice(0, PREVIEW) : items;
   return `
     <section class="collection-group" data-group="${group.id}" aria-labelledby="cg-${group.id}">
@@ -168,6 +197,7 @@ function groupSection(group, preview) {
         <h2 class="section-title" id="cg-${group.id}">${group.icon} ${esc(t(group.key))}</h2>
         ${preview && items.length > PREVIEW ? `<a class="section-link" href="#${group.id}">${esc(t("collection.seeAll"))} (${items.length}) ›</a>` : ""}
       </div>
+      ${group.id === "quizzes" ? quizProgress() : ""}
       ${
         shown.length
           ? `<ul class="collection-grid${group.id === "posters" ? " collection-grid--posters" : ""}">${shown.map(card).join("")}</ul>`
@@ -185,7 +215,7 @@ function render({ focusMain = false } = {}) {
   const tabs = [{ id: "all", key: "collection.all", icon: "★" }, ...GROUPS]
     .map((g) => {
       const n = g.id === "all" ? GROUPS.reduce((sum, x) => sum + count(x.id), 0) : count(g.id);
-      const badge = g.soon ? `<span class="tag">${esc(t("collection.soon"))}</span>` : `<span class="collection__count">${n}</span>`;
+      const badge = `<span class="collection__count">${n}</span>`;
       return `
         <li>
           <a class="collection__tab" href="#${g.id}"${g.id === group ? ' aria-current="page"' : ""}>

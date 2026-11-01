@@ -20,8 +20,8 @@
  *                    ranges; serveMedia() cuts them from the saved full file.
  *
  * Some files are named only inside the content JSON, so they're read from it on
- * install (adding a hazard, lesson or slide needs no change here): each hazard's
- * icon, card thumbnail and lesson from hazards.json, and the first OFFLINE_SCENES
+ * install (adding a hazard, lesson, quiz or slide needs no change here): each hazard's
+ * icon, card thumbnail, lesson and quiz from hazards.json, and the first OFFLINE_SCENES
  * slides in scenes.json so the welcome slideshow works offline (the rest only
  * once someone saves everything).
  *
@@ -33,7 +33,7 @@
  * -------------------------------------------------------------
  */
 
-const CACHE_VERSION = "v38";
+const CACHE_VERSION = "v40";
 const SHELL_CACHE = `kalasag-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `kalasag-data-${CACHE_VERSION}`;
 const SAVED_CACHE = "kalasag-saved-v1"; // same name as in js/core/offline.js
@@ -146,6 +146,7 @@ const SHELL_FILES = [
   "js/ui/offline-ui.js",
   "js/ui/game-host.js",
   "js/ui/hazard-video.js",
+  "js/ui/quiz.js",
   "js/core/games.js",
 
   "vendor/pixel-pencil-cursor/pencil-cursor.css",
@@ -199,8 +200,8 @@ async function precacheFromContent() {
   const [{ hazards }, { slides }] = await Promise.all([read("js/data/hazards.json"), read("js/data/scenes.json")]);
   const art = hazards.flatMap((h) => [h.icon, h.banner]); // Home posters, Collections, Learn cards: ~0.5 MB
   const scenes = slides.slice(0, OFFLINE_SCENES).map((slide) => `assets/images/scenes/${slide.id}.webp`);
-  const lessons = hazards.map((h) => h.lesson);
-  await Promise.all([addEach(SHELL_CACHE, [...art, ...scenes]), addEach(DATA_CACHE, lessons)]);
+  const content = hazards.flatMap((h) => [h.lesson, h.quizDataPath]); // ~0.1 MB in all
+  await Promise.all([addEach(SHELL_CACHE, [...art, ...scenes]), addEach(DATA_CACHE, content)]);
 }
 
 async function addEach(cacheName, urls) {

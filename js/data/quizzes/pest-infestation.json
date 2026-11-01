@@ -1,0 +1,322 @@
+{
+  "name": {
+    "en": "Pest Infestation",
+    "fil": "Pest Infestation (Peste)"
+  },
+  "lessons": [
+    {
+      "en": "Take away what pests need: food, water, and shelter.",
+      "fil": "Tanggalin ang kailangan ng peste: pagkain, tubig, at matataguan."
+    },
+    {
+      "en": "Store food in sealed containers and keep garbage covered.",
+      "fil": "Itago ang pagkain sa saradong lalagyan at laging takpan ang basurahan."
+    },
+    {
+      "en": "Keep pesticides labeled and locked away, and let adults handle them.",
+      "fil": "Panatilihing may label at nakakandado ang pesticides, at hayaang adult ang gumamit nito."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Pests are attracted to places that give them…",
+        "fil": "Naaakit ang mga peste sa mga lugar na nagbibigay sa kanila ng…"
+      },
+      "choices": [
+        {
+          "en": "Food, water, and shelter",
+          "fil": "Pagkain, tubig, at matataguan"
+        },
+        {
+          "en": "Loud music",
+          "fil": "Malakas na tugtog"
+        },
+        {
+          "en": "Bright sunlight only",
+          "fil": "Matinding sikat ng araw lang"
+        },
+        {
+          "en": "Clean, sealed rooms",
+          "fil": "Malinis at saradong kuwarto"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Removing food, water, and shelter is the main way to keep pests out.",
+        "fil": "Ang pagtanggal ng pagkain, tubig, at matataguan ang pangunahing paraan para mailayo ang peste."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What wood-eating insects build thin mud tubes on walls and posts and can damage houses?",
+        "fil": "Anong insektong kumakain ng kahoy ang gumagawa ng manipis na tubong putik sa pader at poste at puwedeng sumira ng bahay?"
+      },
+      "show": {
+        "en": "Termites (anay)",
+        "fil": "Anay (termites)"
+      },
+      "accept": [
+        "termite",
+        "termites",
+        "anay",
+        "Anay (termites)"
+      ],
+      "explain": {
+        "en": "Mud tubes are a sign to have the wood checked and treated.",
+        "fil": "Ang tubong putik ay senyales na kailangang ipatingin at ipagamot ang kahoy."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Pesticides can be stored in empty soft-drink bottles to save space.",
+        "fil": "Puwedeng ilagay ang pesticides sa bakanteng bote ng softdrinks para makatipid sa lalagyan."
+      },
+      "answer": false,
+      "explain": {
+        "en": "People, especially children, may mistake them for drinks. Keep them in original labeled containers, locked away.",
+        "fil": "Baka mapagkamalan itong inumin, lalo na ng mga bata. Itago ito sa orihinal na lalagyan na may label, at ikandado."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "Empty, cover, or turn over containers that collect ____ to stop mosquitoes from breeding.",
+        "fil": "Itapon ang laman, takpan, o itaob ang mga lalagyang naiipunan ng ____ para hindi pamugaran ng lamok."
+      },
+      "show": {
+        "en": "Water",
+        "fil": "Tubig"
+      },
+      "accept": [
+        "water",
+        "rainwater",
+        "rain water",
+        "Tubig"
+      ],
+      "explain": {
+        "en": "Mosquitoes lay eggs in standing water, even in small amounts.",
+        "fil": "Nangingitlog ang lamok sa nakatigil na tubig, kahit kaunti lang."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each pest with a problem it can cause.",
+        "fil": "Itugma ang bawat peste sa problemang puwede nitong idulot."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Rats",
+            "fil": "Daga"
+          },
+          {
+            "en": "Leptospirosis and gnawed food",
+            "fil": "Leptospirosis at nginatngat na pagkain"
+          }
+        ],
+        [
+          {
+            "en": "Mosquitoes",
+            "fil": "Lamok"
+          },
+          {
+            "en": "Dengue",
+            "fil": "Dengue"
+          }
+        ],
+        [
+          {
+            "en": "Cockroaches",
+            "fil": "Ipis"
+          },
+          {
+            "en": "Germs on food and asthma triggers",
+            "fil": "Mikrobyo sa pagkain at nagti-trigger ng hika (asthma)"
+          }
+        ],
+        [
+          {
+            "en": "Termites",
+            "fil": "Anay"
+          },
+          {
+            "en": "Damaged wooden posts and furniture",
+            "fil": "Nasirang poste at muwebles na gawa sa kahoy"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Different pests bring different risks to health and property.",
+        "fil": "Iba-iba ang panganib na dala ng bawat peste sa kalusugan at ari-arian."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 habits that help prevent pests at home or school.",
+        "fil": "Magbigay ng 3 gawi na nakakatulong para maiwasan ang peste sa bahay o school."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "seal",
+          "container",
+          "store food",
+          "lalagyan",
+          "itago"
+        ],
+        [
+          "crumb",
+          "spill",
+          "wipe",
+          "mumo",
+          "natapon",
+          "punas"
+        ],
+        [
+          "garbage",
+          "trash",
+          "bin",
+          "waste",
+          "basura"
+        ],
+        [
+          "standing water",
+          "water",
+          "tubig"
+        ],
+        [
+          "leak",
+          "tagas",
+          "tulo"
+        ],
+        [
+          "crack",
+          "hole",
+          "gap",
+          "bitak",
+          "butas"
+        ],
+        [
+          "clutter",
+          "kalat"
+        ],
+        [
+          "grass",
+          "trim",
+          "damo"
+        ]
+      ],
+      "show": {
+        "en": "store food in sealed containers, clean up crumbs and spills, cover and empty garbage bins, remove standing water, fix leaks, seal cracks, declutter, keep grass trimmed",
+        "fil": "itago ang pagkain sa saradong lalagyan, linisin agad ang mumo at natapon, takpan at itapon araw-araw ang basura, tanggalin ang nakatigil na tubig, ipaayos ang tagas, tapalan ang mga bitak at butas, bawasan ang kalat, panatilihing maikli ang damo"
+      },
+      "explain": {
+        "en": "Clean, dry, sealed spaces give pests nothing to live on.",
+        "fil": "Walang makakain o matitirhan ang peste sa malinis, tuyo, at saradong lugar."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "Your little brother finds a box of rat poison and thinks it is candy. What should you do?",
+        "fil": "Nakakita ng kahon ng lason sa daga ang nakababata mong kapatid at akala niya candy ito. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Let him keep it",
+          "fil": "Hayaan siyang itago ito"
+        },
+        {
+          "en": "Take it away without opening it, give it to an adult, and get emergency help if he may have swallowed any",
+          "fil": "Kunin ito nang hindi binubuksan, ibigay sa adult, at humingi agad ng emergency na tulong kung baka nakalunok siya"
+        },
+        {
+          "en": "Taste it to check",
+          "fil": "Tikman ito para malaman"
+        },
+        {
+          "en": "Throw it out in the yard",
+          "fil": "Itapon ito sa bakuran"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Rat poison is very dangerous to children. Adults must store it safely.",
+        "fil": "Napakadelikado ng lason sa daga para sa mga bata. Dapat itago ito nang ligtas ng mga adult."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "An adult cleans up rat droppings. Arrange the safe steps in order.",
+        "fil": "Maglilinis ng dumi ng daga ang isang adult. Ayusin ang mga ligtas na hakbang."
+      },
+      "steps": [
+        {
+          "en": "Put on gloves and a mask",
+          "fil": "Magsuot ng gloves at mask"
+        },
+        {
+          "en": "Spray the droppings with disinfectant and let it soak",
+          "fil": "I-spray ng disinfectant ang dumi at hayaang mababad"
+        },
+        {
+          "en": "Wipe them up with paper towels",
+          "fil": "Punasan ito gamit ang paper towel"
+        },
+        {
+          "en": "Seal the waste in a plastic bag and throw it away",
+          "fil": "Ilagay sa nakataling plastic bag at itapon"
+        },
+        {
+          "en": "Wash hands well with soap and water",
+          "fil": "Maghugas nang mabuti ng kamay gamit ang sabon at tubig"
+        }
+      ],
+      "explain": {
+        "en": "Sweeping dry droppings can spread germs into the air, so wet them first.",
+        "fil": "Kapag winalis nang tuyo ang dumi ng daga, puwedeng kumalat ang mikrobyo sa hangin, kaya basain muna ito."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "During lunch, you see a rat run across the school canteen near the food counter.",
+        "fil": "Habang nagla-lunch, nakakita ka ng dagang tumakbo sa school canteen malapit sa food counter."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Chase it",
+          "fil": "Habulin ito"
+        },
+        {
+          "en": "Tell a teacher or canteen staff right away",
+          "fil": "Sabihan agad ang teacher o canteen staff"
+        },
+        {
+          "en": "Ignore it and keep eating",
+          "fil": "Balewalain at ituloy ang pagkain"
+        },
+        {
+          "en": "Feed it your leftovers",
+          "fil": "Pakainin ito ng tira mo"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Staff can check the food and arrange pest control.",
+        "fil": "Kayang suriin ng staff ang pagkain at mag-ayos ng pest control."
+      }
+    }
+  ]
+}

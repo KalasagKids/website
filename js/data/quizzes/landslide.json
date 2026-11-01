@@ -1,0 +1,327 @@
+{
+  "name": {
+    "en": "Landslide",
+    "fil": "Landslide (Pagguho ng Lupa)"
+  },
+  "lessons": [
+    {
+      "en": "Know whether your home is in a landslide-prone area using MGB geohazard maps.",
+      "fil": "Alamin kung landslide-prone ang lugar ninyo gamit ang geohazard maps ng MGB."
+    },
+    {
+      "en": "Report new cracks, tilting posts, or seeping water, and be ready to leave.",
+      "fil": "I-report ang mga bagong bitak (cracks), tumatagilid na poste, o tubig na lumalabas sa lupa, at maging handang umalis."
+    },
+    {
+      "en": "Evacuate early during heavy rain warnings, and move sideways out of a landslide's path.",
+      "fil": "Lumikas nang maaga kapag may heavy rain warning, at lumihis patagilid palayo sa daanan ng landslide."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "What is the most common trigger of landslides in the Philippines?",
+        "fil": "Ano ang pinakakaraniwang sanhi ng landslide sa Pilipinas?"
+      },
+      "choices": [
+        {
+          "en": "Heavy and long rain",
+          "fil": "Malakas at matagal na ulan"
+        },
+        {
+          "en": "Snow",
+          "fil": "Snow"
+        },
+        {
+          "en": "Strong sunlight",
+          "fil": "Matinding sikat ng araw"
+        },
+        {
+          "en": "Fog",
+          "fil": "Hamog (fog)"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Rainwater soaks soil, makes it heavy, and weakens the slope.",
+        "fil": "Binababad ng ulan ang lupa, kaya bumibigat ito at humihina ang slope."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "Which DENR agency prepares geohazard maps that show landslide-prone areas?",
+        "fil": "Aling ahensya ng DENR ang gumagawa ng geohazard maps na nagpapakita ng mga lugar na madaling ma-landslide?"
+      },
+      "show": {
+        "en": "Mines and Geosciences Bureau (MGB)",
+        "fil": "Mines and Geosciences Bureau (MGB)"
+      },
+      "accept": [
+        "mines and geosciences bureau",
+        "mgb",
+        "mines and geoscience bureau",
+        "Mines and Geosciences Bureau (MGB)"
+      ],
+      "explain": {
+        "en": "Geohazard maps help families and local governments know which places are risky.",
+        "fil": "Tumutulong ang geohazard maps sa mga pamilya at local government na malaman kung aling lugar ang delikado."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "Planting trees and deep-rooted plants on slopes helps reduce landslide risk.",
+        "fil": "Ang pagtatanim ng puno at halamang malalim ang ugat sa slope ay nakakabawas ng panganib ng landslide."
+      },
+      "answer": true,
+      "explain": {
+        "en": "Roots hold soil together and help absorb rainwater.",
+        "fil": "Hinahawakan ng mga ugat ang lupa at tumutulong itong sumipsip ng tubig-ulan."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "If a landslide is coming toward you, move ____, out of its path, instead of running downhill.",
+        "fil": "Kapag may landslide na papunta sa iyo, lumihis ____ palayo sa daanan nito, sa halip na tumakbo pababa."
+      },
+      "show": {
+        "en": "Sideways",
+        "fil": "Patagilid (sideways)"
+      },
+      "accept": [
+        "sideways",
+        "sideway",
+        "to the side",
+        "side",
+        "Patagilid (sideways)",
+        "Patagilid"
+      ],
+      "explain": {
+        "en": "A landslide moves downhill, so running downhill keeps you in its path.",
+        "fil": "Pababa ang galaw ng landslide, kaya kung tatakbo ka pababa, nasa daanan ka pa rin nito."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each term with its description.",
+        "fil": "Itugma ang bawat termino sa paglalarawan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Rockfall",
+            "fil": "Rockfall"
+          },
+          {
+            "en": "Rocks dropping from a cliff",
+            "fil": "Mga batong nahuhulog mula sa bangin"
+          }
+        ],
+        [
+          {
+            "en": "Debris flow",
+            "fil": "Debris flow"
+          },
+          {
+            "en": "Fast mix of mud, water, rocks, and logs",
+            "fil": "Mabilis na halo ng putik, tubig, bato, at troso"
+          }
+        ],
+        [
+          {
+            "en": "Soil creep",
+            "fil": "Soil creep"
+          },
+          {
+            "en": "Slow movement shown by tilting posts",
+            "fil": "Mabagal na paggalaw ng lupa na nakikita sa tumatagilid na poste"
+          }
+        ],
+        [
+          {
+            "en": "Slope cutting",
+            "fil": "Slope cutting"
+          },
+          {
+            "en": "Removing soil at the base of a slope",
+            "fil": "Pagtanggal ng lupa sa paanan ng slope"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Slides range from sudden rockfalls to slow creep, and cutting slopes weakens them.",
+        "fil": "Iba-iba ang landslide, mula biglaang rockfall hanggang mabagal na creep, at ang pagtabas sa slope ay nagpapahina rito."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 warning signs that a landslide may happen.",
+        "fil": "Magbigay ng 3 babala na puwedeng magka-landslide."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "crack",
+          "bitak",
+          "lamat"
+        ],
+        [
+          "tilt",
+          "lean",
+          "tagilid",
+          "hilig"
+        ],
+        [
+          "spring",
+          "seep",
+          "water coming",
+          "water flowing",
+          "bukal",
+          "tubig"
+        ],
+        [
+          "rumbl",
+          "noise",
+          "sound",
+          "dagundong",
+          "ugong",
+          "tunog",
+          "ingay"
+        ],
+        [
+          "rock",
+          "stone",
+          "pebble",
+          "bato"
+        ],
+        [
+          "door",
+          "window",
+          "stick",
+          "jam",
+          "pinto",
+          "bintana",
+          "sabit"
+        ],
+        [
+          "muddy",
+          "creek",
+          "stream",
+          "sapa",
+          "putik",
+          "labo"
+        ]
+      ],
+      "show": {
+        "en": "new cracks in the ground or walls, tilting trees or posts, new springs or seeping water, rumbling sounds, falling rocks, doors or windows that stick, a creek that suddenly turns muddy",
+        "fil": "bagong bitak sa lupa o pader, tumatagilid na puno o poste, bagong bukal o tubig na lumalabas sa lupa, dumadagundong na tunog, nahuhulog na bato, pinto o bintana na sumasabit o mahirap isara, sapa na biglang lumabo o pumutik"
+      },
+      "explain": {
+        "en": "Small signs often come before a slope fails. Report them early.",
+        "fil": "Kadalasan may maliliit na senyales bago bumigay ang slope. I-report agad."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "It has rained all night, and you hear rumbling from the hill above your house. What should you do?",
+        "fil": "Buong gabing umulan, at may naririnig kang dumadagundong mula sa burol sa itaas ng bahay ninyo. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go up the hill to check",
+          "fil": "Umakyat sa burol para tingnan"
+        },
+        {
+          "en": "Leave right away with your family, away from the slope's path, and tell officials",
+          "fil": "Umalis agad kasama ang pamilya, palayo sa daanan ng slope, at sabihan ang mga opisyal"
+        },
+        {
+          "en": "Stay in bed until morning",
+          "fil": "Manatili sa kama hanggang umaga"
+        },
+        {
+          "en": "Take photos from the hillside",
+          "fil": "Kumuha ng litrato mula sa gilid ng burol"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Rumbling after heavy rain can mean the slope is moving. Leaving early is much safer than trying to escape later.",
+        "fil": "Ang dagundong pagkatapos ng malakas na ulan ay puwedeng senyales na gumagalaw na ang slope. Mas ligtas umalis nang maaga kaysa tumakas kapag huli na."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these landslide preparedness steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito sa paghahanda sa landslide."
+      },
+      "steps": [
+        {
+          "en": "Check MGB hazard maps to know if your home is at risk",
+          "fil": "Tingnan ang MGB hazard maps para malaman kung delikado ang bahay ninyo"
+        },
+        {
+          "en": "Prepare a go-bag and plan an evacuation route",
+          "fil": "Ihanda ang go-bag at magplano ng evacuation route"
+        },
+        {
+          "en": "Monitor PAGASA rainfall warnings during heavy rain",
+          "fil": "Bantayan ang PAGASA rainfall warnings kapag malakas ang ulan"
+        },
+        {
+          "en": "Evacuate early when warning signs appear or officials advise",
+          "fil": "Lumikas nang maaga kapag may babala o nag-advise ang mga opisyal"
+        },
+        {
+          "en": "Return only after authorities say the area is safe",
+          "fil": "Bumalik lang kapag sinabi ng mga awtoridad na ligtas na ang lugar"
+        }
+      ],
+      "explain": {
+        "en": "Knowing your risk and planning ahead lets you act quickly when the rain comes.",
+        "fil": "Kapag alam mo ang panganib at may plano ka, mabilis kang makakakilos pagdating ng ulan."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "After two days of rain, your yard has new cracks, the fence posts are leaning, and your front door suddenly sticks.",
+        "fil": "Pagkatapos ng dalawang araw na ulan, may mga bagong bitak sa bakuran ninyo, tumatagilid na ang mga poste ng bakod, at biglang sumasabit na ang pinto sa harap."
+      },
+      "question": {
+        "en": "What should your family do?",
+        "fil": "Ano ang dapat gawin ng pamilya mo?"
+      },
+      "choices": [
+        {
+          "en": "Ignore it because it will dry soon",
+          "fil": "Balewalain dahil matutuyo rin naman"
+        },
+        {
+          "en": "Tell adults, report it to the barangay, and be ready to evacuate",
+          "fil": "Sabihan ang mga adult, i-report sa barangay, at maging handang lumikas"
+        },
+        {
+          "en": "Fill the cracks with sand and stay",
+          "fil": "Tapalan ng buhangin ang mga bitak at manatili"
+        },
+        {
+          "en": "Play outside to test the ground",
+          "fil": "Maglaro sa labas para subukan ang lupa"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "These are common signs that the ground is moving. Early reporting gives everyone time to leave safely.",
+        "fil": "Karaniwang senyales ito na gumagalaw ang lupa. Ang maagang pag-report ay nagbibigay ng oras sa lahat para makaalis nang ligtas."
+      }
+    }
+  ]
+}

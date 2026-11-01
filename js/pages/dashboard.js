@@ -65,9 +65,6 @@ function startGreeting() {
 // ---------- Jump back in ----------
 function renderJumpBackIn() {
   const box = document.querySelector("[data-jump-back]");
-  const total = index.hazards.length;
-  const watched = state.getWatchedCount();
-  const pct = Math.round((watched / total) * 100);
   const last = index.byId.get(state.getLastHazard());
   const category = last && index.categoryById.get(last.category);
 
@@ -83,12 +80,6 @@ function renderJumpBackIn() {
     <article class="card jump" ${last ? `data-category="${esc(last.category)}"` : ""}>
       <img class="jump__bg" src="${esc(scene)}" alt="">
       <div class="jump__body">
-        <div class="jump__progress">
-          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${watched}" aria-label="${esc(t("dash.videosWatched"))}">
-            <div class="progress__fill" style="--value:${pct}%"></div>
-          </div>
-          <span>${watched}/${total} ${esc(t("dash.videosWatched"))}</span>
-        </div>
         <span class="label-kicker jump__kicker">${esc(kicker)}</span>
         <h3 class="jump__title">${esc(title)}</h3>
         <p class="jump__text">${esc(text)}</p>
@@ -156,12 +147,15 @@ function renderInfographics() {
 // ---------- Stats card ----------
 function renderStatsCard() {
   if (!index) return;
+  const quizzes = index.hazards.filter((h) => h.quizDataPath);
+  const passed = quizzes.filter((h) => state.hasPassedQuiz(h.id)).length;
   const stats = [
     { icon: "⭐", value: state.getXP(), label: t("dash.stats.xp") },
     { icon: "🔥", value: state.getStreak().count, label: t("dash.stats.streak") },
+    { icon: "▶", value: `${state.getWatchedCount()}/${index.hazards.length}`, label: t("dash.stats.watched") },
+    { icon: "❓", value: `${passed}/${quizzes.length}`, label: t("dash.stats.quizzes") },
     // Hazard badges plus the badges earned in the mini-games.
     { icon: "🏅", value: state.getBadgeCount() + state.getGamesSummary().badges, label: t("dash.stats.badges") },
-    { icon: "▶", value: `${state.getWatchedCount()}/${index.hazards.length}`, label: t("dash.stats.watched") },
   ];
 
   document.querySelector("[data-stats]").innerHTML = `

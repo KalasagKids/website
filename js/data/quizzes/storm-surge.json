@@ -1,0 +1,308 @@
+{
+  "name": {
+    "en": "Storm Surge",
+    "fil": "Storm Surge (Daluyong ng Bagyo)"
+  },
+  "lessons": [
+    {
+      "en": "When a storm surge warning is issued, evacuate inland and to high ground early.",
+      "fil": "Kapag may storm surge warning, lumikas nang maaga papunta sa mataas na lugar na malayo sa dagat."
+    },
+    {
+      "en": "Every surge is different; past experience is not a safe guide.",
+      "fil": "Magkakaiba ang bawat surge; hindi maaasahan ang dating karanasan."
+    },
+    {
+      "en": "If trapped, go to the highest strong floor and signal for help.",
+      "fil": "Kung naipit, umakyat sa pinakamataas na matibay na palapag at humingi ng tulong gamit ang senyales."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "A storm surge is…",
+        "fil": "Ang storm surge ay…"
+      },
+      "choices": [
+        {
+          "en": "An abnormal rise of seawater pushed ashore by a strong storm",
+          "fil": "Hindi karaniwang pagtaas ng tubig-dagat na itinutulak papunta sa lupa ng malakas na bagyo"
+        },
+        {
+          "en": "A wave caused by an earthquake",
+          "fil": "Alon na dulot ng lindol"
+        },
+        {
+          "en": "A river flood in the mountains",
+          "fil": "Baha sa ilog sa kabundukan"
+        },
+        {
+          "en": "The normal daily tide",
+          "fil": "Normal na pagtaas at pagbaba ng tubig araw-araw"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Storm winds and low air pressure push seawater toward land.",
+        "fil": "Ang hangin ng bagyo at ang mababang air pressure ang nagtutulak sa tubig-dagat papunta sa lupa."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What is the Filipino term for storm surge?",
+        "fil": "Ano ang tawag sa Filipino sa storm surge?"
+      },
+      "show": {
+        "en": "Daluyong ng bagyo",
+        "fil": "Daluyong ng bagyo"
+      },
+      "accept": [
+        "daluyong ng bagyo",
+        "daluyong"
+      ],
+      "explain": {
+        "en": "Using familiar local words helps people understand and act on warnings.",
+        "fil": "Kapag pamilyar na salita ang ginamit, mas naiintindihan at nasusunod ng mga tao ang babala."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "A storm surge is more dangerous when it arrives at high tide.",
+        "fil": "Mas delikado ang storm surge kapag dumating ito habang high tide."
+      },
+      "answer": true,
+      "explain": {
+        "en": "The surge adds to the high tide, so the water reaches even higher.",
+        "fil": "Nadadagdag ang surge sa high tide, kaya mas mataas pa ang naaabot ng tubig."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "The storm surge plus the normal high tide is called the storm ____.",
+        "fil": "Ang storm surge kasama ang normal na high tide ay tinatawag na storm ____."
+      },
+      "show": {
+        "en": "Tide",
+        "fil": "Tide"
+      },
+      "accept": [
+        "tide"
+      ],
+      "explain": {
+        "en": "The storm tide is the total water level that floods the coast.",
+        "fil": "Ang storm tide ang kabuuang taas ng tubig na bumabaha sa baybayin."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each coastal defense with what it is.",
+        "fil": "Itugma ang bawat coastal defense sa kung ano ito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Mangroves",
+            "fil": "Mangroves (bakawan)"
+          },
+          {
+            "en": "Coastal trees whose roots slow waves",
+            "fil": "Mga punong-dagat na ang ugat ay nagpapabagal sa alon"
+          }
+        ],
+        [
+          {
+            "en": "Seawall",
+            "fil": "Seawall"
+          },
+          {
+            "en": "Concrete barrier along the shore",
+            "fil": "Concrete na harang sa tabi ng dalampasigan"
+          }
+        ],
+        [
+          {
+            "en": "No-build zone",
+            "fil": "No-build zone"
+          },
+          {
+            "en": "Area near the shore where homes should not be built",
+            "fil": "Lugar malapit sa dagat na hindi dapat tayuan ng bahay"
+          }
+        ],
+        [
+          {
+            "en": "Storm surge hazard map",
+            "fil": "Storm surge hazard map"
+          },
+          {
+            "en": "Shows how far inland the water may reach",
+            "fil": "Nagpapakita kung gaano kalayo papasok ang tubig"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Defenses help, but no barrier is perfect, so evacuation is still needed.",
+        "fil": "Nakakatulong ang mga depensang ito, pero walang perpektong harang, kaya kailangan pa ring lumikas."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 things that can make a storm surge higher.",
+        "fil": "Magbigay ng 3 bagay na puwedeng magpataas sa storm surge."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "wind",
+          "hangin"
+        ],
+        [
+          "large",
+          "big",
+          "size",
+          "super",
+          "stronger storm",
+          "strong storm",
+          "malaki",
+          "laki"
+        ],
+        [
+          "tide",
+          "taog"
+        ],
+        [
+          "shallow",
+          "gentle",
+          "seafloor",
+          "sea floor",
+          "mababaw",
+          "sahig ng dagat"
+        ],
+        [
+          "bay",
+          "funnel",
+          "shape",
+          "look",
+          "hugis"
+        ],
+        [
+          "direction",
+          "path",
+          "direksyon",
+          "pinanggalingan"
+        ]
+      ],
+      "show": {
+        "en": "stronger winds, a large storm, high tide, a shallow and gently sloping seafloor, a funnel-shaped bay, the direction the storm comes from",
+        "fil": "mas malakas na hangin, malaking bagyo, high tide, mababaw at padahang-dahang sahig ng dagat, look (bay) na hugis-funnel, direksyon ng dating ng bagyo"
+      },
+      "explain": {
+        "en": "Shallow coasts and narrowing bays pile water higher, as in Leyte Gulf during Yolanda in 2013.",
+        "fil": "Sa mababaw na baybayin at kumikitid na look, mas tumataas ang tubig, tulad ng nangyari sa Leyte Gulf noong Yolanda (2013)."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "A storm surge warning is out. Your uncle refuses to leave his beachside house because he has survived many typhoons. What should you do?",
+        "fil": "May storm surge warning. Ayaw umalis ng tito mo sa bahay niya sa tabing-dagat dahil nakaligtas na raw siya sa maraming bagyo. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Agree and leave him",
+          "fil": "Pumayag at iwan siya"
+        },
+        {
+          "en": "Explain that every surge is different and a big one can cover a house; ask him to evacuate and tell barangay officials if he still refuses",
+          "fil": "Ipaliwanag na magkakaiba ang bawat surge at kayang matakpan ng malaking surge ang bahay; pakiusapan siyang lumikas at sabihan ang barangay kung ayaw pa rin niya"
+        },
+        {
+          "en": "Leave him a note",
+          "fil": "Iwanan siya ng sulat"
+        },
+        {
+          "en": "Stay with him to keep him company",
+          "fil": "Samahan siya para may kasama"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Past experience can be misleading. Barangay officials can help convince people who refuse to leave.",
+        "fil": "Nakakalinlang ang dating karanasan. Matutulungan ng mga opisyal ng barangay na kumbinsihin ang mga ayaw umalis."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these storm surge safety steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito para sa kaligtasan sa storm surge."
+      },
+      "steps": [
+        {
+          "en": "PAGASA issues a storm surge warning for your coast",
+          "fil": "Naglabas ang PAGASA ng storm surge warning para sa baybayin ninyo"
+        },
+        {
+          "en": "Secure the boat far from shore and pack the go-bag",
+          "fil": "I-secure ang bangka malayo sa dalampasigan at ihanda ang go-bag"
+        },
+        {
+          "en": "Evacuate inland to high ground when officials say so",
+          "fil": "Lumikas papunta sa mataas na lugar na malayo sa dagat kapag sinabi ng mga opisyal"
+        },
+        {
+          "en": "Stay at the evacuation center until the threat passes",
+          "fil": "Manatili sa evacuation center hanggang lumipas ang panganib"
+        },
+        {
+          "en": "Return only after officials give the all-clear",
+          "fil": "Bumalik lang kapag nagbigay na ng all-clear ang mga opisyal"
+        }
+      ],
+      "explain": {
+        "en": "Early, inland evacuation is the only reliable protection from a strong surge.",
+        "fil": "Ang maagang paglikas palayo sa dagat ang tanging maaasahang proteksyon sa malakas na surge."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Your family did not evacuate. Seawater suddenly floods the first floor of your two-storey concrete house.",
+        "fil": "Hindi nakalikas ang pamilya mo. Biglang binaha ng tubig-dagat ang unang palapag ng inyong two-storey na concrete na bahay."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go downstairs to save the appliances",
+          "fil": "Bumaba para iligtas ang mga appliance"
+        },
+        {
+          "en": "Go to the second floor or roof deck with the go-bag and signal for help",
+          "fil": "Umakyat sa second floor o roof deck dala ang go-bag at humingi ng tulong gamit ang senyales"
+        },
+        {
+          "en": "Swim to the beach",
+          "fil": "Lumangoy papunta sa beach"
+        },
+        {
+          "en": "Open the front door wide",
+          "fil": "Buksan nang malaki ang pinto sa harap"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Moving up in a strong building is the last-resort option when you can no longer evacuate.",
+        "fil": "Ang pag-akyat sa matibay na gusali ang huling opsyon kapag hindi na makalikas."
+      }
+    }
+  ]
+}

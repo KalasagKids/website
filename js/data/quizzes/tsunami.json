@@ -1,0 +1,306 @@
+{
+  "name": {
+    "en": "Tsunami",
+    "fil": "Tsunami"
+  },
+  "lessons": [
+    {
+      "en": "Strong or long shaking near the coast, a sudden change in sea level, or a loud roar from the sea means go to high ground now.",
+      "fil": "Ang malakas o matagal na lindol malapit sa dagat, biglang pagbabago ng level ng dagat, o malakas na ugong mula sa dagat ay senyales na pumunta agad sa mataas na lugar."
+    },
+    {
+      "en": "Go on foot to high ground or far inland. If you cannot, go to the upper floors of a strong concrete building.",
+      "fil": "Maglakad papunta sa mataas na lugar o malayo sa dagat. Kung hindi kaya, pumunta sa itaas na palapag ng matibay na concrete na gusali."
+    },
+    {
+      "en": "Stay away from the shore until officials give the all-clear, because more waves can come.",
+      "fil": "Lumayo sa dalampasigan hangga't walang all-clear mula sa mga opisyal, dahil puwede pang may dumating na alon."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "What usually causes a tsunami?",
+        "fil": "Ano ang kadalasang sanhi ng tsunami?"
+      },
+      "choices": [
+        {
+          "en": "Strong wind",
+          "fil": "Malakas na hangin"
+        },
+        {
+          "en": "An undersea earthquake",
+          "fil": "Lindol sa ilalim ng dagat"
+        },
+        {
+          "en": "A full moon",
+          "fil": "Full moon"
+        },
+        {
+          "en": "Heavy rain",
+          "fil": "Malakas na ulan"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "An undersea earthquake can push up a huge amount of seawater. Undersea landslides and volcanic eruptions can also cause tsunamis.",
+        "fil": "Ang lindol sa ilalim ng dagat ay puwedeng magtulak ng napakaraming tubig-dagat. Puwede ring magdulot ng tsunami ang landslide sa ilalim ng dagat at pagputok ng bulkan."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What do you call moving to the upper floors of a tall, strong concrete building when high ground is too far away?",
+        "fil": "Ano ang tawag sa pag-akyat sa itaas na palapag ng mataas at matibay na concrete na gusali kapag masyadong malayo ang mataas na lugar?"
+      },
+      "show": {
+        "en": "Vertical evacuation",
+        "fil": "Vertical evacuation"
+      },
+      "accept": [
+        "vertical evacuation"
+      ],
+      "explain": {
+        "en": "When you cannot reach high ground in time, going up in a strong building is the next best choice.",
+        "fil": "Kapag hindi ka na aabot sa mataas na lugar, ang pag-akyat sa matibay na gusali ang susunod na pinakamagandang gawin."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "The first tsunami wave is always the biggest.",
+        "fil": "Ang unang alon ng tsunami ang laging pinakamalaki."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Tsunamis come as a series of waves for hours, and later waves can be larger.",
+        "fil": "Sunud-sunod ang alon ng tsunami nang ilang oras, at puwedeng mas malaki pa ang mga susunod."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "If you feel strong, long shaking near the coast, go to ____ ground right away.",
+        "fil": "Kapag nakaramdam ka ng malakas at matagal na lindol malapit sa dagat, pumunta agad sa ____ na lugar."
+      },
+      "show": {
+        "en": "High",
+        "fil": "Mataas (high ground)"
+      },
+      "accept": [
+        "high",
+        "higher",
+        "Mataas (high ground)",
+        "Mataas",
+        "high ground"
+      ],
+      "explain": {
+        "en": "A tsunami from a nearby earthquake can arrive in minutes, so the shaking itself is your warning.",
+        "fil": "Puwedeng dumating ang tsunami mula sa malapit na lindol sa loob ng ilang minuto, kaya ang mismong pagyanig ang babala mo."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each term with its meaning.",
+        "fil": "Itugma ang bawat termino sa kahulugan nito."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Local tsunami",
+            "fil": "Local tsunami"
+          },
+          {
+            "en": "Starts nearby and can arrive in minutes",
+            "fil": "Galing sa malapit at puwedeng dumating sa loob ng ilang minuto"
+          }
+        ],
+        [
+          {
+            "en": "Distant tsunami",
+            "fil": "Distant tsunami"
+          },
+          {
+            "en": "Starts far away and may take hours",
+            "fil": "Galing sa malayo at puwedeng umabot nang ilang oras bago dumating"
+          }
+        ],
+        [
+          {
+            "en": "Tsunami evacuation sign",
+            "fil": "Tsunami evacuation sign"
+          },
+          {
+            "en": "Shows the route to high ground",
+            "fil": "Nagtuturo ng daan papunta sa mataas na lugar"
+          }
+        ],
+        [
+          {
+            "en": "Run-up",
+            "fil": "Run-up"
+          },
+          {
+            "en": "Highest point on land the water reaches",
+            "fil": "Pinakamataas na bahagi ng lupa na naaabot ng tubig"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Local tsunamis leave little time, so learn the route before you need it.",
+        "fil": "Kaunti lang ang oras kapag local tsunami, kaya alamin na ang ruta bago pa kailanganin."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name the 3 natural warning signs of a tsunami.",
+        "fil": "Ibigay ang 3 natural na babala ng tsunami."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "earthquake",
+          "shak",
+          "quake",
+          "tremor",
+          "lindol",
+          "yanig",
+          "yumanig"
+        ],
+        [
+          "sea",
+          "water",
+          "tide",
+          "recede",
+          "pull",
+          "draw",
+          "ocean level",
+          "dagat",
+          "tubig",
+          "kati",
+          "umatras"
+        ],
+        [
+          "roar",
+          "sound",
+          "noise",
+          "rumble",
+          "train",
+          "jet",
+          "ugong",
+          "dagundong",
+          "ingay",
+          "tunog"
+        ]
+      ],
+      "show": {
+        "en": "strong or long earthquake near the coast; sudden rise or drop in sea level; loud roar from the sea",
+        "fil": "malakas o matagal na lindol malapit sa dagat; biglang pagtaas o pagbaba ng level ng dagat; malakas na ugong mula sa dagat"
+      },
+      "explain": {
+        "en": "Any one of these signs is enough reason to leave the shore at once.",
+        "fil": "Kahit isa lang sa mga senyales na ito, sapat nang dahilan para lumayo agad sa dalampasigan."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "A tsunami warning is issued. There is no hill nearby, but a strong four-storey concrete school is close. What should you do?",
+        "fil": "May tsunami warning. Walang burol sa malapit, pero may matibay na four-storey na concrete na school sa tabi. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Stay on the beach and watch",
+          "fil": "Manatili sa beach at manood"
+        },
+        {
+          "en": "Go to the upper floors of the school",
+          "fil": "Umakyat sa itaas na palapag ng school"
+        },
+        {
+          "en": "Get in a car and wait in traffic",
+          "fil": "Sumakay ng kotse at maghintay sa traffic"
+        },
+        {
+          "en": "Hide in a beach hut",
+          "fil": "Magtago sa beach hut"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Vertical evacuation in a strong building is safer than staying low or getting stuck in traffic.",
+        "fil": "Mas ligtas ang vertical evacuation sa matibay na gusali kaysa manatili sa mababang lugar o maipit sa traffic."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "Arrange these tsunami safety steps in order.",
+        "fil": "Ayusin ang mga hakbang na ito para sa kaligtasan sa tsunami."
+      },
+      "steps": [
+        {
+          "en": "Feel strong shaking and protect yourself until it stops",
+          "fil": "Maramdaman ang malakas na lindol at protektahan ang sarili hanggang tumigil ito"
+        },
+        {
+          "en": "Leave your belongings and move at once",
+          "fil": "Iwan ang mga gamit at umalis agad"
+        },
+        {
+          "en": "Walk quickly, following evacuation signs to high ground",
+          "fil": "Maglakad nang mabilis, sundan ang evacuation signs papunta sa mataas na lugar"
+        },
+        {
+          "en": "Stay on high ground while more waves arrive",
+          "fil": "Manatili sa mataas na lugar habang may dumarating pang alon"
+        },
+        {
+          "en": "Return only when officials give the all-clear",
+          "fil": "Bumalik lang kapag nagbigay na ng all-clear ang mga opisyal"
+        }
+      ],
+      "explain": {
+        "en": "Speed matters most. Waves can keep coming for hours, so wait for officials.",
+        "fil": "Pinakamahalaga ang bilis. Puwedeng magpatuloy ang alon nang ilang oras, kaya hintayin ang mga opisyal."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "You are playing at the shore. Suddenly the water rushes far out, leaving fish flapping on the sand. Some children run toward the fish.",
+        "fil": "Naglalaro ka sa dalampasigan. Biglang umurong nang malayo ang tubig, at may mga isdang kumikislot sa buhangin. May mga batang tumatakbo papunta sa mga isda."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Join them to collect the fish",
+          "fil": "Sumama sa kanila para manghuli ng isda"
+        },
+        {
+          "en": "Call them back, warn the adults, and run to high ground",
+          "fil": "Tawagin pabalik ang mga bata, sabihan ang mga adult, at tumakbo papunta sa mataas na lugar"
+        },
+        {
+          "en": "Take a video of the empty shore",
+          "fil": "Kunan ng video ang walang-tubig na dalampasigan"
+        },
+        {
+          "en": "Wait to see what happens",
+          "fil": "Hintayin kung ano ang mangyayari"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "When the sea pulls back unusually far, a large wave may follow within minutes.",
+        "fil": "Kapag umurong nang hindi karaniwan ang dagat, puwedeng may malaking alon na dumating sa loob ng ilang minuto."
+      }
+    }
+  ]
+}

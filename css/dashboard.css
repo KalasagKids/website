@@ -83,18 +83,6 @@
   max-width: 440px;
   padding: var(--sp-5);
 }
-.jump__progress {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-3);
-  font-size: var(--fs-xs);
-  font-weight: 800;
-  color: rgba(244, 242, 255, 0.8);
-}
-.jump__progress .progress {
-  width: 120px;
-}
 .jump__kicker {
   color: #ffd27a;
 }

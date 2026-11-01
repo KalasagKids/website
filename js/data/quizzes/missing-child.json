@@ -1,0 +1,298 @@
+{
+  "name": {
+    "en": "Missing Child and Stranger Danger",
+    "fil": "Missing Child and Stranger Danger (Nawawalang Bata at Hindi Kilalang Tao)"
+  },
+  "lessons": [
+    {
+      "en": "Memorize your full name, address, and a parent's phone number.",
+      "fil": "Kabisaduhin ang buong pangalan, address, at phone number ng magulang."
+    },
+    {
+      "en": "If lost, stay where you are and ask a store worker, guard, or official for help.",
+      "fil": "Kapag naligaw, huwag umalis sa lugar at humingi ng tulong sa store worker, guard, o opisyal."
+    },
+    {
+      "en": "Never go anywhere with anyone without a trusted adult's permission, and tell a trusted adult about anything that feels wrong.",
+      "fil": "Huwag sumama kaninuman nang walang pahintulot ng trusted adult, at sabihan ang trusted adult kapag may hindi magandang pakiramdam."
+    }
+  ],
+  "items": [
+    {
+      "type": "mc",
+      "question": {
+        "en": "Which person is a trusted adult?",
+        "fil": "Sino ang trusted adult?"
+      },
+      "choices": [
+        {
+          "en": "A parent, guardian, teacher, or school counselor",
+          "fil": "Magulang, guardian, teacher, o school counselor"
+        },
+        {
+          "en": "Someone who offers you candy",
+          "fil": "Taong nag-aalok ng candy"
+        },
+        {
+          "en": "A person you met online",
+          "fil": "Taong nakilala mo online"
+        },
+        {
+          "en": "Anyone who knows your name",
+          "fil": "Kahit sinong nakakaalam ng pangalan mo"
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Trusted adults are people you know well who keep you safe.",
+        "fil": "Ang trusted adults ay mga taong kilala mo nang mabuti at nag-iingat sa iyo."
+      }
+    },
+    {
+      "type": "id",
+      "question": {
+        "en": "What is the secret word only your family knows, used to check that someone was really sent to pick you up?",
+        "fil": "Ano ang tawag sa sikretong salita na pamilya mo lang ang nakakaalam, na ginagamit para malaman kung talagang pinasundo ka sa isang tao?"
+      },
+      "show": {
+        "en": "Family code word",
+        "fil": "Family code word"
+      },
+      "accept": [
+        "code word",
+        "family code word",
+        "password",
+        "secret word",
+        "safe word",
+        "family password"
+      ],
+      "explain": {
+        "en": "If someone does not know the code word, do not go with them.",
+        "fil": "Kung hindi alam ng tao ang code word, huwag sumama sa kanya."
+      }
+    },
+    {
+      "type": "tf",
+      "question": {
+        "en": "You can tell whether someone is safe just by how they look.",
+        "fil": "Malalaman mo kung ligtas ang isang tao base lang sa itsura niya."
+      },
+      "answer": false,
+      "explain": {
+        "en": "Pay attention to what a person asks you to do, not how they look.",
+        "fil": "Tingnan kung ano ang ipinapagawa sa iyo ng tao, hindi kung ano ang itsura niya."
+      }
+    },
+    {
+      "type": "fill",
+      "question": {
+        "en": "The personal safety rule is: No, Go, Yell, ____.",
+        "fil": "Ang personal safety rule ay: No, Go, Yell, ____."
+      },
+      "show": {
+        "en": "Tell",
+        "fil": "Tell"
+      },
+      "accept": [
+        "tell"
+      ],
+      "explain": {
+        "en": "Say no, get away, make noise, and tell a trusted adult.",
+        "fil": "Tumanggi, lumayo, mag-ingay, at magsabi sa trusted adult."
+      }
+    },
+    {
+      "type": "match",
+      "question": {
+        "en": "Match each situation with the safest helper to go to.",
+        "fil": "Itugma ang bawat sitwasyon sa pinakaligtas na taong mapupuntahan."
+      },
+      "pairs": [
+        [
+          {
+            "en": "Lost inside a mall",
+            "fil": "Naligaw sa loob ng mall"
+          },
+          {
+            "en": "A store worker at the counter or a security guard",
+            "fil": "Store worker sa counter o security guard"
+          }
+        ],
+        [
+          {
+            "en": "Separated during an evacuation",
+            "fil": "Nahiwalay habang may evacuation"
+          },
+          {
+            "en": "Evacuation officials at the center",
+            "fil": "Evacuation officials sa center"
+          }
+        ],
+        [
+          {
+            "en": "Lost at a fiesta with your family",
+            "fil": "Naligaw sa fiesta kasama ang pamilya"
+          },
+          {
+            "en": "Your family's agreed meeting place",
+            "fil": "Ang napagkasunduang meeting place ng pamilya"
+          }
+        ],
+        [
+          {
+            "en": "Uneasy at school pick-up",
+            "fil": "Nag-aalangan sa school pick-up"
+          },
+          {
+            "en": "Your teacher or the school guard",
+            "fil": "Ang teacher mo o ang school guard"
+          }
+        ]
+      ],
+      "explain": {
+        "en": "Safe helpers are people whose job is to help, in the place where you are.",
+        "fil": "Ang ligtas na matutulungan ay mga taong trabaho talaga ang tumulong, sa mismong lugar kung nasaan ka."
+      }
+    },
+    {
+      "type": "enum",
+      "question": {
+        "en": "Name 3 pieces of information every child should memorize in case they get lost.",
+        "fil": "Magbigay ng 3 impormasyon na dapat kabisado ng bawat bata kung sakaling maligaw."
+      },
+      "count": 3,
+      "pool": [
+        [
+          "name",
+          "pangalan"
+        ],
+        [
+          "address",
+          "home",
+          "street",
+          "tirahan",
+          "bahay"
+        ],
+        [
+          "phone",
+          "number",
+          "contact",
+          "mobile",
+          "numero",
+          "telepono",
+          "cellphone"
+        ],
+        [
+          "school",
+          "paaralan",
+          "eskwela"
+        ]
+      ],
+      "show": {
+        "en": "full name, home address, a parent's or guardian's phone number, school name",
+        "fil": "buong pangalan, address ng bahay, phone number ng magulang o guardian, pangalan ng school"
+      },
+      "explain": {
+        "en": "With this information, a helper can contact your family quickly.",
+        "fil": "Gamit ang impormasyong ito, mabilis na makokontak ng tutulong ang pamilya mo."
+      }
+    },
+    {
+      "type": "sit",
+      "question": {
+        "en": "After school, a person you do not know says your mom sent them to pick you up, but they do not know the family code word. What should you do?",
+        "fil": "Pagkatapos ng klase, may taong hindi mo kilala na nagsabing pinasundo ka raw ng mommy mo, pero hindi niya alam ang family code word. Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Go with them",
+          "fil": "Sumama sa kanya"
+        },
+        {
+          "en": "Say no, go back to your teacher or school guard, and ask them to call your parents",
+          "fil": "Tumanggi, bumalik sa teacher o school guard, at ipatawag sa kanila ang magulang mo"
+        },
+        {
+          "en": "Get in the car to ask questions",
+          "fil": "Sumakay sa kotse para magtanong"
+        },
+        {
+          "en": "Wait with them outside the gate",
+          "fil": "Maghintay kasama niya sa labas ng gate"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The code word protects you. Your teacher or guard can check with your family.",
+        "fil": "Pinoprotektahan ka ng code word. Kayang i-check ng teacher o guard sa pamilya mo."
+      }
+    },
+    {
+      "type": "order",
+      "question": {
+        "en": "You are lost in a mall. Arrange these steps in order.",
+        "fil": "Naligaw ka sa mall. Ayusin ang mga hakbang."
+      },
+      "steps": [
+        {
+          "en": "Stop and stay calm",
+          "fil": "Huminto at manatiling kalmado"
+        },
+        {
+          "en": "Stay inside the mall; do not go outside or to the parking lot",
+          "fil": "Manatili sa loob ng mall; huwag lumabas o pumunta sa parking lot"
+        },
+        {
+          "en": "Go to a store counter or a security guard",
+          "fil": "Pumunta sa store counter o sa security guard"
+        },
+        {
+          "en": "Tell them your name and your parent's phone number",
+          "fil": "Sabihin ang pangalan mo at phone number ng magulang mo"
+        },
+        {
+          "en": "Wait with them until your family arrives",
+          "fil": "Maghintay kasama nila hanggang dumating ang pamilya mo"
+        }
+      ],
+      "explain": {
+        "en": "Your family will look where they last saw you, and workers inside can call them.",
+        "fil": "Hahanapin ka ng pamilya mo kung saan ka nila huling nakita, at kaya kang tulungan ng mga worker sa loob na tawagan sila."
+      }
+    },
+    {
+      "type": "scene",
+      "scene": {
+        "en": "Someone you met in an online game keeps asking for your photos and your school's name, and tells you to keep the chats a secret.",
+        "fil": "May nakilala ka sa isang online game na paulit-ulit na humihingi ng mga litrato mo at ng pangalan ng school mo, at sinasabihan kang ilihim ang usapan ninyo."
+      },
+      "question": {
+        "en": "What should you do?",
+        "fil": "Ano ang dapat mong gawin?"
+      },
+      "choices": [
+        {
+          "en": "Send the photos",
+          "fil": "Ipadala ang mga litrato"
+        },
+        {
+          "en": "Do not reply; block them, keep the messages, and tell a trusted adult",
+          "fil": "Huwag sumagot; i-block siya, i-save ang mga message, at sabihan ang trusted adult"
+        },
+        {
+          "en": "Keep it a secret",
+          "fil": "Ilihim ito"
+        },
+        {
+          "en": "Agree to meet them",
+          "fil": "Pumayag na makipagkita sa kanya"
+        }
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Being asked to keep secrets is a warning sign. You are never at fault, and adults can help report it.",
+        "fil": "Babala ang pagpapalihim. Hindi ikaw ang may kasalanan, at matutulungan ka ng adults na i-report ito."
+      }
+    }
+  ]
+}

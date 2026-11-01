@@ -209,12 +209,20 @@
   padding-top: 0;
 }
 
-.collection-soon {
-  justify-content: flex-start;
-  text-align: left;
+/* Quizzes: "Quizzes passed: n / 19" above the cards */
+.quiz-progress {
+  margin-bottom: var(--sp-4);
 }
-.collection-soon__title {
-  font-size: var(--fs-lg);
+.quiz-progress__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+  font-weight: 800;
+}
+.quiz-progress__bar .progress {
+  flex: 0 1 220px;
 }
 
 /* ---------- phones: the aside becomes a scrollable tab row above the content ---------- */

@@ -33,7 +33,7 @@
  * -------------------------------------------------------------
  */
 
-const CACHE_VERSION = "v44";
+const CACHE_VERSION = "v45";
 const SHELL_CACHE = `kalasag-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `kalasag-data-${CACHE_VERSION}`;
 const SAVED_CACHE = "kalasag-saved-v1"; // same name as in js/core/offline.js
@@ -148,6 +148,7 @@ const SHELL_FILES = [
   "js/ui/hazard-video.js",
   "js/ui/quiz.js",
   "js/ui/certificate.js",
+  "js/ui/tour.js",
   "js/core/games.js",
 
   "vendor/pixel-pencil-cursor/pencil-cursor.css",

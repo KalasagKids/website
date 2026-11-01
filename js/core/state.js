@@ -198,6 +198,17 @@ export function markCertificateSeen() {
   return true;
 }
 
+// ---------- Tutorial (Agila's tour of the site) ----------
+// Progress, not a setting: "Reset my progress" clears it, so the next pupil on the device sees the tour.
+export function hasSeenTour() {
+  return Boolean(read("local", "tutorial", false));
+}
+
+export function markTourSeen() {
+  if (hasSeenTour()) return;
+  write("local", "tutorial", true);
+}
+
 // ---------- Mini-games ----------
 // The games keep their own progress under "kalasag:games" (written by AG.store in
 // minigames/js/core/store.js, KALASAG O6); it carries the prefix, so a reset clears it too.

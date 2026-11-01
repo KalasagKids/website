@@ -108,6 +108,10 @@ function settingsPanelMarkup() {
       <label class="switch-row"><input type="checkbox" data-sound-option="sfx"> <span data-i18n="settings.sfx"></span></label>
       <label class="switch-row"><input type="checkbox" data-sound-option="music"> <span data-i18n="settings.music"></span></label>
     </fieldset>
+    <fieldset class="settings__group">
+      <legend class="settings__legend" data-i18n="settings.help"></legend>
+      <button type="button" class="btn btn--ghost btn--block settings__tour" data-tour-start data-i18n="settings.tour"></button>
+    </fieldset>
     <fieldset class="settings__group offline-settings" data-offline-settings hidden>
       <legend class="settings__legend" data-i18n="settings.offline"></legend>
       <div data-offline-body></div>
@@ -164,12 +168,23 @@ function wireSettings(header) {
     const themeBtn = e.target.closest("[data-theme-option]");
     if (themeBtn) theme.setTheme(themeBtn.dataset.themeOption);
     syncSettings(header);
+    if (e.target.closest("[data-tour-start]")) startTour(() => setOpen(false), toggle);
   });
   // Sound effects and game music (the games read these through js/ui/game-host.js).
   panel.addEventListener("change", (e) => {
     const box = e.target.closest("[data-sound-option]");
     if (box) state.setSound({ [box.dataset.soundOption]: box.checked });
   });
+}
+
+/** Agila's tour points at the nav, so a page without one (Welcome) opens it on Home instead. */
+function startTour(closeSettings, toggle) {
+  if (!document.querySelector(".main-nav")) {
+    location.href = "dashboard.html#tour";
+    return;
+  }
+  closeSettings();
+  import("../ui/tour.js").then((tour) => tour.start({ focusAfter: toggle }));
 }
 
 async function renderFooter(footer) {

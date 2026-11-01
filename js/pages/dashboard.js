@@ -7,6 +7,7 @@
  * opened on the Learn page; it will switch to the journey map later.
  * Home stays the overview hub: the games get one compact card (stars, rank, Continue,
  * and today's Daily Challenge), never an arcade (KALASAG O9).
+ * Agila's tour (js/ui/tour.js) opens here on a device's first visit.
  */
 
 import { getHazardIndex, esc, sceneUrl } from "../core/data.js";
@@ -17,11 +18,13 @@ import * as hotlines from "../ui/hotline-panel.js";
 import { hazardIconImg, hazardUrl } from "../ui/hazard-card.js";
 import { loadGames, gameById, dailyToday, gameThumb } from "../core/games.js";
 import * as certificate from "../ui/certificate.js";
+import * as tour from "../ui/tour.js";
 
 const GREETING_MS = 15000;
 const TICKER_MS = 9000;
 // ?debug=cert shows the certificate card without finishing every course.
-const DEBUG_CERT = new URLSearchParams(location.search).get("debug") === "cert";
+// TEMP (owner preview, 2026-11-01): always shown. Revert to the ?debug=cert check below.
+const DEBUG_CERT = true || new URLSearchParams(location.search).get("debug") === "cert";
 
 let index = null;
 let cheerUntil = 0; // keeps Agila's certificate cheer in the bubble for one tip cycle
@@ -34,6 +37,7 @@ export async function init() {
   startGreeting();
   startTickerRotation();
   wireReset();
+  tour.autoStart();
 
   window.addEventListener("kalasag:languagechange", renderAll);
   window.addEventListener("kalasag:statechange", () => {
@@ -225,6 +229,8 @@ function wireReset() {
     renderAll();
     mascot.setExpression("cheer");
     toast(t("dash.resetDone"));
+    // The reset cleared "seen", so the next pupil gets Agila's tour.
+    tour.autoStart();
   });
 }
 

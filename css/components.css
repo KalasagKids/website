@@ -391,6 +391,10 @@ main {
   flex: none;
   accent-color: var(--sky);
 }
+.settings__tour {
+  font-size: var(--fs-sm);
+  white-space: normal;
+}
 .theme-option {
   display: flex;
   align-items: center;
@@ -950,6 +954,103 @@ main {
   justify-content: flex-end;
   gap: var(--sp-3);
   margin-top: var(--sp-5);
+}
+
+/* ---------- Agila's tour (js/ui/tour.js) ---------- */
+/* A full-screen <dialog>: the spotlight's huge shadow dims everything but the lit-up element. */
+.tour {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  overflow: hidden;
+}
+.tour::backdrop {
+  background: transparent;
+}
+.tour--center {
+  background: rgba(5, 6, 20, 0.72);
+}
+.tour__spot {
+  position: fixed;
+  border-radius: var(--radius);
+  outline: 3px solid var(--sunny);
+  box-shadow: 0 0 0 200vmax rgba(5, 6, 20, 0.72);
+  pointer-events: none;
+  transition: left 0.25s, top 0.25s, width 0.25s, height 0.25s;
+}
+.tour--center .tour__spot {
+  display: none;
+}
+.tour__card {
+  position: fixed;
+  width: min(380px, calc(100vw - 2 * var(--gutter)));
+  padding: var(--sp-4);
+  background: var(--surface);
+  border: 3px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 0 0 var(--border-strong);
+}
+.tour__talk {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+.tour__agila {
+  flex: none;
+  cursor: default;
+}
+.tour__bubble {
+  flex: 1;
+  min-width: 0;
+  font-weight: 400;
+}
+.tour__title {
+  margin: 2px 0 var(--sp-1);
+  font-size: var(--fs-lg);
+}
+.tour__text {
+  font-size: var(--fs-sm);
+}
+.tour__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+}
+.tour__skip {
+  margin-right: auto;
+  min-height: 44px;
+  padding: 0 var(--sp-2);
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  text-decoration: underline;
+}
+.tour__skip:hover {
+  color: var(--text);
+}
+.tour__actions .btn {
+  padding: var(--sp-2) var(--sp-4);
+}
+@media (max-width: 360px) {
+  .tour__agila {
+    width: var(--sprite-1x);
+    height: var(--sprite-1x);
+  }
+  .tour__talk {
+    gap: var(--sp-3);
+  }
 }
 
 /* ---------- Emergency hotlines ---------- */

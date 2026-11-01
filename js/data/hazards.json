@@ -41,7 +41,11 @@
       "lesson": "js/data/lessons/earthquake.json",
       "quizDataPath": "js/data/quizzes/earthquake.json",
       "game": "drop-cover-hold",
-      "subjects": ["science", "ap", "mapeh"]
+      "subjects": ["science", "ap", "mapeh"],
+      "references": [
+        { "title": "ShakeOut: Drop, Cover, and Hold On", "url": "https://shakeout.org/dropcoverholdon" },
+        { "title": "CDSBEO school earthquake procedure (D2-1)", "url": "https://www.cdsbeo.on.ca/policies/D2-1_Earthquake.pdf" }
+      ]
     },
     {
       "id": "volcanic-eruption",
@@ -56,7 +60,15 @@
       "lesson": "js/data/lessons/volcanic-eruption.json",
       "quizDataPath": "js/data/quizzes/volcanic-eruption.json",
       "game": "ashfall",
-      "subjects": ["science", "ap"]
+      "subjects": ["science", "ap"],
+      "references": [
+        { "title": "USGS: Protecting Against Ash", "url": "https://volcanoes.usgs.gov/volcanic_ash/protecting_against_ash.html" },
+        { "title": "American Red Cross: Volcano Preparedness Checklist", "url": "https://www.redcross.org/content/dam/redcross/get-help/pdfs/volcano/EN-Volcano-Preparedness-Checklist.pdf" },
+        { "title": "GMA News: How to protect yourself from ashfall (DOH advice)", "url": "https://www.gmanetwork.com/news/topstories/regions/986247/how-to-protect-yourself-from-ashfall/story/" },
+        { "title": "FAO: Livestock in volcanic emergencies", "url": "https://www.fao.org/3/cb0352en/cb0352en.pdf" },
+        { "title": "911 (Philippines)", "url": "https://en.wikipedia.org/wiki/911_(Philippines)" },
+        { "title": "Inquirer: PRC 143 hotline", "url": "https://newsinfo.inquirer.net/1818783/dont-use-emergency-hotline-for-pranks-ph-red-cross-says/amp" }
+      ]
     },
     {
       "id": "tsunami",
@@ -71,7 +83,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/tsunami.json",
       "game": "wave-runner",
-      "subjects": ["science", "ap"]
+      "subjects": ["science", "ap"],
+      "references": [
+        { "title": "PHIVOLCS: Know what to do in case of a tsunami", "url": "https://www.phivolcs.dost.gov.ph/press-release-are-you-ready-know-what-to-do-in-case-of-a-tsunami/" },
+        { "title": "NOAA/NWS: Tsunami Safety brochure", "url": "https://www.weather.gov/media/safety/Tsunami-brochure17.pdf" },
+        { "title": "ITIC: Tsunami Safety Rules", "url": "https://www.weather.gov/media/itic-car/tsunami_awareness_materials/tsunami_safety_flyers/tsunami_safety_rules_20130912.pdf" },
+        { "title": "ITIC: Vertical evacuation guidance", "url": "https://www.weather.gov/itic-car/vertical_evacucation_guidance" }
+      ]
     },
     {
       "id": "landslide",
@@ -86,7 +104,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/landslide.json",
       "game": "slope-defense",
-      "subjects": ["science", "ap"]
+      "subjects": ["science", "ap"],
+      "references": [
+        { "title": "Quezon City DRRMO: What to do in case of a landslide", "url": "https://quezoncity.gov.ph/qcitizen-guides/what-to-do-in-case-of-landslide/" },
+        { "title": "DENR–MGB: Vigilance for landslides and floods", "url": "https://denr.gov.ph/?p=6291" },
+        { "title": "NZ Civil Defence: Landslide warning signs", "url": "https://www.civildefence.govt.nz/guidance-training/consistent-messages/landslide/response-what-to-do-if-you-think-a-landslide-is-about-to-happen" }
+      ]
     },
 
     {
@@ -102,7 +125,12 @@
       "lesson": "js/data/lessons/typhoon.json",
       "quizDataPath": "js/data/quizzes/typhoon.json",
       "game": "go-bag-tetris",
-      "subjects": ["science", "ap", "tle"]
+      "subjects": ["science", "ap", "tle"],
+      "references": [
+        { "title": "PAGASA: Tropical Cyclone Wind Signal", "url": "https://pagasa.dost.gov.ph/learning-tools/tropical-cyclone-wind-signal" },
+        { "title": "Tropical Cyclone Wind Signals (2022 system)", "url": "https://en.wikipedia.org/wiki/TCWS" },
+        { "title": "Inquirer: Typhoon tips before, during and after", "url": "https://newsinfo.inquirer.net/654917/tips-reminders-on-how-to-survive-typhoons-before-during-after" }
+      ]
     },
     {
       "id": "severe-flooding",
@@ -117,7 +145,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/severe-flooding.json",
       "game": "rising-water-house",
-      "subjects": ["science", "ap"]
+      "subjects": ["science", "ap"],
+      "references": [
+        { "title": "PAGASA: Warning legend", "url": "https://www.pagasa.dost.gov.ph/learnings/legend" },
+        { "title": "Quezon City: What to do in case of flood", "url": "https://quezoncity.gov.ph/qcitizen-guides/what-to-do-in-case-of-flood/" },
+        { "title": "Iloilo City CDRRMO: Floods preparation", "url": "https://cdrrmo.iloilocity.gov.ph/resources/disaster-preparedness/floods-preparation/" }
+      ]
     },
     {
       "id": "storm-surge",
@@ -132,7 +165,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/storm-surge.json",
       "game": "evac-convoy",
-      "subjects": ["science", "ap"]
+      "subjects": ["science", "ap"],
+      "references": [
+        { "title": "PAGASA: Storm surge", "url": "https://www.pagasa.dost.gov.ph/information/storm-surge" },
+        { "title": "DILG Region 3: Storm surge preparedness", "url": "https://www.riseaurora.region3.dilg.gov.ph/dilg-programs/resilience/prepare/storm-surge" },
+        { "title": "PreventionWeb: Seek higher ground if your area is prone to storm surge", "url": "https://preventionweb.net/quick/31212" }
+      ]
     },
     {
       "id": "el-nino",
@@ -147,7 +185,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/el-nino.json",
       "game": "water-ways",
-      "subjects": ["science", "tle"]
+      "subjects": ["science", "tle"],
+      "references": [
+        { "title": "PAGASA: El Niño / La Niña monitoring", "url": "https://www.pagasa.dost.gov.ph/climate/el-nino-la-nina/monitoring" },
+        { "title": "Inquirer: PAGASA forecasts a dry spell (dry spell and drought definitions)", "url": "https://newsinfo.inquirer.net/1797138/pagasa-forecasts-a-dry-spell-in-metro-manila-35-provinces-in-december" },
+        { "title": "PIA: DOH preventive measures against heat and water-related illnesses during El Niño", "url": "https://pia.gov.ph/doh-shares-preventive-measures-vs-heat-water-related-illnesses-during-el-nino" }
+      ]
     },
 
     {
@@ -163,7 +206,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/disease-outbreak.json",
       "game": "word-lab",
-      "subjects": ["science", "mapeh"]
+      "subjects": ["science", "mapeh"],
+      "references": [
+        { "title": "WHO EMRO: Disease outbreaks", "url": "https://www.emro.who.int/health-topics/disease-outbreaks/index.html" },
+        { "title": "Inquirer: DOH to public, regularly wash hands", "url": "https://newsinfo.inquirer.net/1221857/doh-to-public-regularly-wash-hands-hydrate-eat-healthy-food" },
+        { "title": "CDC: About handwashing", "url": "https://www.cdc.gov/clean-hands/about/index.html" },
+        { "title": "CDC: Coughing and sneezing", "url": "https://www.cdc.gov/hygiene/about/coughing-and-sneezing.html" }
+      ]
     },
     {
       "id": "pest-infestation",
@@ -178,7 +227,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/pest-infestation.json",
       "game": "pest-patrol",
-      "subjects": ["science", "tle"]
+      "subjects": ["science", "tle"],
+      "references": [
+        { "title": "The Post: DepEd, DOH launch new campaign to combat dengue (4T)", "url": "https://thepost.net.ph/news/nation/deped-doh-launch-new-campaign-to-combat-dengue/" },
+        { "title": "SunStar: DOH urges public to practice 4S vs dengue", "url": "https://www.sunstar.com.ph/pampanga/local-news/doh-urges-public-practice-4s-vs-dengue" },
+        { "title": "PNA: DOH warns of leptospirosis this rainy season", "url": "https://alpha.pna.gov.ph/articles/1175855" },
+        { "title": "ABS-CBN: DOH asks public to search, destroy mosquito breeding grounds", "url": "https://news.abs-cbn.com/news/2024/7/1/dengue-cases-up-as-doh-asks-public-to-search-destroy-mosquito-breeding-grounds-1435" }
+      ]
     },
 
     {
@@ -194,7 +249,11 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/fire.json",
       "game": "fire-escape",
-      "subjects": ["science", "tle"]
+      "subjects": ["science", "tle"],
+      "references": [
+        { "title": "Bureau of Fire Protection: Fire Safety for the General Public", "url": "https://www.bfp.gov.ph/wp-content/uploads/2024/08/Volume-4-Fire-Safety-for-General-Public.pdf" },
+        { "title": "Quezon City Government: Fire Safety Tips", "url": "https://quezoncity.gov.ph/qcitizen-guides/fire-safety-tips/" }
+      ]
     },
     {
       "id": "structural-collapse",
@@ -209,7 +268,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/structural-collapse.json",
       "game": "rubble-rescue",
-      "subjects": ["science", "tle"]
+      "subjects": ["science", "tle"],
+      "references": [
+        { "title": "PHIVOLCS: Earthquake Hazards", "url": "https://www.phivolcs.dost.gov.ph/eartquake-hazards/" },
+        { "title": "PHIVOLCS: Earthquake Safety Advisory", "url": "https://www.phivolcs.dost.gov.ph/primer-on-the-27-july-2022-magnitude-mw-7-0-northwestern-luzon-earthquake/" },
+        { "title": "DOST: Earthquake Preparedness Guide (RED Book)", "url": "https://stii.dost.gov.ph/images/images/RED-Book.pdf" }
+      ]
     },
     {
       "id": "road-accidents",
@@ -224,7 +288,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/road-accidents.json",
       "game": "safe-crossing",
-      "subjects": ["english", "ap"]
+      "subjects": ["english", "ap"],
+      "references": [
+        { "title": "LTO: Filipino Driver's Manual, Vol. 2 (2nd Edition)", "url": "https://lto.gov.ph/wp-content/uploads/2023/10/FDM-vol.-2-2nd-Edition.pdf" },
+        { "title": "Republic Act No. 10054: Motorcycle Helmet Act of 2009", "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/18152" },
+        { "title": "Republic Act No. 8750: Seat Belts Use Act of 1999", "url": "https://lawphil.net/statutes/repacts/ra1999/ra_8750_1999.html" },
+        { "title": "LTO e-Learning: Road safety lessons", "url": "https://portal.lto.gov.ph/ords/f?p=ELEARNING:100:116081646333857:::P100_TOPICS_FK:ACC12A23B5150692E0530D28780A86DF" }
+      ]
     },
     {
       "id": "chemical-spill",
@@ -239,7 +309,12 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/chemical-spill.json",
       "game": "symbol-jigsaw",
-      "subjects": ["science"]
+      "subjects": ["science"],
+      "references": [
+        { "title": "Republic Act No. 9275: Philippine Clean Water Act of 2004", "url": "https://lawphil.net/statutes/repacts/ra2004/ra_9275_2004.html" },
+        { "title": "Philippine Coast Guard: National Oil Spill Contingency Plan (NOSCOP)", "url": "https://www.coastguard.gov.ph/images/2019_Files/NOSCOP_Icon/Approved_NOSCOP_OCT_2019.pdf" },
+        { "title": "PCG Marine Environmental Protection Command: Functions", "url": "https://mepcom.coastguard.gov.ph/transparency-seal/about-us/functions/" }
+      ]
     },
     {
       "id": "electrical-hazards",
@@ -254,7 +329,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/electrical-hazards.json",
       "game": "spot-the-shock",
-      "subjects": ["science", "tle"]
+      "subjects": ["science", "tle"],
+      "references": [
+        { "title": "Meralco: Outages and brownouts FAQ", "url": "https://www.meralco.com.ph/residential/help-support/frequently-asked-questions/outages-and-brownouts" },
+        { "title": "PIA: NGCP issues power line safety reminders", "url": "https://mirror.pia.gov.ph/news/2023/10/25/ngcp-issues-powerline-safety-reminders" },
+        { "title": "OSHC (DOLE): Handling electrical accidents", "url": "https://oshc.dole.gov.ph/handle-electrical-a/" },
+        { "title": "Republic Act No. 11361: Anti-Obstruction of Power Lines Act", "url": "https://lawphil.net/statutes/repacts/ra2019/ra_11361_2019.html" }
+      ]
     },
 
     {
@@ -270,7 +351,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/missing-child.json",
       "game": "lost-and-found",
-      "subjects": ["esp", "english"]
+      "subjects": ["esp", "english"],
+      "references": [
+        { "title": "DepEd: Institutionalization of Personal Safety Lessons (DO 45, s. 2009)", "url": "https://www.deped.gov.ph/2009/05/06/do-45-s-2009-institutionalization-of-personal-safety-lessons-psl-in-both-elementary-and-secondary-schools-nationwide/" },
+        { "title": "DepEd: Child Protection Policy (DO 40, s. 2012)", "url": "https://www.deped.gov.ph/2012/05/14/do-40-s-2012-deped-child-protection-policy/" },
+        { "title": "Department of Justice: Child Protection Program", "url": "https://www.doj.gov.ph/child-protection-program.html" },
+        { "title": "Philippine Commission on Women: Safe Spaces Act", "url": "https://pcw.gov.ph/republic-act-11313-safe-spaces-act/" }
+      ]
     },
     {
       "id": "bullying",
@@ -285,7 +372,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/bullying.json",
       "game": "lunch-table",
-      "subjects": ["esp", "mapeh"]
+      "subjects": ["esp", "mapeh"],
+      "references": [
+        { "title": "DepEd: Revised Implementing Rules and Regulations of RA 10627 (2025)", "url": "https://www.deped.gov.ph/wp-content/uploads/IRR-OF-RA-10627_ANTI-BULLYING-ACT-OF-2013.pdf" },
+        { "title": "DepEd Memorandum No. 090, s. 2025: Dissemination of Revised Anti-Bullying IRR", "url": "https://www.deped.gov.ph/wp-content/uploads/DM_s2025_090r.pdf" },
+        { "title": "Republic Act No. 10627: Anti-Bullying Act of 2013", "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/58226" },
+        { "title": "DepEd: Statement on Prevention of Bullying in Public and Private Schools", "url": "https://www.deped.gov.ph/2018/12/21/statement-on-prevention-of-bullying-in-public-and-private-schools/" }
+      ]
     },
     {
       "id": "crowd-crush",
@@ -300,7 +393,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/crowd-crush.json",
       "game": "go-with-the-flow",
-      "subjects": ["ap", "mapeh"]
+      "subjects": ["ap", "mapeh"],
+      "references": [
+        { "title": "Philippine Disaster Resilience Foundation: Crowd Management During Emergencies and Special Events", "url": "https://www.pdrf.org/wp-content/uploads/2024/05/PDRF-PRESS-RELEASE_20240523_PDRF-launches-brown-bag-on-crowd-management-Highlights-importance-during-emergencies.pdf" },
+        { "title": "Republic Act No. 9514: Fire Code of the Philippines", "url": "https://vizcodeph.com/code-library/ra-9514-fire-code-of-the-philippines/" },
+        { "title": "PDRF: Effective Crowd Management and Emergency Preparedness", "url": "https://www.pdrf.org/news/pdrf-launches-brown-bag-on-crowd-management-highlights-importance-during-emergencies/" },
+        { "title": "Bureau of Fire Protection: Operational Procedures Manual", "url": "https://bfp.gov.ph/wp-content/uploads/2015/09/BFP-Operational-Procedures-Manual.pdf" }
+      ]
     },
     {
       "id": "community-conflict",
@@ -315,7 +414,13 @@
       "lesson": null,
       "quizDataPath": "js/data/quizzes/community-conflict.json",
       "game": "check-before-share",
-      "subjects": ["ap", "esp"]
+      "subjects": ["ap", "esp"],
+      "references": [
+        { "title": "Republic Act No. 7160: Local Government Code of 1991", "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/53542" },
+        { "title": "DILG: Primer on the Revised Katarungang Pambarangay Law", "url": "https://car.dilg.gov.ph/wp-content/uploads/2024/11/AHRC-KP-Project-Enhanced-KP-Training-Manual-Signed.pdf" },
+        { "title": "DILG: Katarungang Pambarangay Resources", "url": "https://sites.google.com/dilg.gov.ph/kauswagan-elibrary/kp" },
+        { "title": "Local Government Academy: Administration of the Katarungang Pambarangay", "url": "https://lga.gov.ph/uploads/publication/attachments/1590476314.pdf" }
+      ]
     }
   ]
 }

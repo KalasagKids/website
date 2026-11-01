@@ -236,6 +236,18 @@ async function subjectsMarkup(hazard, lesson) {
     .join("")}</ul>`;
 }
 
+function referencesMarkup(hazard) {
+  if (!hazard.references?.length) return "";
+  return `
+    <section class="section hazard-refs" aria-labelledby="refs-title">
+      <h2 class="section-title" id="refs-title">📚 ${esc(t("learn.references"))}</h2>
+      <p class="section-sub">${esc(t("learn.referencesText"))}</p>
+      <ol class="hazard-refs__list">${hazard.references
+        .map((ref) => `<li><a href="${esc(ref.url)}" target="_blank" rel="noopener">${esc(ref.title)}</a></li>`)
+        .join("")}</ol>
+    </section>`;
+}
+
 function neighbors(hazard, index) {
   const i = index.hazards.indexOf(hazard);
   const prev = index.hazards[(i - 1 + index.hazards.length) % index.hazards.length];
@@ -319,7 +331,9 @@ async function renderHazardView(hazard, index) {
       ${await subjectsMarkup(hazard, lesson)}
     </section>
 
-    ${neighbors(hazard, index)}`;
+    ${neighbors(hazard, index)}
+
+    ${referencesMarkup(hazard)}`;
 
   main().querySelector("[data-watch]")?.addEventListener("click", () => playVideo(hazard, index, { autoplay: true }));
   const saveBtn = main().querySelector("[data-save-video]");

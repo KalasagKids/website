@@ -265,6 +265,18 @@
   text-align: center;
 }
 
+.hazard-refs__list {
+  display: grid;
+  gap: var(--sp-2);
+  margin: var(--sp-3) 0 0;
+  padding-left: var(--sp-6);
+  font-size: var(--fs-sm);
+}
+.hazard-refs__list a {
+  color: var(--link);
+  overflow-wrap: anywhere;
+}
+
 /* Print only the safety poster. */
 @media print {
   body * {

@@ -1194,9 +1194,11 @@ main {
   border-radius: var(--radius);
   background: rgba(239, 68, 68, 0.12);
   color: var(--danger-ink);
-  font-family: var(--font-pixel);
-  font-weight: 700;
+  /* Nunito, not the pixel font: digits like 8/0 and 1/7 must never be misread. */
+  font-family: var(--font-body);
+  font-weight: 800;
   font-size: var(--fs-md);
+  font-variant-numeric: tabular-nums;
   text-align: center;
   white-space: nowrap;
   user-select: all; /* one tap selects the whole number for copying */

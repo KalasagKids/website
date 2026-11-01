@@ -33,7 +33,7 @@
  * -------------------------------------------------------------
  */
 
-const CACHE_VERSION = "v45";
+const CACHE_VERSION = "v46";
 const SHELL_CACHE = `kalasag-shell-${CACHE_VERSION}`;
 const DATA_CACHE = `kalasag-data-${CACHE_VERSION}`;
 const SAVED_CACHE = "kalasag-saved-v1"; // same name as in js/core/offline.js
